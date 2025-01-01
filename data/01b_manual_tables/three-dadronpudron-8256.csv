@@ -1,0 +1,30 @@
+﻿id,name,unitLastWord,unitSeqLast,word,docTokenSeqFirst,docTokenSeqLast,local,identifiable,topic,interrog,argType,animate,self,addressee,length,pronom,haveBridges
+uFhXqPeO6Fn,phur sgron,ཁྱེད་རང་ དགའ་རོགས་ སྒྲིག་པ་ རེད་ ཟེར །,33,ཁྱེད་རང་,127,127,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE
+aPCeDiX2Tvy,zla ba,ཁྱེད་རང་ དགའ་རོགས་ སྒྲིག་པ་ རེད་ ཟེར །,33,དགའ་རོགས་,128,128,FALSE,n,FALSE,FALSE,P,TRUE,FALSE,FALSE,2,FALSE,FALSE
+v6nU9IJMU3f,zla sgron,ང ས་ གང་ག་ ཧ་གོ་ བྱུང་ །,38,ང ས་,143,144,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE
+uO1HJecmb7i,Pudrön and Dawa's affair,ང ས་ གང་ག་ ཧ་གོ་ བྱུང་ །,38,གང་ག་,145,145,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE
+NKP7FykEaHe,phur sgron,ཁྱེད་རང་ ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་ རེད །,41,ཁྱེད་རང་,163,163,TRUE,i,TRUE,FALSE,COPS,TRUE,FALSE,TRUE,2,TRUE,FALSE
+ZRvLy6GI7rS,phur sgron,ཁྱེད་རང་ ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་ རེད །,41,ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་,164,169,TRUE,i,FALSE,FALSE,PRED,TRUE,FALSE,TRUE,7,FALSE,FALSE
+q15s3MVbHIx,phur sgron,བྱས་ ན འི་ ཁྱེད་རང་ ང འི་ གྲོགས་མོ འི་ ཡག་ ཤོས་,47,ཁྱེད་རང་,205,205,TRUE,i,TRUE,FALSE,COPS,TRUE,FALSE,TRUE,2,TRUE,FALSE
+pfdUGPIvuaihB,phur sgron,དེ་ རེད་ ད །,48,ང འི་ གྲོགས་མོ འི་ ཡག་ ཤོས་ དེ་,206,212,TRUE,i,FALSE,FALSE,PRED,TRUE,FALSE,TRUE,8,FALSE,FALSE
+jlJcdjio1Ho,zla ba,མི ས་ ང་ བཙུགས་པོ་ མ་ བཞག་ ན་,49,མི ས་,216,217,FALSE,n,FALSE,FALSE,A,TRUE,FALSE,FALSE,2,FALSE,TRUE
+VoLj1pUSojy,zla sgron,མི ས་ ང་ བཙུགས་པོ་ མ་ བཞག་ ན་,49,ང་,218,218,TRUE,i,TRUE,FALSE,P,TRUE,TRUE,FALSE,1,TRUE,TRUE
+Y2aAwRjCt7t,phur sgron,ང་ ལེ ར་ ཐབས་ཤེས་ མི་ འདུག,50,ང་ ལེ ར་,223,225,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,3,TRUE,FALSE
+6KoEyzQkNWE,thabs shes,ང་ ལེ ར་ ཐབས་ཤེས་ མི་ འདུག,50,ཐབས་ཤེས་,226,226,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE,FALSE
+HsHwerNeYb7,zla sgron,ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ དེ་འདྲས་ ཕྱིན་ འདུག,53,ཁྱེད་རང་,237,237,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,TRUE
+FcRWzKFQDYp,'gyur ldog (zla sgron),ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ དེ་འདྲས་ ཕྱིན་ འདུག,53,འགྱུར་ལྡོག་ ཆེན་པོ་ དེ་འདྲས་,238,240,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,6,FALSE,FALSE
+tetPWuqyWOp,zla sgron dang phur sgron dang zla ba,ང་ ཚོ་ གང་ག་ འགྱུར་ལྡོག་ ཕྱིན་ ཡོད་ རེད །,55,ང་ ཚོ་ གང་ག་,245,247,FALSE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,4,TRUE,TRUE
+VObCS6iVgts,'gyur ldog (all 3),ང་ ཚོ་ གང་ག་ འགྱུར་ལྡོག་ ཕྱིན་ ཡོད་ རེད །,55,འགྱུར་ལྡོག་,248,248,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,TRUE
+9kv4Jsl7PLN,zla sgron,བྱས་ ན འི་ ང ས་ ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ ཨཱ་ཀི་ ཙམ་ འགྲོ་ གི་ རེད་,56,ང ས་,256,257,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE
+6cTwrta6zvW,khyed rang 'gyur ldog 'di 'dras,བྱས་ ན འི་ ང ས་ ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ ཨཱ་ཀི་ ཙམ་ འགྲོ་ གི་ རེད་,56,ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ ཨཱ་ཀི་ ཙམ་ འགྲོ་ གི་ རེད་,258,265,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,12,FALSE,FALSE
+tARpfsHFPWG,phur sgron,བྱས་ ན འི་ ང ས་ ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ ཨཱ་ཀི་ ཙམ་ འགྲོ་ གི་ རེད་,56,ཁྱེད་རང་,258,258,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,TRUE
+DjPFLX6DMtD,'gyur ldog (phur sgron),བྱས་ ན འི་ ང ས་ ཁྱེད་རང་ འགྱུར་ལྡོག་ ཆེན་པོ་ ཨཱ་ཀི་ ཙམ་ འགྲོ་ གི་ རེད་,56,འགྱུར་ལྡོག་ ཆེན་པོ་,259,260,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,TRUE
+nM83Wb4UqjI,mi gang ga,མི་ གང་ག་ འགྱུར་ལྡོག་ ཡོང་ སྲིད་ ཀྱི་ རེད །,58,མི་ གང་ག་,272,273,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE,FALSE
+4ELDs8SZP3l,'gyur ldog (all humans),མི་ གང་ག་ འགྱུར་ལྡོག་ ཡོང་ སྲིད་ ཀྱི་ རེད །,58,འགྱུར་ལྡོག་,274,274,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE
+AoyVQhq6gnT,zla sgron,ཁྱེད་རང་ གང་གེ་ གསུང་ མི་ དགོས །,61,ཁྱེད་རང་,290,290,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,TRUE
+N3Kb5BH3bNI,anything,ཁྱེད་རང་ གང་གེ་ གསུང་ མི་ དགོས །,61,གང་གེ་,291,291,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE
+O0fNExfGQYD,zla sgron,ལྟ་ ང་ གཞན་དག་ གང་ གེ་ ཉན་ འདོད་ ཁོ་ར་ མི་ འདུག,62,ང་,297,297,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,1,TRUE,TRUE
+VeW27ALL115,anything,ལྟ་ ང་ གཞན་དག་ གང་ གེ་ ཉན་ འདོད་ ཁོ་ར་ མི་ འདུག,62,གཞན་དག་ གང་ གེ་,298,300,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE
+LKGT3seG5l9,zla sgron,ང ས་ ཁྱེད་ རང་ ལ་ སྐད་ཆ་ གཅིག་ བཤད་ ཡ་ ཡོད །,63,ང ས་,306,307,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE
+WGEvf01STGF,phur sgron,ང ས་ ཁྱེད་ རང་ ལ་ སྐད་ཆ་ གཅིག་ བཤད་ ཡ་ ཡོད །,63,ཁྱེད་ རང་ ལ་,308,310,TRUE,i,FALSE,FALSE,R,TRUE,FALSE,TRUE,3,TRUE,TRUE
+AXVhNR1E79N,skad cha (zla sgron > phur sgron),ང ས་ ཁྱེད་ རང་ ལ་ སྐད་ཆ་ གཅིག་ བཤད་ ཡ་ ཡོད །,63,སྐད་ཆ་ གཅིག་,311,312,FALSE,n,FALSE,FALSE,T,FALSE,FALSE,FALSE,3,FALSE,FALSE

@@ -1,0 +1,238 @@
+﻿id,name,unitLastWord,unitSeqLast,word,docTokenSeqFirst,docTokenSeqLast,local,identifiable,topic,interrog,argType,animate,self,addressee,length,pronom,haveBridges,remarks
+BHxQ6dgGiK3,current location,ལྟ་ དེ་རིང་ <0> འདི ར་,1,འདི ར་,4,5,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+bY7jF9uD0uk,lhan rgyas,ལྷན་རྒྱས་ གང་ག་ ཆིབས་བསྒྱུར་ གནང་ རོགས་ ཞེས་ ཞུས་ བྱས་ ན འི་,2,ལྷན་རྒྱས་ གང་ག་,6,7,TRUE,i,FALSE,FALSE,S,TRUE,FALSE,TRUE,4,FALSE,FALSE,NA
+T17lzIcoMlt,gros bsdur gnang ya yi nang don,གཙོ་བོ་ འདི་དག་ གྲོས་བསྡུར་ གནང་ ཡ་ གི་ ནང་དོན་ ག་རེ་ རེད་ ཟེར་ ན་,3,འདི་དག་ གྲོས་བསྡུར་ གནང་ ཡ་ གི་ ནང་དོན་,17,22,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+RBvNsjXqzfH,gros bsdur gnang ya yi nang don,གཙོ་བོ་ འདི་དག་ གྲོས་བསྡུར་ གནང་ ཡ་ གི་ ནང་དོན་ ག་རེ་ རེད་ ཟེར་ ན་,3,ག་རེ་,23,23,FALSE,n,FALSE,TRUE,PRED,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+4PrVC43leXG,rgan dbang 'dus lags (ka),ད་ལྟ་ རྒན་ དབང་འདུས་ ལགས་,25,རྒན་ དབང་འདུས་ ལགས་,95,97,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+AOF6EM3fYHY,'khrab gzhung,འཁྲབ་གཞུང་ འདི་ ངོ་སྤྲོད་ གནང་ གི་ རེད །,27,འཁྲབ་གཞུང་ འདི་,99,100,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,TRUE,NA
+cOmDraoDUQA,lhan rgyas,ཚང་མ ས་,29,ཚང་མ ས་,109,110,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,3,FALSE,TRUE,NA
+cbOj0XgAXY7,'khrab gzhung,དེ འི་ སྒང་ ལ་ དགོངས་པ་ བཞེས་ བྱས །,30,དེ འི་ སྒང་ ལ་,111,114,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,4,TRUE,TRUE,NA
+0tchwKyx0CC,dgongs pa,དེ འི་ སྒང་ ལ་ དགོངས་པ་ བཞེས་ བྱས །,30,དགོངས་པ་,115,115,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+CYZFtW5yyQE,'khrab gzhung,<0> དེ འི་ སྒང་ ལ་ སྐྱོན་ཆ་ འདྲ་པོ་ ག་རེ་ འདུག,31,དེ འི་ སྒང་ ལ་,120,123,FALSE,i,FALSE,FALSE,COPLOC,FALSE,FALSE,FALSE,4,TRUE,TRUE,NA
+FOoKz5uehSx,skyon cha,<0> དེ འི་ སྒང་ ལ་ སྐྱོན་ཆ་ འདྲ་པོ་ ག་རེ་ འདུག,31,སྐྱོན་ཆ་ འདྲ་པོ་ ག་རེ་,124,126,FALSE,n,FALSE,TRUE,EXIST,FALSE,FALSE,FALSE,6,FALSE,FALSE,NA
+hqCJteAewzg,rgan dbang 'dus lags (ka),སྔས་ ལ་ རྒན་ ལགས་ ཀྱིས་ མར་,36,རྒན་ ལགས་ ཀྱིས་,147,149,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,3,FALSE,TRUE,NA
+JQWTvUi2PpR,'khrab gzhung,ཨ་ལེ་ འཁྲབ་གཞུང་ གི་ སྐོར་ ལ་,37,འཁྲབ་གཞུང་ གི་ སྐོར་ ལ་,152,155,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+yBYnmc64ENfk1,'khrab gzhung,ཐུང་འདྲས་ #,43,གཏམ་བརྗོད་ ཟློས་གར་ ཐུང་འདྲས་,169,171,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+LpAX50u3UIR9E,nyi ma dgra 'dul (the writer),ཉི་མ་ དགྲ་འདུལ་ ལགས་ ཀྱིས་ བརྩམས་ གནང་ བཞག,46,ང་ རྣམ་ ཚོ འི་ ཚོགས་པ འི་ / ### ཉི་མ་ དགྲ་འདུལ་ ལགས་ ཀྱིས་,173,184,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,14,FALSE,FALSE,NA
+0H0i67Cb8t1,'khrab gzhung gi ming,མིང་ ལ་ ཡ་,47,མིང་ ལ་ ཡ་,188,190,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+sys6RGTfUsx,'khrab gzhung gi ming,འདི་ ཟེར་ གྱིས་,48,འདི་,191,191,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+J23FkCqfstf,dus tshod (of the script),དུས་ཚོད་ དེ་ ལྟ་,52,དུས་ཚོད་ དེ་,205,206,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,3,FALSE,TRUE,NA
+6Bqixe4WKH3MG,dus tshod (of the script),དུས་ཚོད་ དེ་,55,དེང་ ང་རང་ ཚོ་ དེང་སེང་ གི་ དུས་ཚོད་ དེ་,208,214,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+IG7dBsgpVL2WX,sa gnas dang yul ljong (khrom gyi dkyil),ཡུལ་ལྗོངས་ དེ་ ག་པ ར་ རེད་ ཟེར་ ན་,62,ས་གནས་ དང་ ཡུལ་ ་་ ཡུལ་ལྗོངས་ དེ་,236,241,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,8,FALSE,TRUE,NA
+SkYvF6FgnA2,sa gnas dang yul ljong (khrom gyi dkyil),ཡུལ་ལྗོངས་ དེ་ ག་པ ར་ རེད་ ཟེར་ ན་,62,ག་པ ར་,242,243,FALSE,n,FALSE,TRUE,PRED,FALSE,FALSE,FALSE,4,TRUE,TRUE,NA
+wHOBj8r3vS0,'khrab gzhung gi nang don,ལྟ་ དེ འི་ ནང་དོན་ གཙོ་བོ་ དེ་,88,དེ འི་ ནང་དོན་ གཙོ་བོ་ དེ་,318,322,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,7,FALSE,FALSE,NA
+9MUK9gYCeP3,'khrab gzhung gi nang don,འདི་ རེད་ ཤག,89,འདི་,323,323,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,1,TRUE,TRUE,NA
+jkeUltcturx,nang don rdog rdog,ནང་དོན་ རྡོག་རྡོག་ དེ་,93,ནང་དོན་ རྡོག་རྡོག་ དེ་,344,346,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,TRUE,NA
+aPyb0Ipl5Mj,rgan dbang 'dus lags (ka),མར་ ཨ་ལེ ར་ ང ས་ གསལ་བཤད་ ཞུས་ ཀྱི་ ཡིན །,94,ང ས་,350,351,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+fakuD6jpmZA,pa sangs,མི་ བཟང་པོ་ པ་སངས་ ཀྱིས་,96,མི་ བཟང་པོ་ པ་སངས་ ཀྱིས་,362,365,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,6,FALSE,TRUE,NA
+SEwf53i4DQH,yar (on the stage),དང་པོ་ ཡར་ ཡོང་ དུས་ གམ་ ལ །,98,ཡར་,369,369,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+ZXGOMmi6gcG,sba khug,ལྟ་ <0> སྦ་ཁུག་ སུ འི་ རེད །,105,སྦ་ཁུག་,397,397,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+OiwfR3GPq9e,sba khug brlag pa'i bu mo,ལྟ་ <0> སྦ་ཁུག་ སུ འི་ རེད །,105,སུ འི་,398,399,FALSE,n,FALSE,TRUE,PRED,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+BSsp2mtjesm,rkang 'khor,འ་ <0> ཏང་གྷི་རི་ སུ འི་ རེད །,123,ཏང་གྷི་རི་,468,468,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+BOKIivGRnNR,rkang ga ril brlag mkhan,འ་ <0> ཏང་གྷི་རི་ སུ འི་ རེད །,123,སུ འི་,469,470,FALSE,n,FALSE,TRUE,PRED,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+kMMlUn6ouFg,rkang 'khor,འདུག་ཟེ་ འདི་ སུ་ རེད ཞེས་,126,འདི་,483,483,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+SCN4st567Ab,rkang ga ril brlag mkhan,འདུག་ཟེ་ འདི་ སུ་ རེད ཞེས་,126,སུ་,484,484,FALSE,n,FALSE,TRUE,PRED,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+uaKSFpMy9Rd,rkang ga ril brlag mkhan,རྐང་ག་རིལ་ བདག་པོ་ དེ་ ཡར་ ཡོང་ བྱས །,132,རྐང་ག་རིལ་ བདག་པོ་ དེ་,500,502,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,6,FALSE,FALSE,would be prime for a bridge under a less rigid def
+P7c0dXM1XZj,yar (on the stage),རྐང་ག་རིལ་ བདག་པོ་ དེ་ ཡར་ ཡོང་ བྱས །,132,ཡར་,503,503,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+dTBhD92DEVz,rkang 'khor,ང འི་ རྐང་ག་རིལ་,134,ང འི་ རྐང་ག་རིལ་,508,510,TRUE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+JzwMIBs5jqU,pa sangs,_euh_ ཨ་ནི་ ཁྱོད་རང་ རིལ་ བཞག་ ཞེས །,135,ཁྱོད་རང་,513,513,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+a36D6rKKAQC,rkang 'khor,ང འི་ རྐང་ག་རིལ་ ད་གིན་ དེ ར་ བཞག་ ཡོད་ ཟེར །,137,ང འི་ རྐང་ག་རིལ་,524,526,TRUE,i,TRUE,FALSE,S,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+6BDycZLgvs5,where the bike is,ང འི་ རྐང་ག་རིལ་ ད་གིན་ དེ ར་ བཞག་ ཡོད་ ཟེར །,137,དེ ར་,528,529,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+E2t4d8s08Kx,pa sangs,<0> ང ས་ རྐང་ག་རིལ་ རིལ་ རྒྱུ་མ་ བྱུང་ ཞེས་ ཟེར་ གྱིས །,140,ང ས་,539,540,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+66O81FWFEKZ,rkang 'khor,<0> ང ས་ རྐང་ག་རིལ་ རིལ་ རྒྱུ་མ་ བྱུང་ ཞེས་ ཟེར་ གྱིས །,140,རྐང་ག་རིལ་,541,541,TRUE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+E1Hkgs4yDGq,rkang 'khor,རྐང་ག་རིལ་ དེ་ ཁྱོད་ ཀྱིས་ རིལ་ ཐག་གཅོད་ རིལ་པ་ རེད །,147,རྐང་ག་རིལ་ དེ་,594,595,TRUE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+H5ucboPMLEf,pa sangs,རྐང་ག་རིལ་ དེ་ ཁྱོད་ ཀྱིས་ རིལ་ ཐག་གཅོད་ རིལ་པ་ རེད །,147,ཁྱོད་ ཀྱིས་,596,597,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+FsQIcbFwcSW,pa sangs,རང་ རྐུན་པ་ ཡིན་པ་ ཐག་གཅོད་ སོང་ ཟེར །,149,རང་,613,613,TRUE,i,TRUE,FALSE,COPS,TRUE,FALSE,TRUE,1,TRUE,FALSE,NA
+aXTQu1S3pvh,rkun ma (general),རང་ རྐུན་པ་ ཡིན་པ་ ཐག་གཅོད་ སོང་ ཟེར །,149,རྐུན་པ་,614,614,FALSE,n,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,2,FALSE,FALSE,NA
+G9Yqp3Dql3b,pa sangs,ཨ་ནི་ ང་ སྤྱི་བདེ་ ལས་ཁུངས་ ལ་ འགྲོ་ དགོས་ ཡ་ མེད །,157,ང་,663,663,TRUE,i,TRUE,FALSE,S,TRUE,TRUE,FALSE,1,TRUE,FALSE,NA
+j1SXY2KiKFs,spyi bde las khungs,ཨ་ནི་ ང་ སྤྱི་བདེ་ ལས་ཁུངས་ ལ་ འགྲོ་ དགོས་ ཡ་ མེད །,157,སྤྱི་བདེ་ ལས་ཁུངས་ ལ་,664,666,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+BZL9jJMGVj1,pa sangs,དེ་ མིན་ ན་ <0> ཁྱོད་རང་ སྒོ་ལྕགས་ རིན་པ་ ཁྱེར་ ཤོག,163,ཁྱོད་རང་,697,697,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+zCApzvFjNOI,sgo lcags rin pa,དེ་ མིན་ ན་ <0> ཁྱོད་རང་ སྒོ་ལྕགས་ རིན་པ་ ཁྱེར་ ཤོག,163,སྒོ་ལྕགས་ རིན་པ་,698,699,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+F98SPxvlFNz,pa sangs,མོ་རང་ ལ་ དངུལ་ མི་ འདུག་ ག,174,མོ་རང་ ལ་,747,748,FALSE,i,TRUE,FALSE,COPLOC,TRUE,FALSE,FALSE,3,TRUE,FALSE,NA
+qdOM6gcM8fk,dngul (on pa sang),མོ་རང་ ལ་ དངུལ་ མི་ འདུག་ ག,174,དངུལ་,749,749,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,1,FALSE,FALSE,not considered local since it doesn’t exist
+KN1UpiNnYCd,pa sangs,འོ་ ལྟ་ ང་ ལ་ དངུལ་ མེད་ ཟེར་ །,176,ང་ ལ་,757,758,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+NlvTAE4JiZX,dngul (on pa sang),འོ་ ལྟ་ ང་ ལ་ དངུལ་ མེད་ ཟེར་ །,176,དངུལ་,759,759,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,1,FALSE,FALSE,NA
+dZu4FF22oy5,pa sangs,ལྟ་ ང ས་ འདི་ ནས་ སྔ་རྟིང་ ཞིག་ བཏང་ ཟེར་ གྱིས །,179,ང ས་,770,771,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+PUPSaYkdTEv,sba khug,ལྟ་ ང ས་ འདི་ ནས་ སྔ་རྟིང་ ཞིག་ བཏང་ ཟེར་ གྱིས །,179,འདི་ ནས་,772,773,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+jM3QZX5hRDd,sgor mo bcu,ལྟ་ ང ས་ འདི་ ནས་ སྔ་རྟིང་ ཞིག་ བཏང་ ཟེར་ གྱིས །,179,སྔ་རྟིང་ ཞིག་,774,775,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,not considered local since it didn't exist prior
+ItlziHEUQhc,sba khug,དངུལ་ འདི་ ནས་ སྒོར་མོ་ བཅུ་ ཙམ་ ### ཁོ་ ལ་ སྤྲད་ གྱི་ ཡོད་ ད །,182,འདི་ ནས་,791,792,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+fMvwPhibnXv,sgor mo bcu,དངུལ་ འདི་ ནས་ སྒོར་མོ་ བཅུ་ ཙམ་ ### ཁོ་ ལ་ སྤྲད་ གྱི་ ཡོད་ ད །,182,སྒོར་མོ་ བཅུ་ ཙམ་,793,795,TRUE,n,FALSE,FALSE,T,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+pAyWn7MWp0A,rkang ga ril brlag mkhan,དངུལ་ འདི་ ནས་ སྒོར་མོ་ བཅུ་ ཙམ་ ### ཁོ་ ལ་ སྤྲད་ གྱི་ ཡོད་ ད །,182,ཁོ་ ལ་,797,798,FALSE,i,FALSE,FALSE,R,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+Q0JPYHLViwH,rkang ga ril brlag mkhan,ཨ་ནི་ ཁོ ས་ དངུལ་ དེ་ རག་ ཙང་,189,ཁོ ས་,827,828,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+4zztjQLHoZn,sgor mo bcu,ཨ་ནི་ ཁོ ས་ དངུལ་ དེ་ རག་ ཙང་,189,དངུལ་ དེ་,829,830,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+mJ3dVHaHFRO,sba khug brlag pa'i bu mo,དེ་ནས་ ## #སྦ་ཁུག་ #རླགས་ #མཁན་ ང འི་ སྦ་ཁུག་ མི་ འདུག་ ཞེས་,196,#སྦ་ཁུག་ #རླགས་ #མཁན་,870,872,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,4,FALSE,FALSE,another prime bridge example
+ZBw5FgY9BP1,nga'i sba khug mi 'dug,དེ་ནས་ ## #སྦ་ཁུག་ #རླགས་ #མཁན་ ང འི་ སྦ་ཁུག་ མི་ འདུག་ ཞེས་,196,ང འི་ སྦ་ཁུག་ མི་ འདུག་,873,877,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,6,FALSE,FALSE,NA
+N4ieLgpvM05,sba khug brlag pa'i bu mo,བུ་མོ་ འདི་ ཡར་ ཡོང་,199,བུ་མོ་ འདི་,884,885,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+Qxe1TcKuVhk,yar (on the stage),བུ་མོ་ འདི་ ཡར་ ཡོང་,199,ཡར་,886,886,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+2uk8eTcUREo,sba khug brlag pa'i bu mo,བུ་མོ་ འདི་ ཡར་ ཡོང་ དུས་ ག་རེ་,200,བུ་མོ་ འདི་,888,889,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+NSpNxEJvtDW,yar (on the stage),བུ་མོ་ འདི་ ཡར་ ཡོང་ དུས་ ག་རེ་,200,ཡར་,890,890,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+NfVJJrH5nRM,pa sangs,ད་ བུ་ པ་སངས་ ཀྱིས་ ཨ་ནི་,213,བུ་ པ་སངས་ ཀྱིས་,952,954,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,4,FALSE,FALSE,NA
+4AHkgLxW1NH,sba khug,སྦ་ཁུག་ ཚུར་ བཏོན་ བྱས །,215,སྦ་ཁུག་,958,958,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+aXImTv0cPfE,sba khug brlag pa'i bu mo,སྦ་ཁུག་ ཚུར་ བཏོན་ བྱས །,215,ཚུར་,959,959,FALSE,i,FALSE,FALSE,R,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+rlD7g52okS6,pa sangs,རང་ གང་ ནས་ <0> བྱུང་ ཟེར་ གྱིས ། འདི །,219,རང་,977,977,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,1,TRUE,FALSE,NA
+iU1jpn684Os,where sba khug was,རང་ གང་ ནས་ <0> བྱུང་ ཟེར་ གྱིས ། འདི །,219,གང་ ནས་,978,979,FALSE,n,FALSE,TRUE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+tH2X9bRPWPN,sba khug brlag pa'i bu mo,རང་ སྦ་ཁུག་ ཡོད་པ་ བྱས་ ལྟོས་ ཨང་ ཟེར་ གྱིས །,223,རང་,992,992,TRUE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,TRUE,1,TRUE,FALSE,NA
+6OsE6qE3weK,sba khug,རང་ སྦ་ཁུག་ ཡོད་པ་ བྱས་ ལྟོས་ ཨང་ ཟེར་ གྱིས །,223,སྦ་ཁུག་,993,993,TRUE,i,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+ifCFehg6fau,pa sangs,_uh_ ང ས་,226,ང ས་,1004,1005,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+VLOucL7YmrV,sba khug,རང་ གི་ འདི་ ནས་ ཨ་ནི་,227,རང་ གི་ འདི་ ནས་,1006,1009,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,4,TRUE,FALSE,NA
+Q0EkVglpTvp,sgor mo bcu,སྒོར་མོ་ _P_ ༡༠ ཞིག་ བཏོན་པ་ ཡིན ཟེར་ །,228,སྒོར་མོ་ _P_ ༡༠ ཞིག་,1011,1014,TRUE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+4n3wGFV8H0kRl,sba khug,ནང་ ནས་ སྒོར་མོ་ ༡༠ བཏོན་ དགོས་ #འཁེལ་ བྱུང,230,སྦ་ཁུག་ འདི་ ནས་ ནང་ ནས་,1021,1025,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,6,FALSE,FALSE,NA
+ZHZXOftLE37,sgor mo bcu,ནང་ ནས་ སྒོར་མོ་ ༡༠ བཏོན་ དགོས་ #འཁེལ་ བྱུང,230,སྒོར་མོ་ ༡༠,1026,1027,TRUE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+7SJFy3aCTLb,pa sangs,འདི་ གང་ ཟེར་ ན་ ང་ ལ་ དངུལ་ མེད་པ་ བྱས །,231,ང་ ལ་,1036,1037,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+87Tm8LdvYM8,dngul (on pa sang),འདི་ གང་ ཟེར་ ན་ ང་ ལ་ དངུལ་ མེད་པ་ བྱས །,231,དངུལ་,1038,1038,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,1,FALSE,FALSE,NA
+WTjRNqbzXdw,pa sangs,ང ས་ གོང་ དེ ར་ ཡ་,232,ང ས་,1042,1043,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+eMgXwY94v6j,sgor mo bcu,ང ས་ གོང་ དེ ར་ ཡ་,232,གོང་ དེ ར་ ཡ་,1044,1047,FALSE,i,FALSE,FALSE,T,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+UKFpfmmPV2S,sgo lcags rin pa,རྐང་ག་རིལ་ གཅིག་ གི་ ཨ་ནི་ སྒོ་ལྕགས་ ཀྱི་ རིན་པ་ གཅིག་,233,རྐང་ག་རིལ་ གཅིག་ གི་ ཨ་ནི་ སྒོ་ལྕགས་ ཀྱི་ རིན་པ་ གཅིག་,1048,1055,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,13,FALSE,FALSE,NA
+95Z6bIGwIkz,pa sangs,ཨ་ནི་ ང་ རས་,236,ང་ རས་,1066,1067,TRUE,i,FALSE,FALSE,S,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+kB8vouyZkRb,phar (somewhere near the discussion with the wallet girl?),ད་ལྟ་ ཏོག་ཙམ་ རྗེས་ ལ་ ཕར་ ཕྱིན་ བྱས་ ཁྱེད་རང་ གི་ དངུལ་,237,ཕར་,1072,1072,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+UzMHobeMc15,sgor mo bcu,ད་ལྟ་ ཏོག་ཙམ་ རྗེས་ ལ་ ཕར་ ཕྱིན་ བྱས་ ཁྱེད་རང་ གི་ དངུལ་,237,ཁྱེད་རང་ གི་ དངུལ་,1075,1077,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,TRUE,FALSE,NA
+NOTHX4cGUC5,pa sangs,ང ས་ དངུལ་ ནང་ ནས་ ལེན་ བྱས་ ཁྱེད་ རང་ ལ་ <0> སྤྲད་ ཆོག་ ཟེར་ གྱིས །,238,ང ས་,1078,1079,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+hnEm7V3DWwH,sgor mo 10 (from pa sangs's house),ང ས་ དངུལ་ ནང་ ནས་ ལེན་ བྱས་ ཁྱེད་ རང་ ལ་ <0> སྤྲད་ ཆོག་ ཟེར་ གྱིས །,238,དངུལ་,1080,1080,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,1,FALSE,FALSE,NA
+LcmshpveTyV,pa sangs kyi nang,ང ས་ དངུལ་ ནང་ ནས་ ལེན་ བྱས་ ཁྱེད་ རང་ ལ་ <0> སྤྲད་ ཆོག་ ཟེར་ གྱིས །,238,ནང་ ནས་,1081,1082,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+MGmiRFDOYZ6,pa sangs,པ་སངས །,239,པ་སངས,1094,1094,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,1,FALSE,FALSE,NA
+M3QgRboRW4o,where sba khug was,ལྟ་ འདི ར་,240,འདི ར་,1097,1098,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+kGSh9g8Lyx8,where sba khug was,ལྟ་ འདི ར་ སྦ་ཁུག་ ཞིག་ ད་ རྙེད་པ་ རེད་ # མི་ འདུག་ ག,241,འདི ར་,1100,1101,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+1GFMJa07EEq,sba khug,ལྟ་ འདི ར་ སྦ་ཁུག་ ཞིག་ ད་ རྙེད་པ་ རེད་ # མི་ འདུག་ ག,241,སྦ་ཁུག་ ཞིག་,1102,1103,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+pO2LjyYw0ST,pa sangs,ང་རང་ རང་ གིས་ ང་རང་ རང་ གིས་ ས་ཆ་ གྲང་མོ་ ལ་ ལག་པ་ ཚ་པོ་ བརྒྱབ་ བྱས་,249,ང་རང་ རང་ གིས་ ང་རང་ རང་ གིས་,1154,1159,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,8,TRUE,FALSE,NA
+EnXrLNdT6d5,where sba khug was,ང་རང་ རང་ གིས་ ང་རང་ རང་ གིས་ ས་ཆ་ གྲང་མོ་ ལ་ ལག་པ་ ཚ་པོ་ བརྒྱབ་ བྱས་,249,ས་ཆ་ གྲང་མོ་ ལ་,1160,1162,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+tEk5B8PdCuk,lag pa (of pa sangs),ང་རང་ རང་ གིས་ ང་རང་ རང་ གིས་ ས་ཆ་ གྲང་མོ་ ལ་ ལག་པ་ ཚ་པོ་ བརྒྱབ་ བྱས་,249,ལག་པ་ ཚ་པོ་,1163,1164,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,TRUE,NA
+xRNc3JPBjks4e,where sba khug was,སྒང་ ལ་ ལག་པ་ ཚ་པོ་ བརྒྱབ །,253,ས་ཆ་ གྲང་མོ འི་ _P_ སྒང་ ལ་,1183,1188,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,8,FALSE,FALSE,NA
+IV8BUlVrEOk,lag pa (of pa sangs),སྒང་ ལ་ ལག་པ་ ཚ་པོ་ བརྒྱབ །,253,ལག་པ་ ཚ་པོ་,1189,1190,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,TRUE,NA
+VgkRqMWz4YO,pa sangs,ང་ རང་ རང་ ལ་ རྙེད་ རྒྱོག་ ཡིན ། ##,275,ང་ རང་,1290,1291,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+seDXShPKC44,sba khug brlag pa'i bu mo,ང་ རང་ རང་ ལ་ རྙེད་ རྒྱོག་ ཡིན ། ##,275,རང་ ལ་,1292,1293,TRUE,i,FALSE,FALSE,P,TRUE,FALSE,TRUE,2,TRUE,TRUE,NA
+LfHq6BhxssF,pa sangs,ང་ རང་ དངུལ་ སྒོར་མོ་ ༡༠ སྤྲད་ རྒྱུ་ ཡིན །,276,ང་ རང་,1299,1300,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+RSe6zEAxUnP,sgor mo 10 (from pa sangs's house),ང་ རང་ དངུལ་ སྒོར་མོ་ ༡༠ སྤྲད་ རྒྱུ་ ཡིན །,276,དངུལ་ སྒོར་མོ་ ༡༠,1301,1303,FALSE,n,FALSE,FALSE,T,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+DnQKBjuWii4,pa sangs + sba khug brlag mkhan gyi bu mo,ལྟ་ ཨ་ལེ་ ང་ རང་ གཉིས་ ད་ལྟ་ སྐད་ཆ་ ད་ལྟ་ ད་ལྟ་ ཚར་ མ་ སོང་ །,283,ང་ རང་ གཉིས་,1340,1342,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,3,TRUE,TRUE,NA
+RjSO4Zrtsdq,skad cha,ལྟ་ ཨ་ལེ་ ང་ རང་ གཉིས་ ད་ལྟ་ སྐད་ཆ་ ད་ལྟ་ ད་ལྟ་ ཚར་ མ་ སོང་ །,283,སྐད་ཆ་,1344,1344,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+vaQk2cuePSh,pa sangs,ཡང་ སྤོ་འོ་ གིས་,298,སྤོ་འོ་ གིས་,1423,1424,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+CG5oCvn7AE0,pha gir (?),#ཕ་གིར་ #ནས་ ཚུར་ གཅིག་ ཡོང་ བྱས་,299,#ཕ་གིར་ #ནས་,1425,1426,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,TRUE,FALSE,NA
+GBlqkji8OaF,tshur (third scene location),#ཕ་གིར་ #ནས་ ཚུར་ གཅིག་ ཡོང་ བྱས་,299,ཚུར་,1427,1427,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+E2Id2Ewo2OK,phyogs gzhan dag gcig,གཞན་དག་ གཅིག་ ནས ། ཕྱོགས་ གཞན་དག་ གཅིག་ ནས #ཁོ་ #འདི #ར་ #ཡོང་བ་ #རེད །,300,གཞན་དག་ གཅིག་ ནས,1431,1433,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+j6rzL6mYoPi,phyogs gzhan dag gcig,གཞན་དག་ གཅིག་ ནས ། ཕྱོགས་ གཞན་དག་ གཅིག་ ནས #ཁོ་ #འདི #ར་ #ཡོང་བ་ #རེད །,300,ཕྱོགས་ གཞན་དག་ གཅིག་ ནས,1435,1438,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+lhdTudW3iei,pa sangs,གཞན་དག་ གཅིག་ ནས ། ཕྱོགས་ གཞན་དག་ གཅིག་ ནས #ཁོ་ #འདི #ར་ #ཡོང་བ་ #རེད །,300,#ཁོ་,1439,1439,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,0,TRUE,FALSE,NA
+4DI4hKhauxb,tshur (third scene location),གཞན་དག་ གཅིག་ ནས ། ཕྱོགས་ གཞན་དག་ གཅིག་ ནས #ཁོ་ #འདི #ར་ #ཡོང་བ་ #རེད །,300,#འདི #ར་,1440,1441,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+zk3hTQoCtig,rkun ma,ཕ་གི ར་ ཡ་ མི་ གཅིག་ གིས་,302,མི་ གཅིག་ གིས་,1450,1452,FALSE,n,FALSE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+dKROYBWyxDw,rkun ma,ཨ་ནི་ ཁོ་,303,ཁོ་,1454,1454,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+UWwqPlQ9itF,sgo lcags (house),སྒོ་ལྕགས་ གཅིག་ ལ་,304,སྒོ་ལྕགས་ གཅིག་ ལ་,1455,1457,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+W3jnVmE18zD,pa sangs,ཁོ་ དེ་ནས་ ཚུར་ ཡོང་ #དེ་,311,ཁོ་,1483,1483,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+3Gw0fysPeOM,over at the house,ཁོ་ དེ་ནས་ ཚུར་ ཡོང་ #དེ་,311,ཚུར་,1485,1485,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+SJFDC8xJHoV,rkun ma,ཁྱེད་ རང་ ག་རེ་ གནང་ སོང་ ཞེས །,316,ཁྱེད་ རང་,1516,1517,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+aJgMjfsl8GC,what the housebreaker was doing,ཁྱེད་ རང་ ག་རེ་ གནང་ སོང་ ཞེས །,316,ག་རེ་,1518,1518,TRUE,n,FALSE,TRUE,P,FALSE,FALSE,FALSE,2,TRUE,FALSE,"He was caught in the middle of the act, so defo in physical env"
+3EdGplfnMpN,rkun ma,_m_ _m_ _m_ ང་,326,ང་,1559,1559,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,1,TRUE,FALSE,NA
+hNt2t1d3w15,lde mig,ལྡེ་མིག་ བརླགས་ སོང་ ཟེར་ གྱིས །,327,ལྡེ་མིག་,1560,1560,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,another prime bridge example under a less restrictive def
+GrVMmlGXdhS,rkun ma,ལྟ་ ང་ སྒོ་ལྕགས་ འདི་ བཅག་ དགོས་པ་ འཁེལ་ སོང་ ཟེར །,332,ང་,1586,1586,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,1,TRUE,FALSE,NA
+BCA5cXqmxyu,sgo lcags (house),ལྟ་ ང་ སྒོ་ལྕགས་ འདི་ བཅག་ དགོས་པ་ འཁེལ་ སོང་ ཟེར །,332,སྒོ་ལྕགས་ འདི་,1587,1588,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+xTlPuNneiP3,pa sangs,ང ས་ <0> བཅག་ གོ་ ཁོ་ ཕ་ ནས་ རྡོ་ གཅིག་ གི་ ཧུར་ཐག་ གིས་ འཁྱེར་ ཡོང་ བྱས་ ཨ་ནི་,338,ཁོ་,1631,1631,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+FmXdgwa3xcj,where the stone is from,ང ས་ <0> བཅག་ གོ་ ཁོ་ ཕ་ ནས་ རྡོ་ གཅིག་ གི་ ཧུར་ཐག་ གིས་ འཁྱེར་ ཡོང་ བྱས་ ཨ་ནི་,338,ཕ་ ནས་,1632,1633,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+71l4HVu0YxX,rdo,ང ས་ <0> བཅག་ གོ་ ཁོ་ ཕ་ ནས་ རྡོ་ གཅིག་ གི་ ཧུར་ཐག་ གིས་ འཁྱེར་ ཡོང་ བྱས་ ཨ་ནི་,338,རྡོ་ གཅིག་ གི་,1634,1636,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+kSA5s3ypPbI,pa sangs,ཁོ་ ཕར་,349,ཁོ་,1686,1686,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+AfmkXlQCo1s,the other way,ཁོ་ ཕར་,349,ཕར་,1687,1687,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+q3ll9hLfvYp,rkun ma,ད་ག ར་ རྐུན་མ་ ཁོ ས་ ནང་ལོགས་ ནས་,351,རྐུན་མ་ ཁོ ས་,1694,1696,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,4,FALSE,FALSE,NA
+y3rIOZPrsZy,kang pa'i nang logs,ད་ག ར་ རྐུན་མ་ ཁོ ས་ ནང་ལོགས་ ནས་,351,ནང་ལོགས་ ནས་,1697,1698,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+1aETDZIkCxjh2,sgam chung chung,འདི་འདྲས་ དངུལ་སྒམ་ ཆུང་ཆུང་ གཅིག་,355,སྒམ་ཆུང་ ཆུང་ཆུང གཅིག་ ནམ་རྒྱུན་ ཚོང་པ འི་ དངུལ་ བླུགས་ ས་ འདི་འདྲས་ འདི་འདྲས་ དངུལ་སྒམ་ ཆུང་ཆུང་ གཅིག་,1700,1713,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,22,FALSE,FALSE,NA
+jUf2SCmNLIH,rkun ma,ཅོ་ ལགས་ དེ ར་ ལྦ་ཡེ་ ལྦ་ཡེ་ ཟེར་ དུས་ ##,369,ཅོ་ ལགས་ དེ ར་,1754,1757,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,4,FALSE,FALSE,NA
+zc7deDqLpJ0,we we,ཅོ་ ལགས་ དེ ར་ ལྦ་ཡེ་ ལྦ་ཡེ་ ཟེར་ དུས་ ##,369,ལྦ་ཡེ་ ལྦ་ཡེ་,1758,1759,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+DBo8COAnOtU,tshong pa a cag,དེ འི་ ནང་ གི་ ཨ་ཅག་ ལགས་ དེ་ ཡར་ ལོག་ ཡོང་ གི་ འདུག་ ག,378,དེ འི་ ནང་ གི་ ཨ་ཅག་ ལགས་ དེ་,1810,1816,FALSE,i,FALSE,FALSE,S,TRUE,FALSE,FALSE,8,FALSE,FALSE,NA
+ZKnN4qXY2yg,the house,དེ འི་ ནང་ གི་ ཨ་ཅག་ ལགས་ དེ་ ཡར་ ལོག་ ཡོང་ གི་ འདུག་ ག,378,ཡར་,1817,1817,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+1m519cSa3IE,the house,ཨ་ནི་ ང འི་ ནང་ ལ་ རྐུན་མ་ ཤོར་ བཞག,384,ང འི་ ནང་ ལ་,1854,1857,TRUE,i,TRUE,FALSE,COPLOC,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+uDLbKXIdVTe,"rkun ma (nonreferential, from a cag lags)",ཨ་ནི་ ང འི་ ནང་ ལ་ རྐུན་མ་ ཤོར་ བཞག,384,རྐུན་མ་,1858,1858,FALSE,n,FALSE,FALSE,EXIST,TRUE,FALSE,FALSE,2,FALSE,FALSE,She hadn't decided that the rkun ma was pa sangs yet at the hence not local
+bVFn2p4DGXB,"rkun ma (nonreferential, from a cag lags)",ཟེ་ ད་ག ར་ རྐུན་མ་ ཤོར་ བཞག་ ཞེས་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ ར་ རེད་ ཤག,385,རྐུན་མ་ བརྐུ་ མཁན་,1868,1870,FALSE,n,TRUE,FALSE,COPS,TRUE,FALSE,FALSE,4,FALSE,FALSE,NA
+IWnL69FByfI,pa sangs,ཟེ་ ད་ག ར་ རྐུན་མ་ ཤོར་ བཞག་ ཞེས་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ ར་ རེད་ ཤག,385,ཁྱོད་ ར་,1871,1872,TRUE,i,FALSE,FALSE,PRED,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+945NBfw4yuc,"rkun ma (nonreferential, from a cag lags)",ཨ་ནི་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ རང་ རེད་ ཤག,387,རྐུན་མ་ བརྐུ་ མཁན་,1882,1884,FALSE,d,TRUE,FALSE,COPS,TRUE,FALSE,FALSE,4,FALSE,FALSE,NA
+eyf7YZqNXXi,pa sangs,ཨ་ནི་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ རང་ རེད་ ཤག,387,ཁྱོད་ རང་,1885,1886,TRUE,i,FALSE,FALSE,PRED,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+dZ2hxcriLut,pa sangs,ཡང་ ཁོ ས་ ང་ རྐུན་མ་ མིན །,391,ཁོ ས་,1894,1895,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+pkHnupNHfHC,pa sangs,ཡང་ ཁོ ས་ ང་ རྐུན་མ་ མིན །,391,ང་,1896,1896,TRUE,i,TRUE,FALSE,COPS,TRUE,TRUE,FALSE,1,TRUE,FALSE,NA
+NcEIuKfvTV5iz,nga rkun ma min,<0> རྐུན་མ་ བརྐུས་ རྒྱུ་ མ་ བྱུང་ ཞེས །,393,ང་ རྐུན་མ་ མིན ། ## <0> རྐུན་མ་ བརྐུས་ རྒྱུ་ མ་ བྱུང་,1896,1906,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,12,FALSE,FALSE,NA
+vsd64xP4wde,"rkun ma (nonreferential, from a cag lags)",ཡང་ ཁོ ས་ ང་ རྐུན་མ་ མིན །,391,རྐུན་མ་,1897,1897,FALSE,i,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,2,FALSE,FALSE,NA
+NhonEbDdRjY,pa sangs,ང ས་,395,ང ས་,1910,1911,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+Gr9iyUFlG5S,khyed rang gi co lags,ཁྱེད་ རང་ གི་ ཅོ་ ལགས་ ལ་ རོགས་ བྱས་པ་ ཡིན །,396,ཁྱེད་ རང་ གི་ ཅོ་ ལགས་ ལ་,1912,1917,FALSE,i,FALSE,FALSE,P,TRUE,FALSE,FALSE,6,FALSE,FALSE,NA
+dq8avdCDmIS,khyed rang gi co lags,ང འི་ ཅོ་ ལགས་ ལ་ ལྡེ་མིག་ ཡོད ཟེར །,398,ང འི་ ཅོ་ ལགས་ ལ་,1932,1936,FALSE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,FALSE,5,FALSE,FALSE,NA
+rQ0SlbLwFF5,lde mig,ང འི་ ཅོ་ ལགས་ ལ་ ལྡེ་མིག་ ཡོད ཟེར །,398,ལྡེ་མིག་,1937,1937,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+UYOV7vICXfp,khyed rang gi co lags,ང འི་ ཅོ་ ལགས་ ལ་ #,406,ང འི་ ཅོ་ ལགས་ ལ་,1984,1988,FALSE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,FALSE,5,FALSE,FALSE,NA
+6uqytmAnPFG,lde mig,d- ལྡེ་མིག་ ཡོད་ ཟེར་ གྱིས །,407,ལྡེ་མིག་,1991,1991,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+Glx6neGmuzn,pa sangs,ང ས་ ཁྱེད་ རང་ གི་ ཅོ་ ལགས་ ལ་ ཡ་,413,ང ས་,2030,2031,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+xsEV6S1SoA4,khyed rang gi co lags,ང ས་ ཁྱེད་ རང་ གི་ ཅོ་ ལགས་ ལ་ ཡ་,413,ཁྱེད་ རང་ གི་ ཅོ་ ལགས་ ལ་ ཡ་,2032,2038,FALSE,i,FALSE,FALSE,P,TRUE,FALSE,FALSE,7,FALSE,FALSE,NA
+BoQxEJrKVQ2,pa sangs,ང ས་ སྒོ་ལྕགས་ གཅིག་ བཅག་ རོགས་ བྱས་པ་ ཡིན །,416,ང ས་,2050,2051,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+bu30wukFJDW,sgo lcags (house),ང ས་ སྒོ་ལྕགས་ གཅིག་ བཅག་ རོགས་ བྱས་པ་ ཡིན །,416,སྒོ་ལྕགས་,2052,2052,TRUE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+365yxSpbdfn,pa sangs kyis rogs pa byas pa,ལྟ་ དེ་འདྲས་ ཁྱེད་ རང་ _uh_,417,དེ་འདྲས་,2060,2060,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,2,TRUE,FALSE,NA
+XEulSGGSbq5,tshong pa a cag,ལྟ་ དེ་འདྲས་ ཁྱེད་ རང་ _uh_,417,ཁྱེད་ རང་,2061,2062,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,TRUE,NA
+Bt9LKxmB47s,pa sangs + a cag lags,#ང་ #ཚོ #ས་ སྤྱི་བདེ་ཅུས་ ལ་ ཡ་,420,#ང་ #ཚོ #ས་,2080,2082,TRUE,i,FALSE,FALSE,S,TRUE,TRUE,FALSE,3,TRUE,TRUE,NA
+NvZiWNon7mq,spyi bde las khungs,#ང་ #ཚོ #ས་ སྤྱི་བདེ་ཅུས་ ལ་ ཡ་,420,སྤྱི་བདེ་ཅུས་ ལ་ ཡ་,2083,2085,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+oaHu3TtigBSzj,las bzang po byed mkhan (general),བྱེད་ མཁན་ ལ་ ཡ་,443,ལས་བཟང་པོ་ བྱེད་ མཁན་ ལ་ ཡ་,2186,2190,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,7,FALSE,FALSE,NA
+UMZ8jmOzlyD,'jug 'bras ngan pa,འཇུག་འབྲས་ ངན་པ་ ཐོབ་ ཀྱི་ འདུག་ ག་ ཟེར་,445,འཇུག་འབྲས་ ངན་པ་,2192,2193,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+tFByT6nBIFM,'khrab gzhung,འཁྲབ་གཞུང་ འདི ར་ ཡ་,467,འཁྲབ་གཞུང་ འདི ར་ ཡ་,2271,2274,FALSE,i,TRUE,FALSE,E,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+9g9cZ8EqWqY,lhan rgyas,ཁྱེད་ རྣམ་ ཚོ ས་,469,ཁྱེད་ རྣམ་ ཚོ ས་,2277,2280,TRUE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,TRUE,4,TRUE,FALSE,NA
+tM4QBDaZ4T2,dgongs 'char,དགོངས་འཆར་ འདྲ་ གང་ འདུག་ འདི་ _uh_,470,དགོངས་འཆར་ འདྲ་ གང་,2281,2283,FALSE,n,FALSE,TRUE,EXIST,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+OLfyGeEVb8M,nga,_H_ ང་ར འི་ མཐོང་ཕྱོགས་ འདི་ འདི་ བྱུང་ །,499,ང་ར འི་,2386,2387,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,3,TRUE,FALSE,NA
+lo2Xu4iSQ1E,nga'i mthong phyogs,_H_ ང་ར འི་ མཐོང་ཕྱོགས་ འདི་ འདི་ བྱུང་ །,499,མཐོང་ཕྱོགས་ འདི་ འདི་,2388,2390,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+LbJOrn6yUiZ,pa sangs,གཙོ- གཙོ་བོ་ མི་ གཅིག་ གི་ #ད་,503,མི་ གཅིག་ གི་,2404,2406,FALSE,n,FALSE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+F22u4OCCsvu,bsam po bzang po,བསམ་པ་ བཟང་པོ་ བྱས །,504,བསམ་པ་ བཟང་པོ་,2408,2409,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+GscU7eQ3mt4,lhan rgyas (audience),གཟིགས་མོ་ གཟིགས་ མཁན་ ལ་ ཡ་,513,གཟིགས་མོ་ གཟིགས་ མཁན་ ལ་ ཡ་,2451,2455,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,6,FALSE,FALSE,NA
+Zx94pqbYBnt,slob gso,སློབ་གསོ་ ཐེབས་ ཡ་ གི་,515,སློབ་གསོ་,2457,2457,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+ww9VqiSjQIU,pa sangs,ཁོ འི་,522,ཁོ འི་,2485,2486,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,2,TRUE,FALSE,NA
+ZFgLuiq4WY1B2,'bras bu bzang po,འབྲས་བུ་ བཟང་པོ་ ཐོབ་པ འི་ ངེས་པ་ གང་ མི་ འདུག,526,འབྲས་བུ་ འདི འི་ ཡང་ འབྲས་བུ་ བཟང་པོ་,2497,2502,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+cLT61KhK9zB,pa sangs,ཁོ་ མི་ བཟང་པོ འི་ ལས་ཀ་ by-,528,ཁོ་,2514,2514,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+PYnoHSIfQU921,las ka yag po (by pa sangs),ཡག་པོ་ རྐྱང་རྐྱང་ བྱས་ པ་ རེད །,529,མི་ བཟང་པོ འི་ ལས་ཀ་ by- ཡག་པོ་,2515,2520,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+07tMcNF6dxjvE,pa sangs,པ་སངས་ རང་ གིས་,548,ཁོང་ པ་སངས་ རང་ གིས་,2596,2599,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,5,TRUE,FALSE,NA
+clfhKcTNWq5,tshig de,ཚིག་ དེ་ བརྒྱབ་པ་ རེད་པ །,549,ཚིག་ དེ་,2600,2601,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+RFn37GTFMY0,bag chags,བག་ཆགས་ འདི་འདྲས་ གཅིག་ ནང་ ལོག་ འགྲོ་ ཐུབ་པ་ ཡིན་ ན་,592,བག་ཆགས་ འདི་འདྲས་ གཅིག་,2791,2793,FALSE,n,FALSE,FALSE,S,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+pFAB4stZt1L,ltad mo blta mkhan gyi nang,བག་ཆགས་ འདི་འདྲས་ གཅིག་ ནང་ ལོག་ འགྲོ་ ཐུབ་པ་ ཡིན་ ན་,592,ནང་,2794,2794,FALSE,i,FALSE,FALSE,E,TRUE,FALSE,FALSE,1,FALSE,FALSE,NA
+BsAYKCnalNF,"everyone except ka, nga",ལྟ་ #ཁྱེད་ #རྣམ་པ་ #ཚོ་ སྣོན་པ་ མང་པོ་ ཡོད་ ཀྱི་ རེད་ པ །,610,#ཁྱེད་ #རྣམ་པ་ #ཚོ་,2866,2868,TRUE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,FALSE,4,TRUE,FALSE,NA
+ocvqC0FKQD7,snon pa,ལྟ་ #ཁྱེད་ #རྣམ་པ་ #ཚོ་ སྣོན་པ་ མང་པོ་ ཡོད་ ཀྱི་ རེད་ པ །,610,སྣོན་པ་ མང་པོ་,2869,2870,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+5wbqKrcNfsO6n,nga'i mthong phyogs,#རྡོག་རྡོག་ འདི་འདྲ་ ཞིག་ ཡིན །,612,ང་ རང་ གི་ ལྟ་ #རྡོག་རྡོག་,2876,2880,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,6,FALSE,FALSE,NA
+baSvWfai8Ss,all of nga's thoughts,#རྡོག་རྡོག་ འདི་འདྲ་ ཞིག་ ཡིན །,612,འདི་འདྲ་ ཞིག་,2881,2882,FALSE,n,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+A0nU7JgZv3i,rkun ma,སྒོ་ལྕགས་ གཅོག་ མཁན་ དེ་ རྐུ-,617,སྒོ་ལྕགས་ གཅོག་ མཁན་ དེ་,2901,2904,FALSE,i,TRUE,FALSE,COPS,TRUE,FALSE,FALSE,5,FALSE,FALSE,NA
+X7bwsh0PZpTkW,rkun ma,རྐུན་མ་ རེད་ པ །,618,རྐུ- རྐུན་མ་,2905,2906,FALSE,n,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+4kpr9hca1fi,rkun ma zer mkhan (generla),## རྐུན་མ་ #ཟེར་ #མཁན་ #དེ་,619,རྐུན་མ་ #ཟེར་ #མཁན་ #དེ་,2911,2914,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,5,FALSE,FALSE,NA
+BYTycnkpNxw,khang pa'i lcags sgo (general),མི འི་ ཁང་པ འི་ #འདི་གས་ ལྕགས་སྒོ་ བཅག་,620,མི འི་ ཁང་པ འི་ #འདི་གས་ ལྕགས་སྒོ་,2915,2920,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+vkmbIclXI2A,rkun ma,ཁོ་ རྡོ་ གཞུ་ ས་ མ་ གཞུས་པ་ བྱས །,622,ཁོ་,2930,2930,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+ktajA4jG5RG,"rdo (imaginary, thief's)",ཁོ་ རྡོ་ གཞུ་ ས་ མ་ གཞུས་པ་ བྱས །,622,རྡོ་,2931,2931,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,1,FALSE,FALSE,NA
+iUgdK31Uo4r,rdo gzhu sa,ཁོ་ རྡོ་ གཞུ་ ས་ མ་ གཞུས་པ་ བྱས །,622,གཞུ་ ས་,2932,2933,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+PaKcr858w5V,rkun ma zer mkhan (generla),ཤིན་མ་ཤིན་ རྐུན་མ་ ཟེར་ མཁན་ ལ་ དེང་སང་ ལག་ཆ་ རྩེ་གྲ་ ཁོ་ར་ འཁྱེར་ ཡ་ ཡོད་ རེད ད །,627,རྐུན་མ་ ཟེར་ མཁན་ ལ་,2962,2965,FALSE,i,TRUE,FALSE,COPLOC,TRUE,FALSE,FALSE,5,FALSE,FALSE,NA
+aDmso59pJMf,lag cha rtse gra (of thieves),ཤིན་མ་ཤིན་ རྐུན་མ་ ཟེར་ མཁན་ ལ་ དེང་སང་ ལག་ཆ་ རྩེ་གྲ་ ཁོ་ར་ འཁྱེར་ ཡ་ ཡོད་ རེད ད །,627,ལག་ཆ་ རྩེ་གྲ་,2967,2968,FALSE,i,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+KzoTzJdzLVS,sgor mo bcu,སྒོར་མོ་ ༡༠ སོ་སོ ས་ སྔས་ ལ་ སྤྲད་ ཚར་ དུས་,649,སྒོར་མོ་ ༡༠,3099,3100,FALSE,i,TRUE,FALSE,T,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+oXTe5eshDnj,pa sangs,སྒོར་མོ་ ༡༠ སོ་སོ ས་ སྔས་ ལ་ སྤྲད་ ཚར་ དུས་,649,སོ་སོ ས་,3101,3102,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,3,TRUE,FALSE,NA
+SV5hOAqTwQZR0,pa sangs,སོ་སོ ས་ ཡང་ ##,651,མི་ བཟང་པོ་ བྱེད་ མཁན་ ## སོ་སོ ས་ ཡང་,3108,3115,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,10,FALSE,FALSE,NA
+FaELsFdrfXu,sba khug brlag pa'i bu mo,སྦ་ཁུག་ གི་ བདག་པོ་ དེ་ ལ་,652,སྦ་ཁུག་ གི་ བདག་པོ་ དེ་ ལ་,3117,3121,FALSE,i,FALSE,FALSE,E,TRUE,FALSE,FALSE,7,FALSE,FALSE,NA
+tFhnY5IJ7F9,pa sangs,ང་ ཐབས་ཤེས་ ཁྱོན་ནས་ བྱུང་ མ་ སོང་ ། ཨེ་འདྲས་ མེད །,655,ང་,3130,3130,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,1,TRUE,FALSE,NA
+jZ3bA8tkKPK,thabs shes,ང་ ཐབས་ཤེས་ ཁྱོན་ནས་ བྱུང་ མ་ སོང་ ། ཨེ་འདྲས་ མེད །,655,ཐབས་ཤེས་,3131,3131,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+gRjTa8gpRrW,pa sangs,ལྟ་ ང་ ལ་,657,ང་ ལ་,3148,3149,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+bkP9St8ggAw,khag (related to sba khug),ཁག་ ཁྱོན་ནས་ མེད །,658,ཁག་,3150,3150,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,1,FALSE,FALSE,NA
+cbCKpJxf33q,pa sangs,ང ས་ སྔ་རྟིང་ ཏོག་ཙམ བཏང་ དགོས་ བྱུང་ སོང །,662,ང ས་,3159,3160,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+G0dgP7O5FF6,snga rting,ང ས་ སྔ་རྟིང་ ཏོག་ཙམ བཏང་ དགོས་ བྱུང་ སོང །,662,སྔ་རྟིང་,3161,3161,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+rV1xvzY0kDM,ga,ལགས་སོ་ ང་རང་ ཀྱང་ ཨེ་འདྲས་ བསམ་ གྱིས །,674,ང་རང་ ཀྱང་,3218,3219,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,3,TRUE,FALSE,NA
+VpjXR6bzfXK,the ending should be changed,ལགས་སོ་ ང་རང་ ཀྱང་ ཨེ་འདྲས་ བསམ་ གྱིས །,674,ཨེ་འདྲས་,3220,3220,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+fLEc5CwBi2s,pa sangs,པ་སངས་ ཀྱིས་ ལས་ཀ་ ཡག- ཡག་པོ་ ཞེ་དྲག་ བྱས །,676,པ་སངས་ ཀྱིས་,3227,3228,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE,FALSE,NA
+tdvgVcUTHEo,las ka yag po (by pa sangs),པ་སངས་ ཀྱིས་ ལས་ཀ་ ཡག- ཡག་པོ་ ཞེ་དྲག་ བྱས །,676,ལས་ཀ་ ཡག- ཡག་པོ་,3229,3231,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+Ub3pGrB3Wx5,slob gso,ཡང་ སློབ་གསོ་ #དེ་འདྲས་ ལྡོག་ཕྱོགས་ ཐེབས་ ཡ་ འདུག,680,སློབ་གསོ་,3248,3248,FALSE,i,TRUE,FALSE,S,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+D6yLgDfhxTd,ldog phyogs,ཡང་ སློབ་གསོ་ #དེ་འདྲས་ ལྡོག་ཕྱོགས་ ཐེབས་ ཡ་ འདུག,680,ལྡོག་ཕྱོགས་,3250,3250,FALSE,n,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,FALSE,FALSE,NA
+TBLgWqzMJ5Q,pa sangs,ཁྱེད་ རང་ སྔོན་མ་ ང ར་ རོགས་པ་ འདི་འདྲས་ འདི་འདྲས་ གནང་ བྱུང་ །,701,ཁྱེད་ རང་,3325,3326,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,FALSE,NA
+9MWF8zEgNmO,a person (appearing at the end),ཁྱེད་ རང་ སྔོན་མ་ ང ར་ རོགས་པ་ འདི་འདྲས་ འདི་འདྲས་ གནང་ བྱུང་ །,701,ང ར་,3328,3329,TRUE,i,FALSE,FALSE,P,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+U3UNOY4JSh3,sba khug brlag pa'i bu mo,ང ས་ ཁྱེད་ རང་ ལ་ འདི་ བྱས་ བཞག་,723,ང ས་,3435,3436,TRUE,i,TRUE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+GRh80M6IDGE,pa sangs,ང ས་ ཁྱེད་ རང་ ལ་ འདི་ བྱས་ བཞག་,723,ཁྱེད་ རང་ ལ་,3437,3439,TRUE,i,FALSE,FALSE,R,TRUE,FALSE,TRUE,3,TRUE,FALSE,NA
+SSA5b8q2mcO,false accusation,ང ས་ ཁྱེད་ རང་ ལ་ འདི་ བྱས་ བཞག་,723,འདི་,3440,3440,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+a4MfnE0je6s,someone else who was helped by pasang,ང ས་ སོ་སོ་ ཁྱེད་ རང་ གིས་ #ང་ #ལ་ རོགས་པ་ བྱས་ བྱས་,729,ང ས་ སོ་སོ་,3457,3459,TRUE,i,FALSE,FALSE,P,TRUE,TRUE,FALSE,4,TRUE,FALSE,NA
+8dgZKw0VQee,pa sangs,ང ས་ སོ་སོ་ ཁྱེད་ རང་ གིས་ #ང་ #ལ་ རོགས་པ་ བྱས་ བྱས་,729,ཁྱེད་ རང་ གིས་,3460,3462,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,3,TRUE,FALSE,NA
+hrs3r2nvaoP,someone else who was helped by pasang,ང ས་ སོ་སོ་ ཁྱེད་ རང་ གིས་ #ང་ #ལ་ རོགས་པ་ བྱས་ བྱས་,729,#ང་ #ལ་,3463,3464,TRUE,i,FALSE,FALSE,P,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+9IQeHlijs4LKE,nyi ma dgra 'dul (the writer),ཁོ་རང་ རང་ ལ་ གཅིག་,741,རྩོམ་ གནང་ མཁན་ གྱི་ རྩོམ་པ་པོ་ ཁོ་རང་ རང་ ལ་,3512,3519,FALSE,i,FALSE,FALSE,R,TRUE,FALSE,FALSE,11,FALSE,FALSE,NA
+WFgEKSAYyRDIQ,kho rang tsho'i bsam 'char,འདི་ གས་ གཅིག་ ཞུས་ རེད་པ །,745,#ཁོ་རང་ #ཚོ་ #གི་ བསམ་འཆར་ འདི་ གས་,3522,3528,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,8,FALSE,FALSE,NA
+1NflzMWbuP5,lhan rgyas,གཞུག་གུ ར་ ལྷན་རྒྱས་ དགོངས་འཆར་,769,ལྷན་རྒྱས་,3617,3617,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,2,FALSE,FALSE,NA
+RPmMjwHU09Y1Q,dgongs 'char,## དགོངས་ཚུལ་ ཞུ་ གར་ བྱེད་ དགོས་ ཀྱི་ རེད་པ །,770,དགོངས་འཆར་ ## དགོངས་ཚུལ་,3618,3620,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+FAxJwuhvEk0,pa sangs,འབྲས་བུ འང་ ཁོ་,788,ཁོ་,3748,3748,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE,TRUE,NA
+QygVlXqAHsD,'bras bu bzang po,བཟང་པོ་ གཅིག་ ཐོབ་ ཐུབ་པ་ བྱས །,789,བཟང་པོ་ གཅིག་,3749,3750,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+QJ832MgLOS4,cha,ང་ ཡང་ ད་ག་ ནང་བཞིན་ མོས་མཐུན་ ཡོད །,796,ང་ ཡང་,3803,3804,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA
+Jby72bA0k23,what everyone said,ང་ ཡང་ ད་ག་ ནང་བཞིན་ མོས་མཐུན་ ཡོད །,796,ད་ག་ ནང་བཞིན་,3805,3806,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+caPe257n2az,nyi ma dgra 'dul (the writer),ཕར་ འདི་འདྲས་ གཅིག་,800,ཕར་,3823,3823,FALSE,i,FALSE,FALSE,R,TRUE,FALSE,FALSE,1,TRUE,FALSE,NA
+VkYPXYGC4L0,rgan dbang 'dus lags (ka),རྒན་ ལགས་ ཀྱིས་ འདི་ གནང་ ན་,801,རྒན་ ལགས་ ཀྱིས་,3826,3828,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,3,FALSE,TRUE,NA
+Lv7ZbMx5yuc,relay opinions to the writer,རྒན་ ལགས་ ཀྱིས་ འདི་ གནང་ ན་,801,འདི་,3829,3829,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,1,TRUE,FALSE,NA
+soibeOANrOA,cha,ང་ར་ རང་ འདི་ བར་,809,ང་ར་ རང་,3858,3859,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,3,TRUE,FALSE,NA
+hp7LH9obgML,what everyone said,ལྷན་རྒྱས་ གསུངས་པ་,811,ལྷན་རྒྱས་ གསུངས་པ་,3866,3867,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,FALSE,FALSE,NA
+RBAUZ6k1sJC,pa sangs kyi ming,ཁོ་ རང་ མཚན་ ལ་ པ་སངས་ ཞེས་ བཏགས་ གནང་བ་ རེད་ པ །,840,ཁོ་ རང་ མཚན་ ལ་,3979,3982,FALSE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,4,TRUE,FALSE,NA
+rSq1AVv4pcS,pa sangs kyi ming,ཁོ་ རང་ མཚན་ ལ་ པ་སངས་ ཞེས་ བཏགས་ གནང་བ་ རེད་ པ །,840,པ་སངས་ ཞེས་,3983,3984,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,3,FALSE,FALSE,NA
+P7DUE56jgxWRh,dgongs 'char,དགོངས་འཆར་ འདི་ གས་ ང ས་,856,ཁྱེད་ རྣམ་ ཚོ འི་ གི་ / དགོངས་འཆར་ འདི་ གས་,4051,4059,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,9,FALSE,FALSE,NA
+vDRc8kkC7Od,rgan dbang 'dus lags (ka),དགོངས་འཆར་ འདི་ གས་ ང ས་,856,ང ས་,4060,4061,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,TRUE,NA
+4QFKrMCwhXJ,nyi ma dgra 'dul (the writer),ཁོང་ ལ་ ཡ་ _H_,857,ཁོང་ ལ་ ཡ་,4062,4064,FALSE,i,FALSE,FALSE,R,TRUE,FALSE,FALSE,3,TRUE,FALSE,NA
+7VMTB2Q4yVe,nyi ma dgra 'dul (the writer),ཁོ་རང་ ལ་ དགོངས་འཆར་ r- ག་རེ་ འདུག,860,ཁོ་རང་ ལ་,4072,4073,FALSE,i,FALSE,FALSE,COPLOC,TRUE,FALSE,FALSE,3,TRUE,FALSE,NA
+K0g2XXOV1CT,dgongs 'char,ཁོ་རང་ ལ་ དགོངས་འཆར་ r- ག་རེ་ འདུག,860,དགོངས་འཆར་ r- ག་རེ་,4074,4076,FALSE,n,FALSE,TRUE,EXIST,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+RUv0EDanKDn,dgongs 'char,དགོངས་འཆར་ འདི་ གས་ ལ་ ང ས་ བལྟས་པ་ ཡིན་ ན འི་,862,དགོངས་འཆར་ འདི་ གས་ ལ་,4079,4082,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,5,FALSE,FALSE,NA
+OmELEncpia2,nga,དགོངས་འཆར་ འདི་ གས་ ལ་ ང ས་ བལྟས་པ་ ཡིན་ ན འི་,862,ང ས་,4083,4084,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE,FALSE,NA

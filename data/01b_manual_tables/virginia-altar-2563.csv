@@ -1,0 +1,51 @@
+﻿id,name,unitLastWord,unitSeqLast,word,docTokenSeqFirst,docTokenSeqLast,local,identifiable,topic,interrog,argType,animate,self,addressee,length,pronom
+2DFC78E9D2642,dbyangs skyid,ང ས་ ནི་ རང་ <0> བསྡད་ ཨ་ ཡོད་ བསམས་ བྱུང་ །,4,ང ས་ ནི་,16,18,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,3,TRUE
+HMlEkWOBWlW,rang bsdad a yod,ང ས་ ནི་ རང་ <0> བསྡད་ ཨ་ ཡོད་ བསམས་ བྱུང་ །,4,རང་ <0> བསྡད་ ཨ་ ཡོད་,19,23,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,4,TRUE
+14515650BC3E0,dbyangs skyid,ང་ ལྦ་ཤིང་ཀྲན་ སྒྲི་སི་ ལ་ ཕྱིན་པ་ ཡིན་,18,ང་,84,84,TRUE,i,TRUE,FALSE,S,TRUE,TRUE,FALSE,1,TRUE
+1946773637C50,dbyangs skyid lags kyis 'gro sa,ང་ ལྦ་ཤིང་ཀྲན་ སྒྲི་སི་ ལ་ ཕྱིན་པ་ ཡིན་,18,ལྦ་ཤིང་ཀྲན་ སྒྲི་སི་ ལ་,85,87,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,6,FALSE
+28E3644FC8758,bsod nams,ང ར་ དེང་སང་ ལས་ཀ་ སེ་ མེད །,29,ང ར་,127,128,TRUE,i,TRUE,FALSE,COPLOC,TRUE,TRUE,FALSE,2,TRUE
+4A3C4876A1B,las ka,ང ར་ དེང་སང་ ལས་ཀ་ སེ་ མེད །,29,ལས་ཀ་ སེ་,130,131,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,3,FALSE
+2A8B2D996A805,phru gu gnyis,ཕྲུ་གུ་ གཉིས་ ག་པ ར་ ཕྱིན་ སོང་ །,40,ཕྲུ་གུ་ གཉིས་,174,175,FALSE,i,TRUE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE
+11B0E67F367DD,slob grwa (phru gu),ཕྲུ་གུ་ གཉིས་ ག་པ ར་ ཕྱིན་ སོང་ །,40,ག་པ ར་,176,177,FALSE,n,FALSE,TRUE,E,FALSE,FALSE,FALSE,3,TRUE
+3629A50FAD2C9,phru gu gnyis,ཁོང་ གཉིས་ གཉིས་ སློབ་གྲྭ ར་ ཕྱིན་ སོང་ །,41,ཁོང་ གཉིས་ གཉིས་,181,183,FALSE,i,TRUE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE
+367839A522455,slob grwa (phru gu),ཁོང་ གཉིས་ གཉིས་ སློབ་གྲྭ ར་ ཕྱིན་ སོང་ །,41,སློབ་གྲྭ ར་,184,185,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,FALSE
+1F9CFC27C67F1,rgyal po,རྒྱལ་པོ་ ལགས་ དཔེ་མཛོད་ ཁང་ ལ་ ཐད་ སོང་,45,རྒྱལ་པོ་ ལགས་,197,198,FALSE,i,TRUE,FALSE,S,TRUE,FALSE,FALSE,3,FALSE
+1A19EA6C588BB,dpe mdzod khang,རྒྱལ་པོ་ ལགས་ དཔེ་མཛོད་ ཁང་ ལ་ ཐད་ སོང་,45,དཔེ་མཛོད་ ཁང་ ལ་,199,201,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,4,FALSE
+23B429FC27099,mchod gshom,ཕ་གི་ མཆོད་གཤོམ་ མ་ རེད་ པས །,51,ཕ་གི་,216,216,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,TRUE
+374AD2E2350DB,mchod gshom,ཕ་གི་ མཆོད་གཤོམ་ མ་ རེད་ པས །,51,མཆོད་གཤོམ་,217,217,TRUE,n,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,2,FALSE
+1F944CAA40E2,tshos gzhi,ཚོས་གཞི་ ང་རང་ ཚོ་ བོད་པ ས་ <0> དགའ་ ཡ་ དེ་ རེད །,91,ཚོས་གཞི་,378,378,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,FALSE
+1360183BF9494,tshos gzhi,ཚོས་གཞི་ ང་རང་ ཚོ་ བོད་པ ས་ <0> དགའ་ ཡ་ དེ་ རེད །,91,ང་རང་ ཚོ་ བོད་པ ས་ <0> དགའ་ ཡ་ དེ་,379,386,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,10,FALSE
+DD53EF7435AA,dkyis,འདི འི་ དཀྱིལ་ འདི ར་,96,འདི འི་ དཀྱིལ་ འདི ར་,401,405,TRUE,i,TRUE,FALSE,COPLOC,FALSE,FALSE,FALSE,5,FALSE
+CA7FAC7D2C9B,sku ('byar),སྐུ་ གཅིག་ འདུག་ ག,97,སྐུ་ གཅིག་,406,407,TRUE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE
+3796A660482DE,sku ('byar),འདི་ ཚ་ཚ་ རེད །,100,འདི་,415,415,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,1,TRUE
+1EB33015C41C1,sku ('byar),འདི་ ཚ་ཚ་ རེད །,100,ཚ་ཚ་,416,416,TRUE,n,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,2,FALSE
+28249D50C116A,dbyangs skyid,ང ས་ མིན་ <0> བརྐོས་ བསྐྱོན་པ་ མིན་འགྲོ་ བསམས་བྱུང་ །,106,ང ས་,440,441,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE
+RzQtZtBu5yj,brkos pa,ང ས་ མིན་ <0> བརྐོས་ བསྐྱོན་པ་ མིན་འགྲོ་ བསམས་བྱུང་ །,106,<0> བརྐོས་ བསྐྱོན་པ་ མིན་འགྲོ་,443,446,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,6,FALSE
+1CED74578BE6E,brkos bskyon pa,འདི་གད་ ཚང་མ་ བརྐོས་ བསྐྱོན་པ་ རེད་ པ །,110,འདི་གད་,460,460,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,TRUE
+145DB0CB7641D,brkos bskyon pa,འདི་གད་ ཚང་མ་ བརྐོས་ བསྐྱོན་པ་ རེད་ པ །,110,བརྐོས་ བསྐྱོན་པ་,462,463,FALSE,n,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,3,FALSE
+D8516593AFEC,bsod nams,ཨ་ནི་ ་་ རང་ ལ་ སྐུ་ ཡག་པོ་ ཞེ་པོ་ འདི་འདྲས་ འདུག་ ག,118,རང་ ལ་,505,506,TRUE,i,TRUE,FALSE,COPLOC,TRUE,FALSE,TRUE,2,TRUE
+2F2B4513E4845,sku (general),ཨ་ནི་ ་་ རང་ ལ་ སྐུ་ ཡག་པོ་ ཞེ་པོ་ འདི་འདྲས་ འདུག་ ག,118,སྐུ་ ཡག་པོ་ ཞེ་པོ་,507,509,TRUE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,5,FALSE
+3629C5539C868,sku (lha sa),སྐུ་ ཁ་ཤས་ ལྷ་ས་ ནས་ རེད་,120,སྐུ་ ཁ་ཤས་,516,517,TRUE,n,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,3,FALSE
+167AB90688462,lha sa,སྐུ་ ཁ་ཤས་ ལྷ་ས་ ནས་ རེད་,120,ལྷ་ས་ ནས་,518,519,FALSE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,3,FALSE
+HSY3eiKwNWbkD,sku (lha sa),འདི །,128,འདི་ དང་ འདི,538,540,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,TRUE
+239507BA72250,sku (lha sa),འཇིམ་སྐུ་ རེད་ །,129,འཇིམ་སྐུ་,542,542,TRUE,i,FALSE,FALSE,PRED,FALSE,FALSE,FALSE,2,FALSE
+20332317F6D03,gser zangs,འདི་ བལ་ཡུལ་ ནས་ གདན་འདྲེན་ ཞུས་པ་ རེད །,133,འདི་,550,550,TRUE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,1,TRUE
+162F3B6AF9D6B,bal yul,འདི་ བལ་ཡུལ་ ནས་ གདན་འདྲེན་ ཞུས་པ་ རེད །,133,བལ་ཡུལ་ ནས་,551,552,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,FALSE
+1E7C59FDF419D,bsod nams,རང་ གིས་ ཡོན་ཆབ་ འབུལ་ གག་ བྱས་ འདུག་ ག,141,རང་ གིས་,577,578,TRUE,i,FALSE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE
+26A3968D94C5C,yon chab,རང་ གིས་ ཡོན་ཆབ་ འབུལ་ གག་ བྱས་ འདུག་ ག,141,ཡོན་ཆབ་,579,579,TRUE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE
+38B224045DFCA,deb,དེབ་ དེ་ ད་,147,དེབ་ དེ་,609,610,TRUE,i,TRUE,FALSE,COPS,FALSE,FALSE,FALSE,2,FALSE
+18A9F2FBA3B91,rgyal po,རྒྱལ་པོ་ ལགས་ ཀྱི་ རེད །,148,རྒྱལ་པོ་ ལགས་ ཀྱི་,612,614,FALSE,i,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,4,FALSE
+D648744947D5,dpe cha,དཔེ་ཆ་ འདི་ ང ས་,155,དཔེ་ཆ་ འདི་,641,642,TRUE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE
+DD6748A24310,bsod nams,དཔེ་ཆ་ འདི་ ང ས་,155,ང ས་,643,644,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,2,TRUE
+23E019B537AC2,bsod nams,ཨ་ལེ་ ་་་ ང ས ཇ་ གང་ བཟོས་ དགོས །,171,ང ས,707,708,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,1,TRUE
+2949404B6006A,ja,ཨ་ལེ་ ་་་ ང ས ཇ་ གང་ བཟོས་ དགོས །,171,ཇ་ གང་,709,710,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE
+258873EBBD4B,dbyangs skyid kyi nang,ནང་ ལ་ སྐུ་མགྲོན་ ཏོག་ཙམ་ ཡོང་ གི་ ཡོད །,179,ནང་ ལ་,742,743,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,FALSE
+298A80EB7815B,sku mgron,ནང་ ལ་ སྐུ་མགྲོན་ ཏོག་ཙམ་ ཡོང་ གི་ ཡོད །,179,སྐུ་མགྲོན་ ཏོག་ཙམ་,744,745,FALSE,n,FALSE,FALSE,S,TRUE,FALSE,FALSE,4,FALSE
+5D33015B5B32,dbyangs skyid,ང་ འདི ར་ <0> རང་ ལ་ ལན་ ཅིག་ བསྐྱལ་ གར་ ཡོང་པ་ ཡིན །,182,ང་,754,754,TRUE,i,FALSE,FALSE,S,TRUE,TRUE,FALSE,1,TRUE
+361BDD463EEB6,nang,ང་ འདི ར་ <0> རང་ ལ་ ལན་ ཅིག་ བསྐྱལ་ གར་ ཡོང་པ་ ཡིན །,182,འདི ར་,755,756,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE
+23CB609A2C12A,bsod nams,ང་ འདི ར་ <0> རང་ ལ་ ལན་ ཅིག་ བསྐྱལ་ གར་ ཡོང་པ་ ཡིན །,182,རང་ ལ་,758,759,TRUE,i,FALSE,FALSE,E,TRUE,FALSE,TRUE,2,TRUE
+31D877C8301FC,lan,ང་ འདི ར་ <0> རང་ ལ་ ལན་ ཅིག་ བསྐྱལ་ གར་ ཡོང་པ་ ཡིན །,182,ལན་ ཅིག་,760,761,FALSE,n,FALSE,FALSE,T,FALSE,FALSE,FALSE,2,FALSE
+19EDB5530E4C,bkra shis,ཁོང་ གནམ་གྲུ འི་ འབབ་ཐང་ ལ་ <0> ལེན་ གར་ འགྲོ་ མཁན་ ཡིན་ ཟེར་,195,ཁོང་,823,823,FALSE,i,TRUE,FALSE,A,TRUE,FALSE,FALSE,1,TRUE
+6092CCFC40B0,gnam gru'i 'bab thang,ཁོང་ གནམ་གྲུ འི་ འབབ་ཐང་ ལ་ <0> ལེན་ གར་ འགྲོ་ མཁན་ ཡིན་ ཟེར་,195,གནམ་གྲུ འི་ འབབ་ཐང་ ལ་,824,827,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,6,FALSE
+117D04B3D23C,bkra shis,ཁོང་ ཆུ་ཚོད་ ལྔ་ དང་ ཕྱེད་ ཀ་ མ་གཏོགས་,198,ཁོང་,839,839,FALSE,i,TRUE,FALSE,S,TRUE,FALSE,FALSE,1,TRUE
+318C42BA76CF6,nang,འདི ར་ སླེབས་པ་ མིན་ འདུག་ ཟེར་ གྱི་ འདུག་ ག,199,འདི ར་,846,847,TRUE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,2,TRUE

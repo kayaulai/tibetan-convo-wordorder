@@ -1,0 +1,25 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"50B67ED7C3D1","yig tshad","<0> ཡིག་ཚད་ བདུན་པ འི་ ཚེས་ བདུན་ རེད་ ཟེར་ གྱི་ འདུག་ ག",8,"ཡིག་ཚད་",29,29,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"353978B04B853","bdun pa'i tshad bdun","<0> ཡིག་ཚད་ བདུན་པ འི་ ཚེས་ བདུན་ རེད་ ཟེར་ གྱི་ འདུག་ ག",8,"བདུན་པ འི་ ཚེས་ བདུན་",30,33,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"2F361FFD59EB6","yig tshad","ཡིག་ཚད་",10,"ཡིག་ཚད་",42,42,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"D2E0B47011F8","bdun pa'i tshad bdun","བདུན་པ འི་ ཚེས་ བདུན་ སོང་ ཙང་",12,"བདུན་པ འི་ ཚེས་ བདུན་",45,48,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"1FD9466B7977A","zla sgron","ཟླ་སྒྲོན་ རྒྱ་ནག་ ནས་ སླེབས་ བྱས་",17,"ཟླ་སྒྲོན་",78,78,FALSE,"i",NA,FALSE,"S",TRUE,FALSE,FALSE,2,FALSE,FALSE
+"20D9D8FB87C73","rgya nag","ཟླ་སྒྲོན་ རྒྱ་ནག་ ནས་ སླེབས་ བྱས་",17,"རྒྱ་ནག་ ནས་",79,80,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"D4NYeTUO2r5Gz","rgya nag","རྒྱ་ནག་ ནས་",28,"རྒྱ་ནག་ དང་ ། ཨམ ། རྒྱ་ནག་ ནས་",118,124,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,9,FALSE,FALSE
+"259B4C29D0370","bod","འདི ར་ བོད་ ལ་ སླེབས་ བྱས་",29,"འདི ར་ བོད་ ལ་",125,128,TRUE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"ObHBUCYegDEml","las ka la sogs pa","འདི་ སྣང་དག་ མ་ བྱུང་ ཟེར །",31,"ལས་ཀ་ དང་ འདི་",131,133,FALSE,"n",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,4,FALSE,TRUE
+"2A783F598D9F0","snang dag","འདི་ སྣང་དག་ མ་ བྱུང་ ཟེར །",31,"སྣང་དག་",134,134,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"387486544190D","zla sgron","མོ་རང་ ལ་ དཀའ་ངལ་ ཡོད་ དུས་",58,"མོ་རང་ ལ་",260,261,FALSE,"i",NA,FALSE,"COPLOC",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"22BFAA2D5B21C","dka' ngal (zla sgron)","མོ་རང་ ལ་ དཀའ་ངལ་ ཡོད་ དུས་",58,"དཀའ་ངལ་",262,262,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"2FD4D233A9BBB","phur sgron","རང་ གིས་ ཕར་ རོགས་ བྱས །",59,"རང་ གིས་",265,266,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"2F3CF02160FD2","zla sgron","རང་ གིས་ ཕར་ རོགས་ བྱས །",59,"ཕར་",267,267,FALSE,"i",NA,FALSE,"E",TRUE,FALSE,FALSE,1,FALSE,FALSE
+"1775FC468EE0D","phur sgron","རང་ ལ་ དཀའ་ངལ་ ཡོད་ དུས་",63,"རང་ ལ་",279,280,TRUE,"i",NA,FALSE,"COPLOC",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"1F352F0173E23","dka' ngal (phur sgron)","རང་ ལ་ དཀའ་ངལ་ ཡོད་ དུས་",63,"དཀའ་ངལ་",281,281,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"4DFC5512C86","zla sgron","ཟླ་སྒྲོན་ གྱིས་ ཚུར་ རོགས་ བྱས །",65,"ཟླ་སྒྲོན་ གྱིས་",285,286,FALSE,"i",NA,FALSE,"S",TRUE,FALSE,FALSE,3,FALSE,FALSE
+"1995B1852CCD1","phur sgron","ཟླ་སྒྲོན་ གྱིས་ ཚུར་ རོགས་ བྱས །",65,"ཚུར་",287,287,FALSE,"i",NA,FALSE,"E",TRUE,FALSE,FALSE,1,FALSE,FALSE
+"353A2CFA2C306","zla sgron dang phur sgron","དུས་རྒྱུན་ དུ་ ཁྱེད་ རང་ ཚོ་",72,"ཁྱེད་ རང་ ཚོ་",314,316,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,5,TRUE,TRUE
+"32A4C61488BE4","sems nang gi skad cha","སེམས་ ནང་ གི་ ཕར་ཚུར་ སྐད་ཆ་ དེ་ བཤད །",73,"སེམས་ ནང་ གི་ ཕར་ཚུར་ སྐད་ཆ་ དེ་",317,322,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,8,FALSE,FALSE
+"2310286914A8E","phur sgron","ང་ ཉི་མ་ ཁ་ཤས་ རྗེས་ ནས་ ཕར་ ཁོང་ ཚོ འི་ ནང་ ལ་ འགྲོ་ དགོས་ བསམ་ ནས་ བསྡད་ ཡོད །",91,"ང་",403,403,TRUE,"i",NA,FALSE,"S",TRUE,TRUE,FALSE,1,TRUE,TRUE
+"23C929A90F465","zla sgron dang nang mi'i nang","ང་ ཉི་མ་ ཁ་ཤས་ རྗེས་ ནས་ ཕར་ ཁོང་ ཚོ འི་ ནང་ ལ་ འགྲོ་ དགོས་ བསམ་ ནས་ བསྡད་ ཡོད །",91,"ཁོང་ ཚོ འི་ ནང་ ལ་",409,413,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,5,TRUE,FALSE
+"1AA5FB2ED39D6","pa lags kyi deb","ང འི་ དེབ་ གཅིག་ སྦུག་ ཏུ་ ཡོད་ <0> བསམ་ བྱུང་ །",99,"ང འི་ དེབ་ གཅིག་",444,447,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"182D2EC61DF3","sbug la","ང འི་ དེབ་ གཅིག་ སྦུག་ ཏུ་ ཡོད་ <0> བསམ་ བྱུང་ །",99,"སྦུག་ ཏུ་",448,449,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,2,FALSE,FALSE

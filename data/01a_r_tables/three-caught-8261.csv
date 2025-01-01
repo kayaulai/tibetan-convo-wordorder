@@ -1,0 +1,5 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"334EFFB04DAA1","zla ba dng phur sgron","དེ་རིང་ ང་ གཉིས་ ག་པ ར་ འགྲོ་ ག",5,"ང་ གཉིས་",21,22,TRUE,"i",NA,FALSE,"S",TRUE,TRUE,FALSE,2,TRUE,TRUE
+"1E3B209283482","'gro sa","དེ་རིང་ ང་ གཉིས་ ག་པ ར་ འགྲོ་ ག",5,"ག་པ ར་",23,24,FALSE,"n",NA,FALSE,"E",FALSE,FALSE,FALSE,3,TRUE,FALSE
+"233EE240926D","zla ba'i sems","ང འི་ སེམས་ ནང་",19,"ང འི་ སེམས་ ནང་",87,90,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,4,FALSE,TRUE
+"227B3D218B3E9","phur sgron","རང་ མ་གཞི་ མེད །",20,"རང་ མ་གཞི་",91,92,TRUE,"i",NA,FALSE,"EXIST",TRUE,FALSE,TRUE,3,TRUE,TRUE

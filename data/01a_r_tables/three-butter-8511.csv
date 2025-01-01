@@ -1,0 +1,14 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"HKP5IOoPYWG","mar","མར་ རྒྱ་མ ར་ ག་ཚོད་ རེད །",2,"མར་",3,3,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"2UoVgXKNkmW","rgya ma gang","མར་ རྒྱ་མ ར་ ག་ཚོད་ རེད །",2,"རྒྱ་མ ར་",4,5,FALSE,"n",NA,FALSE,"E",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"yplQLl4vjjL","sgor mo 15 (orig price)","མར་ རྒྱ་མ ར་ ག་ཚོད་ རེད །",2,"ག་ཚོད་",6,6,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"S2atXhiqXTD","rgya ma gang","<0> རྒྱ་མ ར་ སྒོར་མོ་ ༡༥ རེད་ ཨ་ཅག",3,"རྒྱ་མ ར་",10,11,FALSE,"n",NA,FALSE,"E",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"MWO0WToZ2TM","sgor mo 15 (orig price)","<0> རྒྱ་མ ར་ སྒོར་མོ་ ༡༥ རེད་ ཨ་ཅག",3,"སྒོར་མོ་ ༡༥",12,13,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"Fh00wX0pkcA","sgor mo 15 (orig price)","<0> ༡༥ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་ པས །",4,"༡༥ ནས་",17,18,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"8I5Y3ePI0wl","yang tig","<0> ༡༥ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་ པས །",4,"ཡང་ཏིག་",19,19,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"Uc0SKUyiv12","chunk of butter (pointing) ","འདི་ ག་ཚོད་ ཡོད་ ན འི་",6,"འདི་",32,32,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"i5SLvJNJrQS","chunk of butter's quantity","འདི་ ག་ཚོད་ ཡོད་ ན འི་",6,"ག་ཚོད་",33,33,FALSE,"n",FALSE,TRUE,"EXIST",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"qn8LOk50W4d","rgya ma (planning to buy)","རྒྱ་མ་ གསུམ་ དང་ སྲང་ བརྒྱད་ ལ་ ག་ཚོད་ རེད །",20,"རྒྱ་མ་ གསུམ་ དང་ སྲང་ བརྒྱད་ ལ་",109,114,FALSE,"i",TRUE,NA,"COPS",FALSE,FALSE,FALSE,7,FALSE,FALSE
+"hvijS28VuI2","total price for 3 rgyama 8 srang","རྒྱ་མ་ གསུམ་ དང་ སྲང་ བརྒྱད་ ལ་ ག་ཚོད་ རེད །",20,"ག་ཚོད་",115,115,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"3oLUGXV0DKw","rgya ma (planning to buy)","གསུམ་ དང་ སྲང་ བརྒྱད་ སྒྱུར་ བཅུ་བཞི །",22,"གསུམ་ དང་ སྲང་ བརྒྱད་",126,129,FALSE,"i",TRUE,NA,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"glTKRCNAiIs","total price for 3 rgyama 8 srang","ལྔ་ ཅུ་ ལྔ་ གསུམ དང་ ། མོའོ་ཙེ་ གཉིས་ རེད །",23,"ལྔ་ ཅུ་ ལྔ་ གསུམ དང་ ། མོའོ་ཙེ་ གཉིས་",133,140,FALSE,"n",FALSE,NA,"PRED",FALSE,FALSE,FALSE,9,FALSE,FALSE

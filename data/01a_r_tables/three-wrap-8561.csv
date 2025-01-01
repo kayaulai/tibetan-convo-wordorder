@@ -1,0 +1,37 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"6yyvnHGABeZ","phur sgron dang zla sgron","ང་ གཉིས་ གཉིས་ ཇ་ཁང་ ནང་ ལ་ <0> ཇ་ ཞིག་ འཐུང་ གར་ འགྲོ་ གས །",1,"ང་ གཉིས་ གཉིས་",1,3,TRUE,"i",NA,FALSE,"S",TRUE,TRUE,FALSE,3,TRUE,FALSE
+"CXaimuAGhrf","ja khang","ང་ གཉིས་ གཉིས་ ཇ་ཁང་ ནང་ ལ་ <0> ཇ་ ཞིག་ འཐུང་ གར་ འགྲོ་ གས །",1,"ཇ་ཁང་ ནང་ ལ་",4,6,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"tKB1GeBcQfy","zla sgron","ང་ ཕྱུ་པ་ ཞིག་ ཉོ་ དགོས་ ཀྱི་ ཡོད །",3,"ང་",21,21,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,TRUE
+"C4DNC9J9D0n","phyu pa","ང་ ཕྱུ་པ་ ཞིག་ ཉོ་ དགོས་ ཀྱི་ ཡོད །",3,"ཕྱུ་པ་ ཞིག་",22,23,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"lx9gg1p3NbF","zla sgron","ང་ ཕྱུ་པ་ ཉོ་རོགས་ བྱེད་ ཨ །",4,"ང་",29,29,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,TRUE
+"XTO4zVIXEGy","phyu pa","ང་ ཕྱུ་པ་ ཉོ་རོགས་ བྱེད་ ཨ །",4,"ཕྱུ་པ་",30,30,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"guhec9xJEe5","phur sgron","ང་ ཡང་ བཙུགས་ཕྲུག་ གཅིག་ ཉོ་ དགོས་ ཡོད །",8,"ང་ ཡང་",45,46,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,TRUE
+"7rw9OcynvDk","btsugs phyug (to buy)","ང་ ཡང་ བཙུགས་ཕྲུག་ གཅིག་ ཉོ་ དགོས་ ཡོད །",8,"བཙུགས་ཕྲུག་ གཅིག་",47,48,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"4FkcAZiTfIj","phur sgron","ཨ་ལེ་ རང་ བཙུགས་ཕྲུག་ ལྟོས །",19,"རང་",98,98,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,1,TRUE,FALSE
+"6uE6YnLieov","btsugs phyug (to buy)","ཨ་ལེ་ རང་ བཙུགས་ཕྲུག་ ལྟོས །",19,"བཙུགས་ཕྲུག་",99,99,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"FPQXsu65ieR","phur sgron","རང་ བཙུགས་ཕྲུག་ བལྟས་ ཚར་ སོང་ ན་ <0> ཕྱུ་པ་ ཞིག་ <0> ཉོ་བ ར་ འགྲོ་ གི་ ཡིན །",20,"རང་",102,102,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,1,TRUE,FALSE
+"GUdKhyuf7Ue","btsugs phyug (to buy)","རང་ བཙུགས་ཕྲུག་ བལྟས་ ཚར་ སོང་ ན་ <0> ཕྱུ་པ་ ཞིག་ <0> ཉོ་བ ར་ འགྲོ་ གི་ ཡིན །",20,"བཙུགས་ཕྲུག་",103,103,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"oFL8toG2dfq","'di par","བཙུགས་ཕྲུག་ ཉོ་ ས་ འདི་པ ར་ གཅིག་ ཡོད་ རེད །",39,"འདི་པ ར་",198,199,FALSE,"n",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"CJCXiTOFkDZ","btsugs phrug nyo sa (main)","བཙུགས་ཕྲུག་ ཉོ་ ས་ འདི་པ ར་ གཅིག་ ཡོད་ རེད །",39,"གཅིག་",200,200,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"S2nEagRHmMq","zla sgron","<0> ཤོག་ དང་ ང ས་ རང་ འཁྲིད་ ཀོ །",40,"ང ས་",207,208,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,TRUE
+"2NNBroX5yj3","phur sgron","<0> ཤོག་ དང་ ང ས་ རང་ འཁྲིད་ ཀོ །",40,"རང་",209,209,TRUE,"i",NA,FALSE,"P",TRUE,FALSE,TRUE,1,TRUE,TRUE
+"jQ5ELfjQomP","phur sgron","ཨ་ནི་ ང་ བཙུགས་ཕྲུག་ འཇམ་ལྡས་ ལྟ་ ཨེ་འདྲས་ ལྟ་ དགོས་ ཀྱི་ ཡོད །",47,"ང་",235,235,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"3JcDbRkXTVE","btsugs phyug (to buy)","ཨ་ནི་ ང་ བཙུགས་ཕྲུག་ འཇམ་ལྡས་ ལྟ་ ཨེ་འདྲས་ ལྟ་ དགོས་ ཀྱི་ ཡོད །",47,"བཙུགས་ཕྲུག་ འཇམ་ལྡས་ ལྟ་ ཨེ་འདྲས་",236,239,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,7,FALSE,FALSE
+"Q44edH1eR5Y","btsugs phrug (specific ones in main shop)","བཙུགས་ཕྲུག་ འདི ར <0> །",50,"བཙུགས་ཕྲུག་",250,250,FALSE,"i",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"J7QCH6oLCLE","btsugs phrug nyo sa (main)","བཙུགས་ཕྲུག་ འདི ར <0> །",50,"འདི ར",251,252,TRUE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"YZ43dXZO3a8","phur sgron","རང་ གང་ རེད ། <0> བཙུགས་ཕྲུག་ གྱོན་ གྱི་ ཡོད་ པས །",54,"རང་",265,265,TRUE,"i",TRUE,FALSE,"COPS",TRUE,FALSE,TRUE,1,TRUE,FALSE
+"GAdfmgAEXtx","gang (cataphoric)","རང་ གང་ རེད ། <0> བཙུགས་ཕྲུག་ གྱོན་ གྱི་ ཡོད་ པས །",54,"གང་",266,266,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"5dRidWxR3Wc","btsugs phrug (generic)","འདི་ གཟུགས་པོ་ སྒང་ ལ་ ཨི་ཙི་གུ་ལུ་ ཟ་བ་ འདྲ་པོ །",60,"འདི་",306,306,FALSE,"i",NA,FALSE,"S",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"LfshSTcdF1d","gzugs po","འདི་ གཟུགས་པོ་ སྒང་ ལ་ ཨི་ཙི་གུ་ལུ་ ཟ་བ་ འདྲ་པོ །",60,"གཟུགས་པོ་ སྒང་ ལ་",307,309,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"q4BR8Jcx1NV","btsugs phrug (specific)","བཙུགས་ཕྲུག་ འདི ར་ ག་ཚོད་ རེད །",90,"བཙུགས་ཕྲུག་ འདི ར་",440,442,TRUE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"4zFo3pQlajZ","250","བཙུགས་ཕྲུག་ འདི ར་ ག་ཚོད་ རེད །",90,"ག་ཚོད་",443,443,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"9oYMO2sV31K","btsugs phrug (specific)","འདི ར་ ག་ཚོད་ <0>",91,"འདི ར་",446,447,TRUE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"RPV146ObQL4","250","འདི ར་ ག་ཚོད་ <0>",91,"ག་ཚོད་",448,448,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"O3MYqXF75PB","btsugs phrug (specific)","བཙུགས་ཕྲུག་ ལ་",92,"བཙུགས་ཕྲུག་ ལ་",450,451,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"HiAsIlR2dNt","250","ཉི་བརྒྱ ལྔ་བཅུ་ <0>",93,"ཉི་བརྒྱ ལྔ་བཅུ་",452,453,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"2tzFHEgL3Vd","btsugs phrug gi bal","བལ་ འདི་ བྱང་བལ་ རེད ། ཡུལ་བལ་ རེད །",97,"བལ་ འདི་",462,463,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"ZfkymbViGhq","byang bal","བལ་ འདི་ བྱང་བལ་ རེད ། ཡུལ་བལ་ རེད །",97,"བྱང་བལ་",464,464,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"2eplI8jOGgB","btsugs phrug gi bal","བལ་ བྱང་བལ་ རེད །",98,"བལ་",470,470,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"DnATeJkyE8c","byang bal","བལ་ བྱང་བལ་ རེད །",98,"བྱང་བལ་",471,471,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"Gpj5bRp2rof","zla sgron","ཨ་ནི་ ང་ འང་ གཅིག ཉོ་ གི་ ཡིན །",154,"ང་ འང་",717,718,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,TRUE
+"CSD7n0ORcUr","gtsug phrug (new)","ཨ་ནི་ ང་ འང་ གཅིག ཉོ་ གི་ ཡིན །",154,"གཅིག",719,719,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,0,FALSE,FALSE

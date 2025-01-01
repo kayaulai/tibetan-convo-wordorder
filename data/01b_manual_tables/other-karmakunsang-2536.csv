@@ -1,0 +1,5 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"suDFWUFPfhc","bu mo ka","ང་ མགྲོན་ཁང་ ཅི་ དག་ ཧ་གོ་པ་ མིན་ འདུག་ ག",17,"ང་",68,68,TRUE,"i",FALSE,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,TRUE
+"TkF40KTFp45","mgron khang chen po","ང་ མགྲོན་ཁང་ ཅི་ དག་ ཧ་གོ་པ་ མིན་ འདུག་ ག",17,"མགྲོན་ཁང་",69,69,FALSE,"n",FALSE,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"SGn3NM60IxW","mgron khang gi 'khris","དེ འི་ འཁྲིས་ དེ་ ལ་ སྨན་ཁང་ གཅིག་ འདུག་ ག",38,"དེ འི་ འཁྲིས་ དེ་ ལ་",175,179,FALSE,"i",FALSE,FALSE,"COPLOC",FALSE,FALSE,FALSE,5,FALSE,TRUE
+"X3AkCVpirSH","sman khang","དེ འི་ འཁྲིས་ དེ་ ལ་ སྨན་ཁང་ གཅིག་ འདུག་ ག",38,"སྨན་ཁང་ གཅིག་",180,181,FALSE,"n",FALSE,FALSE,"EXIST",FALSE,FALSE,FALSE,3,FALSE,FALSE

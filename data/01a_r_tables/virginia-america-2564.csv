@@ -1,0 +1,47 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"K9HSZDaT8j5","lha sa","ལྷ་ས་ ནས་",5,"ལྷ་ས་ ནས་",17,18,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"JGeC9fpqLJ8","pe cing","པེ་ཅིང་ བར་ དུ་ གནམ་གྲུ འི་ ནང་ ག་ཚོད་ འགོར་ གྱི་ རེད །",6,"པེ་ཅིང་ བར་ དུ་",19,21,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"1rtWRzo42wl","number of hours in plane from lhasa to chengdu (3 hrs)","པེ་ཅིང་ བར་ དུ་ གནམ་གྲུ འི་ ནང་ ག་ཚོད་ འགོར་ གྱི་ རེད །",6,"ག་ཚོད་",25,25,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"qXl7dL5WmWp","lha sa","ལྷ་ས་ ནས་",9,"ལྷ་ས་ ནས་",35,36,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"QsUv4eJj6Ez","grang tu","གྲང་ཏུ་ བར་ དུ་",10,"གྲང་ཏུ་ བར་ དུ་",37,39,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"9TEPGAdzCMU","lhasa to chengdu travel time (2 hrs)","<0> ཆུ་ཚོད་ གཉིས་ བྱས །",11,"ཆུ་ཚོད་ གཉིས་",41,42,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"xI3nyLzz39l","lha sa","ལྷ་ས་ ནས་",18,"ལྷ་ས་ ནས་",82,83,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"SIkCZE6PjJJ","grang tu","གྲང་ཏུ་",19,"གྲང་ཏུ་",84,84,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"PuNLPiArX1l","pe cing","པེ་ཅིང་ བར་ དུ་",21,"པེ་ཅིང་ བར་ དུ་",87,89,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"4slQkHfZYE9Fh","number of hours in plane from lhasa to chengdu (3 hrs)","ཨ་ནི་ གསུམ་ ཙམ་ ཅིག་ མིན་འགྲོ །",23,"ཆུ་ཚོད་ གསུམ ། ཨ་ནི་ གསུམ་ ཙམ་ ཅིག་",91,97,FALSE,"n",FALSE,NA,"PRED",FALSE,FALSE,FALSE,9,FALSE,FALSE
+"HSKt3Bgcvue","grang tu","གྲང་ཏུ་ ནས་ འོ་ ་་",30,"གྲང་ཏུ་ ནས་",132,133,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"rXmp4HJzF8y","pe cing","པེ་ཅིང་ བར་ དུ་",31,"པེ་ཅིང་ བར་ དུ་",136,138,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"8XLkDFPpYzY","time from Chengdu to Beijing (1 hr and a bit)","<0> ཆུ་ཚོད་ གཅིག་ དང་ ལྷག་ ཙམ་ རེད་ འདུག་ ག",32,"ཆུ་ཚོད་ གཅིག་ དང་ ལྷག་ ཙམ་",140,144,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,6,FALSE,FALSE
+"xVsP0pvphcr","lha sa","ཨ་ནི་ ལྷ་ས་ ནས་",34,"ལྷ་ས་ ནས་",151,152,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"Xh1KvJ2PCbrQI","grang tu","གྲང་ཏུ་ བར་ དུ་",36,"དེ་ བར་ དུ་ གྲང་ཏུ་ བར་ དུ་",153,158,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,7,FALSE,FALSE
+"Ki8Gk1Xhc0B","lhasa to chengdu travel time (2 hrs)","<0> ཆུ་ཚོད་ གཉིས་ རེད་པ །",37,"ཆུ་ཚོད་ གཉིས་",160,161,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"78Ff1UH9UCt","pe cing","པེ་ཅིང་ ནས་",42,"པེ་ཅིང་ ནས་",186,187,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"2uAacHpp3Rm","a ri","ཨ་རི་ བར་ དུ་ ག་ཚོད་ <0> འགོར་ གྱི་ འདུག",44,"ཨ་རི་ བར་ དུ་",189,191,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"EJo5jhsuyJ8","time from Beijing to US (13 hours)","ཨ་རི་ བར་ དུ་ ག་ཚོད་ <0> འགོར་ གྱི་ འདུག",44,"ག་ཚོད་",192,192,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"IKRWCJBql5z","a ri","ཁོང་ ཚོ འི་ དེ ར་ ཚལ་ རྗེན་པ་ ཞེ་པོ་ འདུག་ ག",82,"ཁོང་ ཚོ འི་ དེ ར་",337,341,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,5,TRUE,TRUE
+"xl17O6uGXNt","tshal rjen pa","ཁོང་ ཚོ འི་ དེ ར་ ཚལ་ རྗེན་པ་ ཞེ་པོ་ འདུག་ ག",82,"ཚལ་ རྗེན་པ་",342,343,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"W2a66FVl8wK","flight attendants","ཁོང་ ཚོ ས་",105,"ཁོང་ ཚོ ས་",454,456,FALSE,"i",NA,FALSE,"A",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"bmlkfD0R7g4","ga re 'thung ga","_uh_ ག་རེ་ འཐུང་ གར་ ཟེར་ གྱི་ འདུག་ ག",106,"ག་རེ་ འཐུང་ གར་",458,460,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"XInnjtmV3fb","gnam gru (general, all the planes)","# གནམ་གྲུ འི་ ནང་ ལ་ ལས་ཀ་ བྱེད་ མཁན་",116,"གནམ་གྲུ འི་ ནང་ ལ་",508,511,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"fvBelvwVwaI","rgya mi","རྒྱ་མི་ མི་ འདུག་ གས",117,"རྒྱ་མི་",515,515,FALSE,"n",NA,FALSE,"EXIST",TRUE,FALSE,FALSE,2,FALSE,FALSE
+"hbvvsc8RYbY","sgrol dkar lags","རང་ རྒྱ་སྐད་ ཤེས་ ཀྱི་ རེད་ པ",120,"རང་",530,530,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,1,TRUE,FALSE
+"NdpsAhga4GS","rga skad","རང་ རྒྱ་སྐད་ ཤེས་ ཀྱི་ རེད་ པ",120,"རྒྱ་སྐད་",531,531,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"z8DhjUwza1H","gnam gru (beijing to us)","གནམ་གྲུ འི་ ད་ལྟ འི་ ་་་",138,"གནམ་གྲུ འི་",622,623,FALSE,"i",NA,FALSE,"S",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"uFs0KUfgNkrEp","sa mtshams (US)","གཅིག་ ཡོད་ རེད་ པ་ ་་",140,"ཨ་རི འི་ དེ འི་ གཅིག་ ཡོད་ རེད་ པ་ ་་",627,635,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,9,FALSE,TRUE
+"ggwK2cYUomc","sgag sgo","ག་རེ་ རེད་ ་་་ ཁོང་ ཚོ ས་",143,"ཁོང་ ཚོ ས་",648,650,FALSE,"i",NA,FALSE,"A",TRUE,FALSE,FALSE,3,TRUE,TRUE
+"pycyDdcBs9M","lam yig","_um_ ལམ་ཡིག་ སྤྲད་ དུས་ <0> ག འི་ ཟེར་ གྱི་ མི་ འདུག་ གས་ འཆན་ཀྲངས",145,"ལམ་ཡིག་",653,653,FALSE,"i",NA,FALSE,"T",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"BbWFGgROMCq","sgag sgo","འགག་སྒོ་ ནས་ <0> _uh_",159,"འགག་སྒོ་ ནས་",712,713,FALSE,"i",NA,FALSE,"A",TRUE,FALSE,FALSE,3,FALSE,FALSE
+"h3zevTPfI8g","ga tshod bsdad mkhan yin","ག་ཚོད་ བསྡད་ མཁན་ ཡིན་ པ་ ཟེར །",161,"ག་ཚོད་ བསྡད་ མཁན་ ཡིན་ པ་",718,722,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,6,FALSE,FALSE
+"XLqAOhz8niH","po po (?)","རང་ པོ་པོ་ ནང་ ལ་ དངུལ་ ག་ཚོད་ འཁྱེར་ ཡོད་ ཟེར །",168,"རང་ པོ་པོ་ ནང་ ལ་",756,759,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"i7bVvFWjbOh","dngul ga tshod","རང་ པོ་པོ་ ནང་ ལ་ དངུལ་ ག་ཚོད་ འཁྱེར་ ཡོད་ ཟེར །",168,"དངུལ་ ག་ཚོད་",760,761,FALSE,"n",FALSE,TRUE,"EXIST",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"PBmjbeSFZcU","sgrol dkar and family","ང་རང་ ཚོ་ ཀྲུང་གོ འི་ དངུལ་ རེད་",173,"ང་རང་ ཚོ་",781,782,TRUE,"i",TRUE,FALSE,"COPS",TRUE,TRUE,FALSE,3,TRUE,FALSE
+"AtPGBdU0tMv","krung go'i dngul","ང་རང་ ཚོ་ ཀྲུང་གོ འི་ དངུལ་ རེད་",173,"ཀྲུང་གོ འི་ དངུལ་",783,785,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"IdkDFqBJvEn","bsod nams","ང་",205,"ང་",991,991,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"2NAGIc98Vk0vQ","sha skam po (bsod nams')","དྲུག་ འཁྱེར་ སོང་ ང་ ་་ ནང་ ནས་ ཟླ་ཉིན །",209,"ཤ་སྐམ་པོ་ འོ་ ་་་ རས་ཁུག་ དྲུག་ དྲུག་",992,997,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,8,FALSE,FALSE
+"noYw0DQUVW7","sgag sgo","ཁོང་ ཚོ ས་ ཕར་ ནས་ <0> འཕྲོགས་ སོང་ ང་ །",212,"ཁོང་ ཚོ ས་",1017,1019,FALSE,"i",NA,FALSE,"A",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"ja4ICfqmyqJ","boxes for putting things in (?)","ཁོང་ ཚོ ས་ ཕར་ ནས་ <0> འཕྲོགས་ སོང་ ང་ །",212,"ཕར་ ནས་",1020,1021,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"mMZR4TWrXtg5N","shog bu'i sgang","ཤོག་བུ་ དེ འི་ སྒང་ ལ་ ཡ་",229,"དེ འི་ ཤོག་བུ་ དེ འི་ སྒང་ ལ་ ཡ་",1092,1099,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,9,FALSE,FALSE
+"9SGHKGkfYN4","to people (general)","མི་ ལ་ ཡ་",231,"མི་ ལ་ ཡ་",1101,1103,FALSE,"n",NA,FALSE,"R",TRUE,FALSE,FALSE,5,FALSE,FALSE
+"Dac1Q7pdvkK","please help me","དེ་ བྱེད་ ཡ་ བྲིས་ ཡོད་ རེད་ པ །",232,"དེ་ བྱེད་ ཡ་",1104,1106,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"JM5mSwyDjwr","sgrol dkar lags","ང་ དབྱིན་ཇི་ ཤེས་ ཀྱི་ མེད་ ཟེར །",233,"ང་",1112,1112,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"TuueruhwoPV","dbyin ji","ང་ དབྱིན་ཇི་ ཤེས་ ཀྱི་ མེད་ ཟེར །",233,"དབྱིན་ཇི་",1113,1113,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE

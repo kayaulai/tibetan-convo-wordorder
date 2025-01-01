@@ -1,0 +1,11 @@
+﻿id,name,unitLastWord,unitSeqLast,word,docTokenSeqFirst,docTokenSeqLast,local,identifiable,topic,interrog,argType,animate,self,addressee,length,pronom
+1D4EAB4405B0D,rgan lags kyis,རྒན་ ལགས་ ཀྱིས་ དགོང་མོ འི་ སློབ་ཚན་ ཡོད་ རེད་ གསུང་ གིས །,8,རྒན་ ལགས་ ཀྱིས་,30,32,FALSE,i,FALSE,FALSE,A,TRUE,FALSE,FALSE,3,FALSE
+2BCDF0F1556C5,dgong mo'i slob tshan yod red,རྒན་ ལགས་ ཀྱིས་ དགོང་མོ འི་ སློབ་ཚན་ ཡོད་ རེད་ གསུང་ གིས །,8,དགོང་མོ འི་ སློབ་ཚན་ ཡོད་ རེད་,33,37,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,7,FALSE
+1A60EB42CF328,mi tsho slob grogs,ཁོ་ ཚོ་ སློབ་གྲྭ ར་ སློབ་སྦྱོང་ ཡོད་ མ་ རེད་ པས །,11,ཁོ་ ཚོ་,50,51,FALSE,i,TRUE,FALSE,COPLOC,TRUE,FALSE,FALSE,2,TRUE
+2FD76DFE94526,slob sbyong,ཁོ་ ཚོ་ སློབ་གྲྭ ར་ སློབ་སྦྱོང་ ཡོད་ མ་ རེད་ པས །,11,སློབ་སྦྱོང་,54,54,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,2,FALSE
+DBC5A012BB66,nga tsho grogs mo 'di gas,ང་ ཚོ་ གྲོགས་མོ་ འདི་གས་,12,ང་ ཚོ་ གྲོགས་མོ་ འདི་གས་,60,63,FALSE,i,FALSE,FALSE,S,TRUE,TRUE,FALSE,6,FALSE
+31C9D540D5D79,phyi log la,ཕྱི་ལོག་ ལ་  <0> ཁ་ལག་ བཟའ་ གར་ ཕྱིན་པ་ ཡིན །,13,ཕྱི་ལོག་ ལ་,64,65,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,3,FALSE
+1467FEDF053CF,nang la,ནང་ ལ་ ཁ་ལག་ བཟའ་ ཡ་ མི་ འདུག་ གས །,15,ནང་ ལ་,76,77,FALSE,i,FALSE,FALSE,COPLOC,FALSE,FALSE,FALSE,2,FALSE
+2158CBF90E34A,kha lag bza' ya,ནང་ ལ་ ཁ་ལག་ བཟའ་ ཡ་ མི་ འདུག་ གས །,15,ཁ་ལག་ བཟའ་ ཡ་,78,80,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,3,FALSE
+52F079E8C829,phur sgron,རང་ སློབ་སྦྱོང་ ལ་ དོ་སྣང་ བྱེད་ ཀྱི་ མིན་ པས་,18,རང་,98,98,FALSE,i,TRUE,FALSE,S,TRUE,FALSE,FALSE,1,TRUE
+18BE0C2044963,slob sbyong general,རང་ སློབ་སྦྱོང་ ལ་ དོ་སྣང་ བྱེད་ ཀྱི་ མིན་ པས་,18,སློབ་སྦྱོང་ ལ་,99,100,FALSE,i,FALSE,FALSE,P,FALSE,FALSE,FALSE,3,FALSE

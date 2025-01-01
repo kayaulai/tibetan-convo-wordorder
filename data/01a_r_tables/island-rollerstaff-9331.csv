@@ -1,0 +1,13 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"SzH46GtpCnV","bu","ཨོའོ་ ཅོ་ རང་ ས་ གང་ ནས་ ཕེབས་ རྒྱོག་ ཡིན་ ནམ །",4,"ཅོ་ རང་",15,16,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,2,FALSE,FALSE
+"ZGeQOufWvkr","bu'i pha yul","ཨོའོ་ ཅོ་ རང་ ས་ གང་ ནས་ ཕེབས་ རྒྱོག་ ཡིན་ ནམ །",4,"ས་ གང་ ནས་",17,19,FALSE,"n",NA,NA,"E",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"eKlxAh9AwBd","bu","ང་ སྟོད་ལུང་ ནས་ ཡིན །",5,"ང་",25,25,TRUE,"i",TRUE,FALSE,"COPS",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"69kiM1ko04v","stod lung","ང་ སྟོད་ལུང་ ནས་ ཡིན །",5,"སྟོད་ལུང་ ནས་",26,27,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"SN0wweCRAso","bu","ཁྱེད་ རང་ ཕྱག་ལས་ ག་རེ་ གནང་ མཁན་ ཡིན་ ནམ །",12,"ཁྱེད་ རང་",74,75,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"og5z3pDuSxH","las ka (old)","ཁྱེད་ རང་ ཕྱག་ལས་ ག་རེ་ གནང་ མཁན་ ཡིན་ ནམ །",12,"ཕྱག་ལས་ ག་རེ་",76,77,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"h1QPBgAXosF","bu","ཁྱེད་ རང་ ཕྱག་ལས་ འདི ར་ མཉེས་པོ་ ཡོད་ ན་",16,"ཁྱེད་ རང་",89,90,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"3H6AhapfRYh","las ka","ཁྱེད་ རང་ ཕྱག་ལས་ འདི ར་ མཉེས་པོ་ ཡོད་ ན་",16,"ཕྱག་ལས་ འདི ར་",91,93,TRUE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"T53MAw07HGJ","bu","འོ་ འོ ། ང་ འདི ར་ དགའ་པོ་ ཡོད །",17,"ང་",100,100,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"sVMVFrNoYCU","las ka","འོ་ འོ ། ང་ འདི ར་ དགའ་པོ་ ཡོད །",17,"འདི ར་",101,102,TRUE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"ct90h0PNOlc","bu","ཨ་ནི་ ཁྱེད་ རང་ _P_ ཨེ་འདྲས །",28,"ཁྱེད་ རང་",168,169,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"AMJ2VOKxEBh","las ka","ད་ལྟ་ འདི ར་",30,"འདི ར་",175,176,TRUE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,2,TRUE,FALSE

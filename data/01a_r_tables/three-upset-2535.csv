@@ -1,0 +1,29 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"FUOMlGnfRgk","khong tsho (?)","ཁོང་ ཚོ ས་ མཁྲིས་པ་ ཟེར་ ཡ་ ཅིག་ རེད་ ཟེར་ གྱིས་",11,"ཁོང་ ཚོ ས་",53,55,FALSE,"i",NA,FALSE,"A",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"iLMrZCaNdp7","mkhris pa","ཁོང་ ཚོ ས་ མཁྲིས་པ་ ཟེར་ ཡ་ ཅིག་ རེད་ ཟེར་ གྱིས་",11,"མཁྲིས་པ་",56,56,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"qiMNaKpf4B1","mkhris pa zer ya gcig red","ཁོང་ ཚོ ས་ མཁྲིས་པ་ ཟེར་ ཡ་ ཅིག་ རེད་ ཟེར་ གྱིས་",11,"མཁྲིས་པ་ ཟེར་ ཡ་ ཅིག་ རེད་",56,60,FALSE,"i",FALSE,TRUE,"P",FALSE,FALSE,FALSE,6,FALSE,FALSE
+"dHWPh1Wb94S","zer ya","ཁོང་ ཚོ ས་ མཁྲིས་པ་ ཟེར་ ཡ་ ཅིག་ རེད་ ཟེར་ གྱིས་",11,"ཟེར་ ཡ་ ཅིག་",57,59,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"2dSVaq3Lxhz","the illness","ད་ དེ་ ག་རེ་ རེད་  ཟེར་ ན་",31,"དེ་",150,150,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"JspuJyOYNbO","sman rtsis khang la 'di gcig red","ད་ དེ་ ག་རེ་ རེད་  ཟེར་ ན་",31,"ག་རེ་",151,151,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"CKox6TdIvNW","mkhris pa'i nang logs la","མཁྲིས་པ འི་ ནང་ལོགས་ ལ་ རྡོ་ ཡོད་པ་ ཅིག་ ཡོད་ རེད་ པ །",58,"མཁྲིས་པ འི་ ནང་ལོགས་ ལ་",276,279,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,6,FALSE,FALSE
+"89jnsca1AgE","rdo","མཁྲིས་པ འི་ ནང་ལོགས་ ལ་ རྡོ་ ཡོད་པ་ ཅིག་ ཡོད་ རེད་ པ །",58,"རྡོ་",280,280,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"nNQGJ9armTk","rgan lags","ད་ ང ས་ དེ འི་ མིང་ དེ་ བཤད་ ཤེས་ མ་ སོང་ །",64,"ང ས་",313,314,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"YGCe3agrpW3","rgya sman gyi ming","ད་ ང ས་ དེ འི་ མིང་ དེ་ བཤད་ ཤེས་ མ་ སོང་ །",64,"དེ འི་ མིང་ དེ་",315,318,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"3EVf3K7lC03","rgya sman (specific)","དེ ས་",66,"དེ ས་",327,328,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"7eWbnTz3OiH","rdo 'di mar bton gyi yod red","ག་རེ་ ཟེར་ གྱི་ ཡོད་ རེད་ ཟེར་ ན་",67,"ག་རེ་",329,329,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"l0wnPAMEEiq","mkhris pa","མཁྲིས་པ་ དེ ར་ སྒོང་ང་ དེ་ གནོད་པོ་ ཞེ་པོ་ ཅིག་ འདུག་ ག",103,"མཁྲིས་པ་ དེ ར་",495,497,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"mBB2cerY1RD","sgong nga","མཁྲིས་པ་ དེ ར་ སྒོང་ང་ དེ་ གནོད་པོ་ ཞེ་པོ་ ཅིག་ འདུག་ ག",103,"སྒོང་ང་ དེ་",498,499,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"XCGfoKlZmZz","mkhris pa","མཁྲིས་པ འི་ ནང་ ལ་ རྡོ་ ཡོད་པ་ དེ་ ན་ཚ་ དེ་ ན་ དུས་ ཙམ་པ ར་ མཚམས་མཚམས་ དེ་འདྲས་ ཅིག་ འདུག",118,"མཁྲིས་པ འི་ ནང་ ལ་",553,556,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"p72hMRGJjuT","rdo","མཁྲིས་པ འི་ ནང་ ལ་ རྡོ་ ཡོད་པ་ དེ་ ན་ཚ་ དེ་ ན་ དུས་ ཙམ་པ ར་ མཚམས་མཚམས་ དེ་འདྲས་ ཅིག་ འདུག",118,"རྡོ་",557,557,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"ZZGNTTMS9SJ","rdab tsog ","མཁྲིས་པ འི་ ནང་ལོགས་ གི་ རྡབ་ཙོག་ དེ ས །",128,"མཁྲིས་པ འི་ ནང་ལོགས་ གི་ རྡབ་ཙོག་ དེ ས",605,611,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,9,FALSE,FALSE
+"uEgMWtt13Lz","nyen kha","གཉེན་ཀ་ ཆགས་ བྱས་",130,"གཉེན་ཀ་",615,615,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"r0q5cc37T4l","rdab tsog ","ཨ་ནི་ ཁོ ས་ དེ་ བྱེད་ ཀྱི་ ཡོད་ རེད་ ཟེར་ གྱི་ འདུག་ ག་",134,"ཁོ ས་",630,631,FALSE,"i",NA,FALSE,"A",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"zNepXjqDgki","na tsha de yar langs byas","ཨ་ནི་ ཁོ ས་ དེ་ བྱེད་ ཀྱི་ ཡོད་ རེད་ ཟེར་ གྱི་ འདུག་ ག་",134,"དེ་",632,632,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"1y9n77l5Bfe","khag gcig (stone type) (2)","ཁག་ ཅིག་ ལ་ ཡང་ རྡོ་",159,"ཁག་ ཅིག་ ལ་ ཡང་",752,755,FALSE,"n",NA,FALSE,"A",TRUE,FALSE,FALSE,4,FALSE,FALSE
+"SdOKh9gmk2O","bye ma nang bzhin zhib zhib red","དེ་ ཟེར་ གྱི་ འདུག་ ག",160,"དེ་",757,757,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"VkHhrWFneWT","so so (general)","སོ་སོ ས་ སོ་སོ ར་ གཟབ་གཟབ་ བྱས་པ་ ཡིན་ ན །",206,"སོ་སོ ས་",965,966,FALSE,"n",NA,FALSE,"S",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"JkHBqQ7LW0Q","so so (general)","སོ་སོ ས་ སོ་སོ ར་ གཟབ་གཟབ་ བྱས་པ་ ཡིན་ ན །",206,"སོ་སོ ར་",967,968,FALSE,"i",NA,FALSE,"E",TRUE,FALSE,FALSE,3,TRUE,FALSE
+"uR38gvDj5sf","so so (general)","དེ་ སོ་སོ ས་ ཡང་ ཅིག་ ཡོད་ རེད་ ད །",264,"སོ་སོ ས་ ཡང་",1231,1233,FALSE,"i",NA,FALSE,"COPLOC",TRUE,FALSE,FALSE,4,TRUE,FALSE
+"p4lN8U2fKJp","gcig","དེ་ སོ་སོ ས་ ཡང་ ཅིག་ ཡོད་ རེད་ ད །",264,"ཅིག་",1234,1234,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,1,FALSE,FALSE
+"5XCwwAE03jd","am chi so so","ཨེམ་ཆི་ སོ་སོ་ ལ འང་ ལས་ དེ་ འདུག་ ག",269,"ཨེམ་ཆི་ སོ་སོ་ ལ འང་",1251,1254,FALSE,"n",NA,FALSE,"COPLOC",TRUE,FALSE,FALSE,6,FALSE,FALSE
+"dNzdHz0Z3sp","las","ཨེམ་ཆི་ སོ་སོ་ ལ འང་ ལས་ དེ་ འདུག་ ག",269,"ལས་ དེ་",1255,1256,FALSE,"i",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE

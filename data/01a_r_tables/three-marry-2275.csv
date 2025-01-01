@@ -1,0 +1,18 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"Wb2ArLrMbT6","mchod chang","མཆོད་ཆང་ ལ་ ནི་ སྦྲང་རྩི་ སྙིང་པོ་ <0> ་་་",2,"མཆོད་ཆང་ ལ་ ནི་",2,4,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"BgQSJot3KcR","sbrang rtsi","མཆོད་ཆང་ ལ་ ནི་ སྦྲང་རྩི་ སྙིང་པོ་ <0> ་་་",2,"སྦྲང་རྩི་ སྙིང་པོ་",5,6,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"DFimdbtzRww","tshe dpal","རང་ ག་པ ར་ ཐད་ མཁན་ ཡིན་པ །",5,"རང་",14,14,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,1,TRUE,FALSE
+"F1ui1eX5lWF","tshe dpal 'gro sa","རང་ ག་པ ར་ ཐད་ མཁན་ ཡིན་པ །",5,"ག་པ ར་",15,16,FALSE,"n",NA,FALSE,"E",FALSE,FALSE,FALSE,3,TRUE,FALSE
+"gvLFEpqDhWR","tshang ma","ཚང་མ་ ང ས་ བྱེད་ དགོས་ རེད་ ད །",25,"ཚང་མ་",128,128,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"q5M9eRhkd8W","a cag","ཚང་མ་ ང ས་ བྱེད་ དགོས་ རེད་ ད །",25,"ང ས་",129,130,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"bo9OfJIrgzT","tshang ma","གང་ག་ ང ས་ བྱེད་ དགོས་ རེད་ ད །",32,"གང་ག་",175,175,FALSE,"i",NA,NA,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"OD3q96il4X6","a cag","གང་ག་ ང ས་ བྱེད་ དགོས་ རེད་ ད །",32,"ང ས་",176,177,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"Q9SagoQGkjz","tshang ma","ཚང་མ་ ང ས་ བྱེད་ དགོས་ རེད །",34,"ཚང་མ་",193,193,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"MkfOzoJAKIz","a cag","ཚང་མ་ ང ས་ བྱེད་ དགོས་ རེད །",34,"ང ས་",194,195,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"SQwFkF0y61j","tshe dpal (+ friends?)","རྗེས་མ ར་ སོ་སོ་ གང་ག་ སོ་སོ ར་ ཁྱེར་ ན་ ཨ་ནི་",45,"སོ་སོ་",264,264,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"xoZ0t9Bxs0b","gang ga (all burdens)","རྗེས་མ ར་ སོ་སོ་ གང་ག་ སོ་སོ ར་ ཁྱེར་ ན་ ཨ་ནི་",45,"གང་ག་",265,265,FALSE,"i",NA,NA,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"KppOyFmyTh9","tshe dpal (+ friends?)","རྗེས་མ ར་ སོ་སོ་ གང་ག་ སོ་སོ ར་ ཁྱེར་ ན་ ཨ་ནི་",45,"སོ་སོ ར་",266,267,TRUE,"i",NA,FALSE,"E",TRUE,FALSE,TRUE,3,TRUE,FALSE
+"4kT276MUl4r","a cag lags etc","ང་ ཚོ་ ཕྲུ་གུ་ འི་ ཨ་མ་ རེད་པ །",48,"ང་ ཚོ་",280,281,TRUE,"i",TRUE,FALSE,"COPS",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"PXAyNXAmCl5","a cag lags etc","ང་ ཚོ་ ཕྲུ་གུ་ འི་ ཨ་མ་ རེད་པ །",48,"ཕྲུ་གུ་ འི་ ཨ་མ་",282,284,TRUE,"n",FALSE,FALSE,"PRED",TRUE,TRUE,FALSE,5,FALSE,FALSE
+"s55Xy9Y1A1y","tshe dpal","དེ་དུས་ ང ས་ _P_ <0> ག་འདྲས་ འདུག་ བལྟས་ དགོས་ ཨ ། _Hx_",77,"ང ས་",458,459,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE,TRUE
+"E0GAtBXfZV3","ga 'dras 'dug","དེ་དུས་ ང ས་ _P_ <0> ག་འདྲས་ འདུག་ བལྟས་ དགོས་ ཨ ། _Hx_",77,"<0> ག་འདྲས་ འདུག་",461,463,FALSE,"i",FALSE,TRUE,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE

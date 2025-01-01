@@ -1,0 +1,15 @@
+﻿id,name,unitLastWord,unitSeqLast,word,docTokenSeqFirst,docTokenSeqLast,local,identifiable,topic,interrog,argType,animate,self,addressee,length,pronom,haveBridges
+243F2C438BA70,don dag,ད་ འདི་ ང་ ག་འདྲ་སེ་ བཤད་ དགོས་ རེད །,20,འདི་,89,89,FALSE,i,TRUE,FALSE,P,FALSE,FALSE,FALSE,1,TRUE,FALSE
+C830CCD9C111,zla sgron,ད་ འདི་ ང་ ག་འདྲ་སེ་ བཤད་ དགོས་ རེད །,20,ང་,90,90,TRUE,i,FALSE,FALSE,A,TRUE,TRUE,FALSE,1,TRUE,FALSE
+14583C278A513,zla ba,གཅིག་ ནི་ ང འི་ དགའ་རོགས་ རེད །,27,གཅིག་ ནི་,127,128,FALSE,i,TRUE,FALSE,COPS,TRUE,FALSE,FALSE,2,FALSE,TRUE
+36D4BD528B66B,zla ba,གཅིག་ ནི་ ང འི་ དགའ་རོགས་ རེད །,27,ང འི་ དགའ་རོགས་,129,131,FALSE,i,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,4,FALSE,TRUE
+37B4DEA9F9456,phur sgron,གཅིག་ ནི་ ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་ རེད །,28,གཅིག་ ནི་,134,135,FALSE,i,TRUE,FALSE,COPS,TRUE,FALSE,FALSE,2,FALSE,TRUE
+38742613024F9,phur sgron,གཅིག་ ནི་ ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་ རེད །,28,ང འི་ གྲོགས་མོ་ ཡག་ ཤོས་ དེ་,136,141,FALSE,i,FALSE,FALSE,PRED,TRUE,FALSE,FALSE,7,FALSE,TRUE
+387CED7E65CF8,zla sgron dang zla ba,ཁྱེད་ རང་ ཚོ་ ད་ལྟ་ གཞོན་ནུ་ རེད་པ །,32,ཁྱེད་ རང་ ཚོ་,164,166,FALSE,i,TRUE,FALSE,COPS,TRUE,FALSE,TRUE,3,TRUE,TRUE
+2BEDB8570FFDD,zla sgron dang zla ba,ཁྱེད་ རང་ ཚོ་ ད་ལྟ་ གཞོན་ནུ་ རེད་པ །,32,གཞོན་ནུ་,168,168,FALSE,n,FALSE,FALSE,PRED,TRUE,FALSE,TRUE,2,FALSE,TRUE
+30798F35216B1,zla ba,གལ་སྲིད་ རང་ དང་ ཟླ་བ་ ལགས་,33,རང་ དང་ ཟླ་བ་ ལགས་,172,175,FALSE,i,TRUE,FALSE,COPLOC,TRUE,FALSE,TRUE,5,TRUE,TRUE
+33539C64BF04E,brtse dung,དངོས་གནས་ ཀྱི་ བརྩེ་དུང་ ཡོད་པ་ བྱས །,34,དངོས་གནས་ ཀྱི་ བརྩེ་དུང་,176,178,FALSE,n,FALSE,FALSE,EXIST,FALSE,FALSE,FALSE,5,FALSE,FALSE
+F17E29463C64,zla sgron,ད་ མ་གཞི་ ནས་ རང་ དེང་སང་ ནང་ གི་ སྦུག་ ལ་ འཛུལ་ མ་ བསྡད་པ་ བྱས་,37,རང་,200,200,TRUE,i,TRUE,FALSE,S,TRUE,FALSE,TRUE,1,TRUE,TRUE
+1EEAF05EBD23F,nang gi sbug,ད་ མ་གཞི་ ནས་ རང་ དེང་སང་ ནང་ གི་ སྦུག་ ལ་ འཛུལ་ མ་ བསྡད་པ་ བྱས་,37,ནང་ གི་ སྦུག་ ལ་,202,205,FALSE,i,FALSE,FALSE,E,FALSE,FALSE,FALSE,4,FALSE,FALSE
+DDCC03AD4B97,zla sgron,རང་ གིས་ <0> མཚམས་ ཅིག་ དགོས་ དུས་,52,རང་ གིས་,280,281,TRUE,i,TRUE,FALSE,A,TRUE,FALSE,TRUE,2,TRUE,TRUE
+3154263F022BC,kha lag,ཁ་ལག་ དུས་ཐོག་ ལ་ མ་ བཟས་པ་ བྱས་,53,ཁ་ལག་,287,287,FALSE,n,FALSE,FALSE,P,FALSE,FALSE,FALSE,2,FALSE,FALSE

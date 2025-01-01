@@ -1,0 +1,28 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"2C256B072A61","nang","<0> འདི་ མགྲོན་ཁང་ འདྲ་ཅིག་ རེད་ བསམ་་ གནང་ གི་ འདུག་ གས །",5,"འདི་",24,24,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"2B9E857D96E56","nang","<0> འདི་ མགྲོན་ཁང་ འདྲ་ཅིག་ རེད་ བསམ་་ གནང་ གི་ འདུག་ གས །",5,"མགྲོན་ཁང་ འདྲ་ཅིག་",25,26,FALSE,"n",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"6AE447DCF236","pa lags","རྟག་པ ར་ རེ་ བཞིན་ ཁྱེད་རང་ ལས་ཁུངས་ ཟེར་ བྱས་",13,"ཁྱེད་རང་",68,68,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"BD6B871CB463","las khungs","རྟག་པ ར་ རེ་ བཞིན་ ཁྱེད་རང་ ལས་ཁུངས་ ཟེར་ བྱས་",13,"ལས་ཁུངས་",69,69,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"3315183081D54","tshang ma","འགང་ག་ ཚང་མ་ ང་ མི་ གཅིག་ གིས་ བྱེད་ དགོས་ ཀྱིས་",36,"འགང་ག་ ཚང་མ་",176,177,FALSE,"i",NA,NA,"P",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"1DA8964A074ED","a ma lags","འགང་ག་ ཚང་མ་ ང་ མི་ གཅིག་ གིས་ བྱེད་ དགོས་ ཀྱིས་",36,"ང་ མི་ གཅིག་ གིས་",178,181,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,4,FALSE,FALSE
+"141EC8BC4B895","a ma lags","ཁྱེད་རང་ ཨམ་- ནང་ གི་ ཨ་མ་ ཡིན་པ འི་",39,"ཁྱེད་རང་",196,196,TRUE,"i",TRUE,FALSE,"COPS",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"122B0C167F709","a ma lags","ཁྱེད་རང་ ཨམ་- ནང་ གི་ ཨ་མ་ ཡིན་པ འི་",39,"ཨམ་-",197,197,FALSE,"i",FALSE,FALSE,"PRED",TRUE,FALSE,FALSE,1,FALSE,FALSE
+"113A0EF210FFB","a ma lags","ཁྱེད་རང་ ཨམ་- ནང་ གི་ ཨ་མ་ ཡིན་པ འི་",39,"ནང་ གི་ ཨ་མ་",198,200,FALSE,"i",FALSE,FALSE,"PRED",TRUE,FALSE,FALSE,4,FALSE,FALSE
+"21773689653A2","thugs 'khur gnang ya","ཨ་མ ས་ ཏོག་ཙམ་ ཅིག་ གི་ ཐུགས་འཁུར་ གནང་ ཡ་ དེ་",43,"ཨ་མ ས་ ཏོག་ཙམ་ ཅིག་ གི་ ཐུགས་འཁུར་ གནང་ ཡ་ དེ་",213,221,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,12,FALSE,FALSE
+"25E4CA840E97D","'so 'gan","ཨ་མ འི་ འོས་འགན་ རེད །",44,"ཨ་མ འི་ འོས་འགན་",222,224,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"261B1348D6DD1","thugs 'khur gnang ya","ཨ་མ ས་ ཐུགས་འཁུར་ བྱེད་ ཡ་ ",47,"ཨ་མ ས་ ཐུགས་འཁུར་ བྱེད་ ཡ་",243,247,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,7,FALSE,FALSE
+"23A6726EBD58C","'so 'gan","ཨ་མ འི་ འོས་འགན་ སོང་ ཙང་",48,"ཨ་མ འི་ འོས་འགན་",249,251,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"34DCF0A391A26","las khungs","ལས་ཁུངས་ ལ་ ལས་ཀ་ མེད་པ་ ཡིན་ ན་",54,"ལས་ཁུངས་ ལ་",287,288,FALSE,"i",NA,FALSE,"COPLOC",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"12163A817BA0B","las ka (general)","ལས་ཁུངས་ ལ་ ལས་ཀ་ མེད་པ་ ཡིན་ ན་",54,"ལས་ཀ་",289,289,FALSE,"i",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"E4DAEE69E275","brdo tho","འདི་ ཕྲུ་གུ་ འི་ ཁྱིམ་བདག་ ཚོགས་འདུ འི་ བརྡ་ཐོ་ རེད །",61,"འདི་",331,331,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"199DBB21EB17E","brdo tho","འདི་ ཕྲུ་གུ་ འི་ ཁྱིམ་བདག་ ཚོགས་འདུ འི་ བརྡ་ཐོ་ རེད །",61,"ཕྲུ་གུ་ འི་ ཁྱིམ་བདག་ ཚོགས་འདུ འི་ བརྡ་ཐོ་",332,337,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,10,FALSE,FALSE
+"7C315A223EF2","khyim bdag tshogs 'du dang glog rin","ད་ འདི་ ཁྱེད་རང་ གིས་ གནང་ ཨ་",65,"འདི་",350,350,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,1,TRUE,TRUE
+"27E7B887A58FA","pa lags","ད་ འདི་ ཁྱེད་རང་ གིས་ གནང་ ཨ་",65,"ཁྱེད་རང་ གིས་",351,352,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,3,TRUE,FALSE
+"28768A871F22D","khyim bdag tshogs 'du","ཕྲུ་གུ་ུ འི་ ཁྱིམ་བདག་ གི་ ཚོགས་འདུ་ འདི ར་ ཡ་",71,"ཕྲུ་གུ་ུ འི་ ཁྱིམ་བདག་ གི་ ཚོགས་འདུ་ འདི ར་",379,385,TRUE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,11,FALSE,TRUE
+"11A5B12509B77","Dekyi","བདེ་སྐྱིད་ ཕྱིན་ ན་ འགྲིག་ གི་ མ་ རེད་པ ས །",72,"བདེ་སྐྱིད་",387,387,FALSE,"i",NA,FALSE,"S",TRUE,FALSE,FALSE,2,FALSE,FALSE
+"364557C9B7F30","glog rin","ཡང་ མིན་ ན་ གློག་རིན་ རྐུབ་ ལ་",88,"གློག་རིན་ རྐུབ་ ལ་",457,459,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"21474C8E3FC41","a ma lags","ཁྱེད་རང་ ཐད་ ་་་",89,"ཁྱེད་རང་",460,460,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"212CFAC7362DC","khyim bdag tshogs 'du","ཁྱིམ་བདག་ རྐུབ་ ལ་ ཡང་",91,"ཁྱིམ་བདག་ རྐུབ་ ལ་ ཡང་",466,469,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,5,FALSE,FALSE
+"D50B15DE7A21","a ma lags","ཁྱེད་རང་ ཐད་་",92,"ཁྱེད་རང་",470,470,TRUE,"i",NA,FALSE,"S",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"247F38BE5934E","pa lags","ཁྱེད་རང་ ག་རེ་ གནང་ ག",100,"ཁྱེད་རང་",501,501,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE,FALSE
+"3443CECAE2593","ga re","ཁྱེད་རང་ ག་རེ་ གནང་ ག",100,"ག་རེ་",502,502,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,2,TRUE,FALSE

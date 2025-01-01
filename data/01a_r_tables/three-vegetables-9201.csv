@@ -1,0 +1,21 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","docTokenSeqFirst","docTokenSeqLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom","haveBridges"
+"wILjdolAsP6","kro ma kro","འདི འི་ ཀྲུ་མ་ཀྲུ་ ལ་ ག་ཚོད་ རེད ལགས །",1,"འདི འི་ ཀྲུ་མ་ཀྲུ་ ལ་",1,4,FALSE,"i",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,6,FALSE,FALSE
+"CouuHKeOxVu","kro ma kro'i gong tshad","འདི འི་ ཀྲུ་མ་ཀྲུ་ ལ་ ག་ཚོད་ རེད ལགས །",1,"ག་ཚོད་",5,5,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"HXExidDbTRS","kro ma kro'i gong tshad","<0> སྒོར་མོ་ གཅིག་ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་ པས །",3,"སྒོར་མོ་ གཅིག་ ནས་",16,18,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"ORsEhDjf1Fr","yang tig (tomato, initial)","<0> སྒོར་མོ་ གཅིག་ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་ པས །",3,"ཡང་ཏིག་",19,19,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"GOUTSbU6DsY","zla sgron","ང་ _P_ མང་པོ་ ཉོ་ ཡི་ ཡིན་ །",6,"ང་",39,39,TRUE,"i",NA,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE,FALSE
+"k3IEz836tDb","amount of tomato to buy","ང་ _P_ མང་པོ་ ཉོ་ ཡི་ ཡིན་ །",6,"མང་པོ་",41,41,FALSE,"n",NA,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"pmI5X54T68K","mo'o tse 8","<0> མོའོ་ཙེ་ ༨ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་པ ས །",8,"མོའོ་ཙེ་ ༨ ནས་",52,54,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"CKUonjlH7GV","yang tig (from 80 cents)","<0> མོའོ་ཙེ་ ༨ ནས་ ཡང་ཏིག་ ཡོད་ མ་ རེད་པ ས །",8,"ཡང་ཏིག་",55,55,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"4iWKQqs621F","mo'o tse 8","འོང <0> མོའོ་ཙེ་ ༨ ནས་ ཡང་ཏིག་ མི་ འདུག",9,"མོའོ་ཙེ་ ༨ ནས་",63,65,FALSE,"i",NA,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"N1ThdVgOkUl","yang tig (from 80 cents)","འོང <0> མོའོ་ཙེ་ ༨ ནས་ ཡང་ཏིག་ མི་ འདུག",9,"ཡང་ཏིག་",66,66,FALSE,"n",NA,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE,FALSE
+"BXQiqnODmHI","zla sgron","<0> ང་ ལ་ འགྱིག་ཤོག་ ཅིག་ གནང་ དང་ །",11,"ང་ ལ་",72,73,TRUE,"i",NA,FALSE,"R",TRUE,TRUE,FALSE,2,TRUE,FALSE
+"yoUaPW7IwUe","'gyig shog cig","<0> ང་ ལ་ འགྱིག་ཤོག་ ཅིག་ གནང་ དང་ །",11,"འགྱིག་ཤོག་ ཅིག་",74,75,FALSE,"n",NA,FALSE,"T",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"6uq1cbYiy4x","tshong pa","ཨ་ཅག་ ལགས་ འོ་ འདི་ རྒྱ་མ ར་ ཞིག་ བཀྱག་ རོགས །",12,"ཨ་ཅག་ ལགས་",79,80,TRUE,"i",NA,FALSE,"A",TRUE,FALSE,TRUE,4,FALSE,FALSE
+"fIO9RnoNiP3","bag of tomatoes","ཨ་ཅག་ ལགས་ འོ་ འདི་ རྒྱ་མ ར་ ཞིག་ བཀྱག་ རོགས །",12,"འདི་",82,82,FALSE,"i",NA,FALSE,"P",FALSE,FALSE,FALSE,1,TRUE,FALSE
+"4I9mEYvRDBv","srang bdun","སྲང་ བདུན་ ལ་ ག་ཚོད་ རེད ཨ་ནི་ །",31,"སྲང་ བདུན་ ལ་",175,177,FALSE,"n",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"jdFtcdYDiC7","srang bdun gyi gong tshad","སྲང་ བདུན་ ལ་ ག་ཚོད་ རེད ཨ་ནི་ །",31,"ག་ཚོད་",178,178,FALSE,"n",FALSE,TRUE,"PRED",FALSE,FALSE,FALSE,2,TRUE,FALSE
+"3Cn9jdN0uDU","srang bdun","སྲང་ བདུན་ ལ་ སྒོར་མོ་ གཅིག་ <0> ལགས །",35,"སྲང་ བདུན་ ལ་",191,193,FALSE,"n",TRUE,FALSE,"COPS",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"yX0jE34sb8v","srang bdun gyi gong tshad","སྲང་ བདུན་ ལ་ སྒོར་མོ་ གཅིག་ <0> ལགས །",35,"སྒོར་མོ་ གཅིག་",194,195,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
+"VtRa7qxGxAU","rgya ma gang (tomato)","རྒྱ་མ་ གང་ ཡང་ སྒོར་མོ་ གཅིག་ རེད །",37,"རྒྱ་མ་ གང་ ཡང་",201,203,FALSE,"n",TRUE,NA,"COPS",FALSE,FALSE,FALSE,4,FALSE,FALSE
+"ucu6NXHc1Bp","srang bdun gyi gong tshad","རྒྱ་མ་ གང་ ཡང་ སྒོར་མོ་ གཅིག་ རེད །",37,"སྒོར་མོ་ གཅིག་",204,205,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE,FALSE
