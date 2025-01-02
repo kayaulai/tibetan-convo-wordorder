@@ -1,0 +1,6 @@
+[X] Write shell script to clear unnecessary files
+[X] Make renv snapshot
+[X] Rename files
+[ ] Reorganise R code + update filenames ([ ] part 1, [ ] part 2, [ ] part 3)
+[ ] Write makefile to rerun code
+[ ] Need redoing:  "three-flirt-2501", "dramatroupe-interview-2719"
