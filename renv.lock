@@ -536,20 +536,6 @@
       ],
       "Hash": "33698c4b3127fc9f506654607fb73676"
     },
-    "docthis": {
-      "Package": "docthis",
-      "Version": "0.1.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "docthis",
-      "RemoteUsername": "mdlincoln",
-      "RemoteSha": "0f2463491d9d79d724a3c87a464abd6586572ebe",
-      "Requirements": [
-        "rstudioapi"
-      ],
-      "Hash": "b6dfa1f525c1b3d79e1f34a1a288bcdf"
-    },
     "downlit": {
       "Package": "downlit",
       "Version": "0.4.4",
@@ -762,6 +748,16 @@
         "zip"
       ],
       "Hash": "ae855ad6d7be20dd7b05d43d25700398"
+    },
+    "getopt": {
+      "Package": "getopt",
+      "Version": "1.20.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "stats"
+      ],
+      "Hash": "ed33b16c6d24f7ced1d68877ac2509ee"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -1306,6 +1302,18 @@
         "askpass"
       ],
       "Hash": "5bfe2927efa9f87766ca9605301ea48f"
+    },
+    "optparse": {
+      "Package": "optparse",
+      "Version": "1.7.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "getopt",
+        "methods"
+      ],
+      "Hash": "ce5f8381cd2c38d1fc14c83d8b21efd0"
     },
     "parameters": {
       "Package": "parameters",

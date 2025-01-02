@@ -23,3 +23,46 @@ The repository contains the following directories:
     -   The scripts starting with 01 and 02 are for initial preprocessing (including automatic annotations) and manual correction of automatic annotations;
 
     -   The scripts starting with 03 include preprocessing code for ROLLing models, as well as code for fitting the models themselves and a Quarto file for visualisation and exploration
+
+## Running
+
+### Interactively
+
+All files can be run interactively. To run the files 01 and 02 interactively, be sure to change the settings using the global variables between the library calls and the first function in each file.
+
+### Command-line
+
+The `src` files from 01 up to 03b can be run on the command line using the Rscript command. (If you do so, make sure that your directory containing Rscript.exe is in PATH.) The 03c file is meant to be run interactively only.
+
+The first two scripts have options, as follows:
+
+```         
+Usage: src/01_prep_wo_predictors.R [options]
+
+Options:
+    -d CHARACTER, --disco=CHARACTER
+            document name (no file extension)
+
+    -p LOGICAL, --debug=LOGICAL
+            run in debug mode?
+
+    -h, --help
+            Show this help message and exit
+```
+
+```         
+Usage: src/02_integrate_changes.R [options]
+
+
+Options:
+        -d CHARACTER, --disco=CHARACTER
+                document name (no file extension)
+
+        -p LOGICAL, --debug=LOGICAL
+                run in debug mode?
+
+        -h, --help
+                Show this help message and exit
+```
+
+###

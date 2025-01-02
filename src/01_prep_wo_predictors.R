@@ -13,9 +13,10 @@ library(rezonateR)
 library(glue)
 library(beepr)
 library(cli)
+library(optparse)
 source(here("src", "utils", "files.R"))
 
-discoName = "three-flirt-2501"
+discoName = "young-fight1-11786"
 
 #' Get rezrObj from the data/00_rezrObj directory.
 #'
@@ -186,7 +187,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
 #' file in data/01b_manual_tables if necessary.
 #'
 #' @param argDF A rezrDF of arguments.
-saveArgDF = function(argDF){
+saveArgDF = function(argDF, discoName){
   #Write the table
   rez_write_csv(argDF, here("data", "01a_r_tables", glue("{discoName}.csv")),
   c("id", "name", "unitLastWord", "unitSeqLast", "word", "docTokenSeqFirst",
@@ -199,6 +200,7 @@ saveArgDF = function(argDF){
 
   #If the manual table exists, its IDs need to be updated
   if(file.exists(here("data", "01b_manual_tables", glue("{discoName}.csv")))){
+    cli_alert_info(glue("Reading old table from: data/01b_manual_tables/{discoName}.csv"))
     old_ref_table = read_csv(here("data", "01b_manual_tables", glue("{discoName}.csv")))
     missing_in_new = setdiff(old_ref_table$id, argDF$id)
     cli_alert_info("For the following, make sure to delete them from the old manual table if they're no longer needed,\n or check if the new file inadverdently deleted sth")
@@ -215,9 +217,15 @@ saveArgDF = function(argDF){
         old_ref_table$id[old_ref_table$id == missingID] = newID
       } else {
         if(length(newID) > 1){
-          cli_alert_info(paste0("Missing from new table with multiple candidate correpondences in old table: ",missingID))
+          missing_message = paste0("Missing from new table with multiple candidate correpondences in old table: ", missingID)
+          cli_alert_info(missing_message)
+          if(!interactive()) write(missing_message, stdout())
         } else {
-          cli_alert_info(paste0("Missing from new table: ", missingID))
+          missing_message = paste0("Missing from new table: ", missingID)
+          cli_alert_info(missing_message)
+          #If running on command line, this may be run in batch
+          #So we need to write this to stdout to be dealt with in bulk later
+          if(!interactive()) write(missing_message, stdout())
         }
       }
     }
@@ -225,7 +233,9 @@ saveArgDF = function(argDF){
     cli_alert_success("Done!")
     ids_to_add = setdiff(argDF$id, old_ref_table$id)
     if(length(ids_to_add) > 0){
-      cli_alert_info("Make sure to add these IDs to the manual table:", paste0(, collapse = ", "))
+      missing_message = glue("Make sure to add these {length(ids_to_add)} IDs to the manual table: {paste0(ids_to_add, collapse = ', ')}")
+      cli_alert_info(missing_message)
+      if(!interactive()) write(missing_message, stdout())
     }
   } else {
     rez_write_csv(argDF, here("data", "01b_manual_tables", glue("{discoName}.csv")))
@@ -246,8 +256,21 @@ main = function(discoName, debugging = TRUE, beepWhenDone = TRUE){
   cli_alert_info("Getting arguments DF ...")
   argDF = getWOPredictorGuesses(refexprDF, currObj, discoName, debugging)
   cli_alert_info("Saving ...")
-  saveArgDF(argDF)
+  saveArgDF(argDF, discoName)
   if(beepWhenDone) beepr::beep()
 }
 
-main(discoName)
+if(interactive()){
+  main(discoName)
+} else {
+  option_list = list(
+    make_option(c("-d", "--disco"), type = "character", default = NULL, 
+              help = "document name (no file extension)", metavar = "character"),
+              make_option(c("-p", "--debug"), type = "logical", default = FALSE, 
+                        help = "run in debug mode?", metavar = "logical")
+  )
+  opt_parser = OptionParser(option_list = option_list)
+  opt_values = parse_args(opt_parser)
+  cli_alert_info(glue("Current doc processed: {opt_values[['disco']]}"))
+  main(opt_values[["disco"]], debugging = opt_values[["debug"]])
+}

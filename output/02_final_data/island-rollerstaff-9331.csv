@@ -1,0 +1,13 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","argOrder","noPrevMentions","noPrevZero","noNextMentions","noNextZero","bridge","justFirst","justLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom"
+"SzH46GtpCnV","bu","ཨོའོ་ ཅོ་ རང་ ས་ གང་ ནས་ ཕེབས་ རྒྱོག་ ཡིན་ ནམ །",4,"ཅོ་ རང་",1,0,2,2,2,0,0,0,TRUE,"i",TRUE,FALSE,"S",TRUE,FALSE,TRUE,2,FALSE
+"ZGeQOufWvkr","bu'i pha yul","ཨོའོ་ ཅོ་ རང་ ས་ གང་ ནས་ ཕེབས་ རྒྱོག་ ཡིན་ ནམ །",4,"ས་ གང་ ནས་",2,0,0,0,0,0,0,0,FALSE,"n",FALSE,TRUE,"E",FALSE,FALSE,FALSE,3,FALSE
+"eKlxAh9AwBd","bu","ང་ སྟོད་ལུང་ ནས་ ཡིན །",5,"ང་",1,1,2,1,2,0,1,0,TRUE,"i",TRUE,FALSE,"COPS",TRUE,TRUE,FALSE,1,TRUE
+"69kiM1ko04v","stod lung","ང་ སྟོད་ལུང་ ནས་ ཡིན །",5,"སྟོད་ལུང་ ནས་",2,0,0,0,0,0,0,0,FALSE,"i",FALSE,FALSE,"PRED",FALSE,FALSE,FALSE,3,FALSE
+"SN0wweCRAso","bu","ཁྱེད་ རང་ ཕྱག་ལས་ ག་རེ་ གནང་ མཁན་ ཡིན་ ནམ །",12,"ཁྱེད་ རང་",1,2,4,4,4,0,2,0,TRUE,"i",TRUE,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE
+"og5z3pDuSxH","las ka (old)","ཁྱེད་ རང་ ཕྱག་ལས་ ག་རེ་ གནང་ མཁན་ ཡིན་ ནམ །",12,"ཕྱག་ལས་ ག་རེ་",2,0,0,0,0,0,0,0,FALSE,"n",TRUE,TRUE,"P",FALSE,FALSE,FALSE,4,FALSE
+"h1QPBgAXosF","bu","ཁྱེད་ རང་ ཕྱག་ལས་ འདི ར་ མཉེས་པོ་ ཡོད་ ན་",16,"ཁྱེད་ རང་",1,1,3,6,3,0,1,0,TRUE,"i",TRUE,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE
+"3H6AhapfRYh","las ka","ཁྱེད་ རང་ ཕྱག་ལས་ འདི ར་ མཉེས་པོ་ ཡོད་ ན་",16,"ཕྱག་ལས་ འདི ར་",2,3,0,1,0,0,0,0,TRUE,"i",TRUE,FALSE,"P",FALSE,FALSE,FALSE,4,FALSE
+"T53MAw07HGJ","bu","འོ་ འོ ། ང་ འདི ར་ དགའ་པོ་ ཡོད །",17,"ང་",1,2,2,5,2,0,2,0,TRUE,"i",TRUE,FALSE,"A",TRUE,TRUE,FALSE,1,TRUE
+"sVMVFrNoYCU","las ka","འོ་ འོ ། ང་ འདི ར་ དགའ་པོ་ ཡོད །",17,"འདི ར་",2,4,0,0,0,0,0,1,TRUE,"i",TRUE,FALSE,"P",FALSE,FALSE,FALSE,2,TRUE
+"ct90h0PNOlc","bu","ཨ་ནི་ ཁྱེད་ རང་ _P_ ཨེ་འདྲས །",28,"ཁྱེད་ རང་",1,5,0,0,0,0,0,0,TRUE,"i",TRUE,FALSE,"S",TRUE,FALSE,TRUE,2,TRUE
+"AMJ2VOKxEBh","las ka","ད་ལྟ་ འདི ར་",30,"འདི ར་",2,0,0,3,0,0,0,0,TRUE,"i",TRUE,FALSE,"E",FALSE,FALSE,FALSE,2,TRUE

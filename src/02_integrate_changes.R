@@ -8,6 +8,8 @@ library(here)
 library(glue)
 library(rezonateR)
 library(beepr)
+library(optparse)
+library(cli)
 source(here("src", "utils", "botools.R"))
 
 discoName = "dramatroupe-script-8421"
@@ -70,11 +72,11 @@ checkOutput = function(discoName, newDF, debugging = TRUE){
     createDirIfNone(here("output", "debug", "01", discoName))
     cli_alert_warning(glue("See the following path for debug output: {here('output', 'debug', '01', discoName)}"))
     if(nrow(nas_present) > 0){
-      write_csv(nas_present, here("output", "debug", discoName, "02a_nas_present.csv"))
+      write_csv(nas_present, here("output", "debug", "02", discoName, "02a_nas_present.csv"))
       View(nas_present)
     }
     if(nrow(singletons) > 0){
-      write_csv(singletons, here("output", "debug", discoName, "02b_singletons.csv"))
+      write_csv(singletons, here("output", "debug", "02", discoName, "02b_singletons.csv"))
       View(singletons)
     }
   }
@@ -91,4 +93,22 @@ main = function(discoName, debugging = TRUE, beepWhenDone = TRUE){
   if(beepWhenDone) beepr::beep()
 }
 
-main(discoName)
+if(interactive()){
+  main(discoName)
+} else {
+  option_list = list(
+      make_option(c("-d", "--disco"), type = "character", default = NULL, 
+                help = "document name (no file extension)", metavar = "character"),
+      make_option(c("-p", "--debug"), type = "logical", default = FALSE, 
+                help = "run in debug mode?", metavar = "logical")
+  )
+
+  # Add if I can figure out how to beep from command line:
+  # make_option(c("-b", "--beep"), type = "logical", default = TRUE, 
+  # help = "beep when done?", metavar = "logical")
+
+  opt_parser = OptionParser(option_list = option_list)
+  opt_values = parse_args(opt_parser)
+  cli_alert_info(glue("Current doc processed: {opt_values[['disco']]}"))
+  main(opt_values[["disco"]], opt_values[["debug"]])
+}
