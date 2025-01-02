@@ -68,9 +68,9 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
                           "EXP", "BEN", "G", "R", "T"))
   
   if(debugging){
-    createDirIfNone(here("output", "debug", "01", discoName))
-    message(glue("See the following path for debug output: {here('output', 'debug', '01', discoName)}"))
-    write_csv(currDF, here("output", "debug", "01", discoName, "01_removed_roles.csv"))
+    createDirIfNone(here("output", "debug", discoName))
+    message(glue("See the following path for debug output: {here('output', 'debug', discoName)}"))
+    write_csv(currDF, here("output", "debug", discoName, "01a_removed_roles.csv"))
   }
   
   #Then remove the stuff that don't have corresponding verbs or are postverbal
@@ -79,7 +79,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
           !is.na(verbTokenSeqFirst))
   
   if(debugging){
-    write_csv(argDF, here("output", "debug", "01", discoName, "02_removed_noverb.csv"))
+    write_csv(argDF, here("output", "debug", discoName, "01b_removed_noverb.csv"))
   }
 
   #Finally remove the arguments that have not preverbal clause-mates  
@@ -91,7 +91,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     filter(noArgs > 1)
 
   if(debugging){
-    write_csv(argDF, here("output", "debug", "01", discoName, "03_removed_singletons.csv"))
+    write_csv(argDF, here("output", "debug", discoName, "01c_removed_singletons.csv"))
   }
 
   #Now we can work on properties that depend only on expressions appearing in multi-argument clauses
@@ -197,7 +197,7 @@ saveArgDF = function(argDF){
   }
 }
 
-main = function(discoName, debugging = TRUE){
+main = function(discoName, debugging = TRUE, beepWhenDone = TRUE){
   message("Extracting referential expression DF from rezrObj ...")
   currObj = getRezrObj(discoName)
   refexprDF = getRefexprDF(currObj)
@@ -205,7 +205,7 @@ main = function(discoName, debugging = TRUE){
   argDF = getWOPredictorGuesses(refexprDF, currObj, discoName, debugging)
   message("Saving ...")
   saveArgDF(argDF)
-  beep()
+  if(beepWhenDone) beepr::beep()
 }
 
 main(discoName)
