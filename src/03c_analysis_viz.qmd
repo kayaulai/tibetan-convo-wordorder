@@ -12,6 +12,8 @@ library(tidyverse)
 library(glue)
 library(see)
 library(patchwork)
+library(waterfalls)
+library(ROLLing)
 ```
 
 While I'm still working on the package, do this (delete l8r and replcae with library(ROLLing))

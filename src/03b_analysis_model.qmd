@@ -9,6 +9,7 @@ editor_options:
 
 ```{r}
 library(here)
+library(ROLLing)
 ```
 
 # Prepare data frame
