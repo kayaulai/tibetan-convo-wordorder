@@ -118,6 +118,8 @@ ggsave(here("output", "03c_viz", "coefLollipops.svg"), width = 180, height = 100
 
 # Performance
 
+Let's evaluate performance graphically:
+
 ```{r}
 noArg_labeller = function(x){
   result =  case_when(x == "2" ~ "Two arguments",
