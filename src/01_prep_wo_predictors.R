@@ -30,6 +30,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     filter(!(roleType %in% c("LVO")))
   #Relationship of referent to context
 
+  #If there is no combinedChunk feature then we need to add it for the code to run
   if(!("combinedChunk" %in% colnames(currDF))){
     currDF = currDF %>% mutate(combinedChunk = "")
   }
@@ -58,6 +59,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
                             T ~ F))
 
   #Now remove the stuff that isn't relevant
+  #Start with stuff that are zeroes or have the wrong type
   currDF = currDF %>%
     filter(word != "<0>",
           roleType %in% c("A", "S", "P", "OBL", "COPS", "COPLOC",
@@ -71,6 +73,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     write_csv(currDF, here("output", "debug", "01", discoName, "01_removed_roles.csv"))
   }
   
+  #Then remove the stuff that don't have corresponding verbs or are postverbal
   argDF = currDF %>%
     filter(docTokenSeqFirst < verbTokenSeqFirst,
           !is.na(verbTokenSeqFirst))
@@ -79,7 +82,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     write_csv(argDF, here("output", "debug", "01", discoName, "02_removed_noverb.csv"))
   }
 
-  
+  #Finally remove the arguments that have not preverbal clause-mates  
   argDF = argDF %>%
     rez_group_by(doc, verbID, verbWord, lemma, suffix, force, evidMod, TA, subord) %>%
     rez_mutate(argOrder = 1:n(), noArgs = n(), argBack = n():1)  %>%
@@ -91,7 +94,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     write_csv(argDF, here("output", "debug", "01", discoName, "03_removed_singletons.csv"))
   }
 
-  #Then do the ones that depend only on expressions appearing in multi-argument clauses
+  #Now we can work on properties that depend only on expressions appearing in multi-argument clauses
   argDF = argDF %>%
     rez_mutate(justFirst = countPrevMentionsIf(windowSize = 10, cond = (word != "<0>" & argOrder == 1 & noArgs > 1)),
           justLast = countPrevMentionsIf(windowSize = 10, cond = (word != "<0>" & argBack == 1 & noArgs > 1)))
@@ -128,7 +131,6 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
     )
   )
 
-  #Semantic properties of the referent
   argDF = argDF %>%
     rez_mutate(animate = entityType %in% c("person", "animal"),
           self = (person == 1),
@@ -142,9 +144,11 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
           pronom = lexicality == "p",
           containsVerb = id %in% tracksContainingVerbs)
 
-  View(argDF %>% select(unitSeqFirst, wordWylie, word, verbWord, roleType, verbID))
+  if(debugging){
+    View(argDF %>% select(unitSeqFirst, wordWylie, word, verbWord, roleType, verbID))
+  }
   argDF
-}
+  }
 
 
 saveArgDF = function(argDF){
