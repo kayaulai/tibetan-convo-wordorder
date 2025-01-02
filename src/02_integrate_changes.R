@@ -1,5 +1,6 @@
-#This 
-#
+# This script updates a rezrDF according to the manually corrected annotations
+# from data/01b_manual_tables and saves the result in data and output folders.
+# Some rough validation is done as well.
 
 library(tidyr)
 library(dplyr)
@@ -52,12 +53,11 @@ saveUpdatedDF = function(discoName, newDF){
 }
 
 #' Check the corrected filed for singletons and NA lines.
+#' If there are issues, they are saved in output/debug.
 #'
 #' @param discoName The name of the file, with no file extension.
 #' @param newDF The updated rezrDF.
 #' @param debugging Whether we are in debugging mode.
-#'
-#' @return RETURN_DESCRIPTION
 checkOutput = function(discoName, newDF, debugging = TRUE){
   nas_present = newDF %>% filter(if_any(c("verbID", "argOrder",
                                     "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
@@ -68,7 +68,7 @@ checkOutput = function(discoName, newDF, debugging = TRUE){
 
   if(debugging & (nrow(nas_present) > 0 | nrow(singletons) > 0)){
     createDirIfNone(here("output", "debug", "01", discoName))
-    message(glue("See the following path for debug output: {here('output', 'debug', '01', discoName)}"))
+    cli_alert_warning(glue("See the following path for debug output: {here('output', 'debug', '01', discoName)}"))
     if(nrow(nas_present) > 0){
       write_csv(nas_present, here("output", "debug", discoName, "02a_nas_present.csv"))
       View(nas_present)
@@ -81,13 +81,13 @@ checkOutput = function(discoName, newDF, debugging = TRUE){
 }
 
 main = function(discoName, debugging = TRUE, beepWhenDone = TRUE){
-  message("Updating annotations ...\n")
+  cli_alert_info("Updating annotations ...\n")
   newDF = updateDF(discoName)
   saveUpdatedDF(discoName, newDF)
   if(debugging){
     checkOutput(discoName, newDF, debugging = debugging)
   }
-  message("Done!")
+  cli_alert_success("Done!")
   if(beepWhenDone) beepr::beep()
 }
 

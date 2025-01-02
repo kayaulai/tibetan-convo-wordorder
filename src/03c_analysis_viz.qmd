@@ -1,54 +1,69 @@
-
 ---
-title: "R Notebook"
+title: "Visualisation and qualitative analysis of examples."
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
 ---
 
-# ROLLing
+Unlike the other files which are routine data processiundefinedng tasks, this one is more exploratory and so this file is meant to be used interactively.
+
+# Imports
+
 ```{r}
 library(tidyverse)
 library(glue)
 library(see)
 library(patchwork)
 library(waterfalls)
-library(ROLLing)
+library(here)
+library(see)
 ```
 
-While I'm still working on the package, do this (delete l8r and replcae with library(ROLLing))
+The following code is to be run while ROLLing is still under development. At the end, this is to be replaced by library(ROLLing).
+
 ```{r}
 library(devtools)
 setwd("~/GitHub/ROLLing")
 load_all()
+setwd("~/GitHub/tibetan-convo-wordorder")
+library(here)
 ```
 
+Import the best model:
+
 ```{r}
-#Use these once I've got the code in a new repo
-#library(here)
-#here::i_am("shanti")
-
-setwd("~/GitHub/lhasa-reference-tracking/shanti/")
-model = readRDS("wo_analysis/20241111_bestmodel.rds")
+model = readRDS(here("output", "03b_models", "best_model.rds"))
 df = model$origData
+```
 
-#These are patches on ROLLing errors / annotation errors
-#Remove them after I've fixed the correpsonding stuff
-#model$origData = df
-#model$origData = model$origData %>% mutate(wordWylie = str_replace_all(wordWylie, "  ", " "))
-#model$origDataInfo = list(id = "verbID", order = "argOrder", formulaType = "reg", reg = "ridge")
-#model$origDataInfo[["featsChosen"]] = c("argTypeNew",
+The following block is meant to patch ROLLing errors and annotation errors. In the end, this block will be disabled.
+
+```{r}
+df = readRDS(here("output", "03a_coded_data", "wodata.rds"))
+model$origData = df
+model$origData = model$origData %>% mutate(wordWylie = str_replace_all(wordWylie, "  ", " "))
+model$origDataInfo = list(id = "verbID", order = "argOrder", formulaType = "reg", reg = "ridge")
+model$origDataInfo[["featsChosen"]] = c("argTypeNew",
            "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
            "haveBridges", "identifiable", "local", "justFirst", "justLast", 
             "interrog", "animate",
           "self", "addressee", "length", "pronom", "noPrevMentionsFar", "noNextMentionsFar")
-#model$origData = model$origData %>% mutate(argTypeNew = case_when(verbID == "31D0DCEFA5BC2" ~ "R", T ~ argTypeNew))
-#saveRDS(model, "wo_analysis/20241111_bestmodel.rds")
+model$origData = model$origData %>% mutate(argTypeNew = case_when(verbID == "31D0DCEFA5BC2" ~ "R", T ~ argTypeNew))
+saveRDS(model, here("output", "03b_models", "bestmodel.rds"))
 ```
+
+# Preparing visualisations
+
+These are some necessary ingredients for producing the visuals below.
 
 ```{r}
 featsQuant = c("noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
 "justFirst", "justLast", "length", "noPrevMentionsFar", "noNextMentionsFar")
+```
+
+This code is for converting variable names to small caps.
+
+```{r}
 smallCaps = c("ᴀ", "ʙ", "ᴄ", "ᴅ", "ᴇ", "ғ", "ɢ", "ʜ", "ɪ", "ᴊ", "ᴋ", "ʟ", "ᴍ", "ɴ", "ᴏ", "ᴘ", "ǫ", "ʀ", "s", "ᴛ", "ᴜ", "ᴠ", "ᴡ", "x", "ʏ", "ᴢ")
 names(smallCaps) = c("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
 toSmallCaps = function(text){
@@ -61,6 +76,8 @@ toSmallCaps = function(text){
 }
 ```
 
+We can now use the above information to map the variable names to what will be displayed in the paper.
+
 ```{r}
 varnamesMap = c(argTypeNewPRED = "ArgType=PRED", argTypeNewP = "ArgType=P", argTypeNewE =  "ArgType=E", argTypeNewR =  "ArgType=R", identifiable =  "Identif", argTypeNewEXIST = "ArgType=EXIST", haveBridges =  "PrevAssoc", noPrevMentions =  "NoPrevMentions",  interrog = "Interrog", justFirst = "JustFirst", noNextMentions = "NoNextMentions", animate = "Animate", length = "Length", pronom = "Pronom", noPrevMentionsFar = "NoPrevMentionsFar", self = "Self", justLast = "JustLast")
 varnamesMap = toSmallCaps(varnamesMap)
@@ -69,9 +86,13 @@ getDisplayVarname = function(varnames){
 }
 ```
 
+We also need to get model predictions.
+
 ```{r}
-predictionsDF = predict(model)
+predictionsDF = predict.ROLLing(model)
 ```
+
+This is a function to quickly locate where an example comes from, for the purpose of qualitative analysis.
 
 ```{r}
 locateID = function(id){
@@ -83,26 +104,21 @@ locateID = function(id){
 
 # Coefficient values
 
+Let's produce a lollipop chart for the coefficient values first ...
+
 ```{r}
-library(tidyverse)
-library(see)
 quantFactor_sd = df %>% select(all_of(featsQuant)) %>% lapply(sd)
 coefLollipops(model,
   featsQuant = featsQuant) +
     scale_x_discrete(labels = getDisplayVarname) +
     ylab("Coefficient value") + theme(axis.title.x = element_blank()) +
     scale_color_okabeito()
-ggsave("img/coefLollipops.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "coefLollipops.svg"), width = 180, height = 100, units = "mm")
 ```
 
 # Performance
 
-
 ```{r}
-noArg_labeller = c("Two arguments", "Three arguments") %>%
-  `names<-`(c("1", "2")) %>%
-  labeller
-
 noArg_labeller = function(x){
   result =  case_when(x == "2" ~ "Two arguments",
     T ~ "Three arguments")
@@ -119,17 +135,24 @@ predictionsDF$by_clause %>%
   geom_vline(aes(xintercept = chanceLevel), alpha = .5, linetype = 2) +
   xlab("Model-estimated probability of the attested order") +
   theme_minimal()
-ggsave("img/performance_density.svg", width = 150, height = 75, units = "mm")
+ggsave(here("output", "03c_viz", "performance_density.svg"), width = 150, height = 75, units = "mm")
 ```
 
 # Variable importance
 
+<!-- TODO: This section needs to be retested.-->
+
+First we need to get the variable importance scores.
 
 ```{r}
 featsChosen_grouped = list(c("argTypeNew", "interrog"), c("noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero", "haveBridges", "local", "identifiable", "justFirst", "justLast"), c("self", "addressee", "animate"), c("length", "pronom"))
 featsChosen_groupnames = c("role in clause", "discourse status", "semantics", "form")
 model_varimp = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50)
+```
 
+This function plots the variable importance scores.
+
+```{r}
 plot_varImp = function(model_varimp){
   varimp_long = model_varimp %>%
     as_tibble %>%
@@ -147,6 +170,11 @@ plot_varImp = function(model_varimp){
     xlab("feature") + ylab("variable importance") +
     scale_x_discrete(labels = str_replace(featsChosen_groupnames, " ", "\n"))
 }
+```
+
+This function allows different varImp plots to be put together.
+
+```{r}
 combine_varImp_plots = function(plots, limits, titles){
   1:length(plots) %>%
     lapply(function(x){
@@ -157,24 +185,30 @@ combine_varImp_plots = function(plots, limits, titles){
     purrr::reduce(`+`) +
     plot_layout(guides = "collect")
 }
-
-plot_varImp(model_varimp)+
-    theme(axis.text.x = element_text(hjust = .5, vjust = .5, angle = 0))
-ggsave("img/varImp.svg", width = 180, height = 100, units = "mm")
 ```
+
+Let's make a varImp plot for the whole dataset.
+
+```{r}
+plot_varImp(model_varimp) +
+    theme(axis.text.x = element_text(hjust = .5, vjust = .5, angle = 0))
+ggsave(here("output", "03c_viz", "varImp.svg"), width = 180, height = 100, units = "mm")
+```
+
+Let's look at varImp plots for a few selected documents and compare.
 
 ```{r}
 model_varimp_library = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = (doc == "virginia-library-20766"))
 plot_varImp(model_varimp_library) 
-ggsave("img/varImp_library.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_library.svg"), width = 180, height = 100, units = "mm")
 
 model_varimp_script = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = (doc == "dramatroupe-script-8421"))
 plot_varImp(model_varimp_script) + scale_y_continuous(c(0, .25))
-ggsave("img/varImp_script.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_script.svg"), width = 180, height = 100, units = "mm")
 
 model_varimp_thieves = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = doc == "island-sangdadorje-8501")
 plot_varImp(model_varimp_thieves) + scale_y_continuous(c(0, .25))
-ggsave("img/varImp_thieves.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_thieves.svg"), width = 180, height = 100, units = "mm")
 
 combine_varImp_plots(list(plot_varImp(model_varimp_library),
   plot_varImp(model_varimp_script),
@@ -182,6 +216,8 @@ combine_varImp_plots(list(plot_varImp(model_varimp_library),
   c(-.05, .3),
   c("The Library", "A New Script", "Thieves' Island"))
 ```
+
+Let's look at varImp plots for no-predicate vs normal.
 
 ```{r}
 model_varimp_nopred = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = argTypeNew == "PRED", condMode = "none")
@@ -192,22 +228,24 @@ combine_varImp_plots(list(plot_varImp(model_varimp),
   c(-.05, .3),
   c("With equative clauses", "Without equative clauses"))
 
-ggsave("img/varImp_nopred.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_nopred.svg"), width = 180, height = 100, units = "mm")
 
 ```
+
+Let's redo the varImp plots for individual texts now, with no predicates.
 
 ```{r}
 model_varimp_library_nopred = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = (doc != "virginia-library-20766" | argTypeNew == "PRED"), condMode = "none")
 plot_varImp(model_varimp_library_nopred) 
-ggsave("img/varImp_library_nopred.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_library_nopred.svg"), width = 180, height = 100, units = "mm")
 
 model_varimp_script_nopred = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = (doc != "dramatroupe-script-8421" | argTypeNew == "PRED"), condMode = "none")
 plot_varImp(model_varimp_script_nopred) + scale_y_continuous(c(0, .25))
-ggsave("img/varImp_script_nopred.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_script_nopred.svg"), width = 180, height = 100, units = "mm")
 
 model_varimp_thieves_nopred = varImp(model, featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50, cond = (doc != "island-sangdadorje-8501" | argTypeNew == "PRED"), condMode = "none")
 plot_varImp(model_varimp_thieves_nopred) + scale_y_continuous(c(0, .25))
-ggsave("img/varImp_thieves_nopred.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_thieves_nopred.svg"), width = 180, height = 100, units = "mm")
 
 text_varimp_nopred_titles = paste0(c("A New Script", "Thieves' Island", "The Library"),
   "\n(resid. = ",
@@ -223,19 +261,24 @@ combine_varImp_plots(list(plot_varImp(model_varimp_script_nopred),
   c(-.05, .26),
   text_varimp_nopred_titles
   )
-ggsave("img/varImp_nopred_script_thieves.svg", width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_nopred_script_thieves.svg"), width = 180, height = 100, units = "mm")
 ```
 
+Finally, let's do varImp plots only for cases where arguments differ in terms of the four main discourse factors.
 
 ```{r}
-data_discoursediff_nopred = filterClauseDiff(model$origData, model$origDataInfo, features = c("haveBridges", "identifiable", "noPrevMentions", "justFirst")) %>% filterClauseNone(model$origDataInfo, argTypeNew == "PRED")
+data_discoursediff_nopred = filterClauseDiff(model$origData, model$origDataInfo,
+  features = c("haveBridges", "identifiable", "noPrevMentions", "justFirst")) %>% 
+  filterClauseNone(model$origDataInfo, argTypeNew == "PRED")
 data_discoursediff_nopred %>% pull(verbID) %>% unique %>% length
-model_varimp_data_discoursediff_nopred = varImp(model, df = data_discoursediff_nopred, featsChosen = featsChosen_grouped, featGroupNames = featsChosen_groupnames, K = 50)
-median(model_varimp_data_discoursediff_nopred[,1]/model_varimp_data_discoursediff_nopred[,2])
+  model_varimp_data_discoursediff_nopred = varImp(model,
+  df = data_discoursediff_nopred,
+  featsChosen = featsChosen_grouped,
+featGroupNames = featsChosen_groupnames, K = 50)
+median(model_varimp_data_discoursediff_nopred[,1] / model_varimp_data_discoursediff_nopred[,2])
 plot_varImp(model_varimp_data_discoursediff_nopred)
+ggsave(here("output", "03c_viz", "varImp_discourse_diff.svg"), width = 180, height = 100, units = "mm")
 ```
-
-
 
 # Analysis of individual examples
 
@@ -247,7 +290,8 @@ getWaterfall(model, "30E122DAF5010", varnameMap = varnamesMap, formCol = "wordWy
 
 ## Good examples
 
-Get comparisons. Note that I'm using wmf because svg and png have trouble with zero width rectangles.
+Note that I'm using png because svg has trouble with zero width rectangles.
+
 ```{r}
 varnameOrder = c("argTypeNewE", "argTypeNewEXIST", "argTypeNewP", "argTypeNewPRED", "argTypeNewR", "noPrevMentions", "justFirst", "justLast", "noPrevMentionsFar", "noPrevZero", "noNextMentions", "noNextMentionsFar", "noNextZero", "haveBridges", "identifiable", "local", "interrog", "animate", "self", "addressee", "pronom", "length")
 
@@ -262,64 +306,52 @@ getWaterfallComparison = function(id, titles = NULL, currModel = model){
   print(currDF$wordWylie_lower %>% unique %>% paste(collapse = "//"))
   purrr::reduce(graphs, `+`)
 }
+```
+
+Testing first with Virginia text, 'here to study' example.
+
+```{r}
 virginia_ids = model$origData %>% filter(doc == "virginia-library-20766") %>% pull(verbID) %>% unique
-
-getWaterfallComparison(virginia_ids[4], titles = c("nga", "'dir"))
-ggsave("img/waterfall_heretostudy.png", width = 180, height = 80, units = "mm")
-
-model$data %>% filter(id == virginia_ids[4])
-```
-
-```{r}
-getWaterfallComparison(virginia_ids[2])
-```
-
-
-```{r}
-pfirst_right_ids = filterClauseFirst(model$origData, model$origDataInfo, argTypeNew %in% c("P", "R", "E")) %>% filterClauseNone(model$origDataInfo, interrog == 1) %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
-
-getWaterfallComparison(pfirst_right_ids[10], titles = c("ngar", "rngan.pa gcig"))
-ggsave("img/waterfall_sent_me_a_present.png", width = 180, height = 80, units = "mm")
-
-#model$data %>% filter(id == pfirst_ids[1])
-```
-
-
-```{r}
-pfirst_right_ids = filterClauseFirst(model$origData, model$origDataInfo, argTypeNew == "P") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
-
-getWaterfallComparison(pfirst_right_ids[1])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+getWaterfallComparison(virginia_ids[4], titles = c("nga", "'dir")) #A4DC56F0B165
+ggsave(here("output", "03c_viz", "waterfall_heretostudy.png"), width = 180, height = 80, units = "mm")
 ```
 
 ## Special argument structures
+
+Let's look at only the cases where the first element is P, R, or E, saving an example.
+
+```{r}
+pfirst_right_ids = filterClauseFirst(model$origData, model$origDataInfo, argTypeNew %in% c("P", "R", "E")) %>%
+  filterClauseNone(model$origDataInfo, interrog == 1) %>%
+  pull(verbID) %>% unique %>%
+  intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
+getWaterfallComparison(pfirst_right_ids[10], titles = c("ngar", "rngan.pa gcig")) #31D0DCEFA5BC2
+ggsave(here("output", "03c_viz", "waterfall_sent_me_a_present.png"), width = 180, height = 80, units = "mm")
+```
+
+Let's look at only the cases where the last element is A, saving an example.
 
 ```{r}
 pfirst_right_baselast_ids = filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 print(glue("Number of base-last clauses that were right: {length(pfirst_right_baselast_ids)}"))
 pfirst_wrong_baselast_ids = filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
 print(glue("Number of base-last clauses that were wrong: {length(pfirst_wrong_baselast_ids)}"))
-
-getWaterfallComparison(pfirst_right_baselast_ids[1])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+getWaterfallComparison(pfirst_right_baselast_ids[1]) #18DA4F8B42597
+ggsave(here("output", "03c_viz", "waterfall_pta.svg"), width = 180, height = 100, units = "mm")
 ```
+
+Now for no-base clauses:
 
 ```{r}
 pfirst_right_nobase_ids = filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 print(glue("Number of no-base clauses that were right: {length(pfirst_right_nobase_ids)}"))
 pfirst_wrong_nobase_ids = filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
 print(glue("Number of no-base clauses that were wrong: {length(pfirst_wrong_nobase_ids)}"))
-
-getWaterfallComparison(pfirst_right_baselast_ids[1])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+getWaterfallComparison(pfirst_right_nobase_ids[1]) #fkNLa7WdwEG
+ggsave(here("output", "03c_viz", "waterfall_no_toilet.svg"), width = 180, height = 100, units = "mm")
 ```
 
+Base-first and base-first (no predicate):
 
 ```{r}
 pfirst_right_basefirst_ids = filterClauseFirst(model$origData, model$origDataInfo, argTypeNew == "Base") %>%
@@ -335,65 +367,62 @@ pfirst_right_basefirst_nopred_ids = filterClauseFirst(model$origData, model$orig
   filterClauseNone(model$origDataInfo, argType == "PRED") %>%
   pull(verbID) %>% unique %>%
   intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
-print(glue("Number of base-last clauses that were right: {length(pfirst_right_basefirst_nopred_ids)}"))
+print(glue("Number of base-last (no predicate) clauses that were right: {length(pfirst_right_basefirst_nopred_ids)}"))
 pfirst_wrong_basefirst_nopred_ids = filterClauseFirst(model$origData, model$origDataInfo, argTypeNew == "Base") %>%
   filterClauseNone(model$origDataInfo, argType == "PRED") %>%
   pull(verbID) %>% unique %>%
   intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
-print(glue("Number of base-last clauses that were wrong: {length(pfirst_wrong_basefirst_nopred_ids)}"))
-
-
-getWaterfallComparison(pfirst_right_baselast_ids[1])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+print(glue("Number of base-last (no predicate) clauses that were wrong: {length(pfirst_wrong_basefirst_nopred_ids)}"))
 ```
 
-
+When the base coming first is barely mentioned before, but non-base coming last is mentioned more times before:
 
 ```{r}
 pfirst_right_lessmore_ids = filterClauseFirst(model$origData, model$origDataInfo, noPrevMentions == log(1) & argTypeNew == "Base") %>%
    filterClauseLast(model$origDataInfo, noPrevMentions > 1) %>% 
-    pull(verbID) %>% unique
-    %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
+    pull(verbID) %>% unique %>% 
+    intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 
 #16: Good example of why operationalization fails
-getWaterfallComparison(pfirst_right_lessmore_ids[20])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+getWaterfallComparison(pfirst_right_lessmore_ids[16]) #3vXWSuMnYz5
+ggsave(here("output", "03c_viz", "waterfall_lock_buster.svg"), width = 180, height = 100, units = "mm")
 ```
 
-## Topic stuff
+## Topicality-related arguments
+
+Cases where a non-base argument is nontopical:
 
 ```{r}
 pfirst_first_nonbase_nontopic = filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>% 
     pull(verbID) %>% unique
 
-#16: Good example of why operationalization fails
-getWaterfallComparison(pfirst_first_nonbase_nontopic[5])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
+getWaterfallComparison(pfirst_first_nonbase_nontopic[5]) #10DB1BDA353B4
+ggsave(here("output", "03c_viz", "waterfall_nonexistent_kid.svg"), width = 180, height = 100, units = "mm")
+```
 
-model$data %>% filter(id == pfirst_ids[1])
+Like the above, but there needs to be a base:
 
+```{r}
 pfirst_first_nonbase_nontopic_somebase = filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>%
    filterClauseAny(model$origDataInfo, argTypeNew == "Base") %>%
     pull(verbID) %>% unique
 
 ```
 
+No-topic clauses:
+
 ```{r}
 pfirst_first_base_nontopic = filterClauseNone(model$origData, model$origDataInfo, topic == 1) %>%
   filterClauseNone(model$origDataInfo, interrog == 1) %>%
    pull(verbID) %>% unique
 
-#16: Good example of why operationalization fails
-getWaterfallComparison(pfirst_first_base_nontopic[37])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+getWaterfallComparison(pfirst_first_base_nontopic[37]) #1702B926728C4
+ggsave(here("output", "03c_viz", "waterfall_teacher_get.svg"), width = 180, height = 100, units = "mm")
 ```
-## justLast
+
+## justLast and noNextMentions explanations
+
+Looking at cases where non-base arguments come first and justLast \> 0 or come last and noNextMentions \> 0, as these are the more unexpected cases from the coefficients.
 
 ```{r}
 pfirst_justLast_ids = filterClauseFirst(model$origData, model$origDataInfo, justLast > 0 & argTypeNew != "Base")  %>% 
@@ -404,16 +433,14 @@ pfirst_noNextMentions_ids = filterClauseLast(model$origData, model$origDataInfo,
     pull(verbID) %>% unique %>%
      intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 
-#16: Good example of why operationalization fails
 getWaterfallComparison(pfirst_noNextMentions_ids[16])
-ggsave("img/waterfall_.svg", width = 180, height = 100, units = "mm")
-
-model$data %>% filter(id == pfirst_ids[1])
+ggsave(here("output", "03c_viz", "waterfall_kid_diaper_better.svg"), width = 180, height = 100, units = "mm")
 ```
 
 ## Really bad predictions
 
-I'll grab the worst predictions from the model:
+Now to grab the model's worst (and kinda bad) predictions!
+
 ```{r}
 predictions_wrong = predictionsDF$by_clause %>% filter(!correct)
 predictions_pretty_wrong = predictionsDF$by_clause %>% filter(!correct,
@@ -423,61 +450,65 @@ predictions_very_wrong = predictionsDF$by_clause %>% filter(!correct,
 View(df %>% filter(verbID %in% predictions_very_wrong$id))
 ```
 
+Looking at the original data for the very wrong predictions:
+
 ```{r}
 data_very_wrong = df %>% filter(verbID %in% predictions_very_wrong$id)
 data_very_wrong_2a = data_very_wrong %>% filter(noArgs == 2)
+write_csv(data_very_wrong, here("output", "03c_viz", "very_wrong_predicts.csv"))
+write_csv(data.frame(predictions_very_wrong), here("output", "03c_viz", "very_wrong_verb_id.csv"))
 ```
 
+Doing some error analysis on the very wrong stuff.
 
 ```{r}
-getWaterfallComparison(predictions_very_wrong$id[2], currModel = model_genlasso_weighted)
-getWaterfallComparison(predictions_very_wrong$id[2]) #'di ni nga tsho 
-getWaterfallComparison(predictions_very_wrong$id[4]) #kha shas shig nga ang
-ggsave("img/waterfall_deb_kha_shas.png", width = 180, height = 80, units = "mm")
-getWaterfallComparison(predictions_very_wrong$id[5]) #kha shas shig nga ang
-ggsave("img/waterfall_deb_kha_shas.png", width = 180, height = 80, units = "mm")
-getWaterfallComparison(predictions_very_wrong$id[25]) #maybe I should change anno policy for identifiability for this? idk 
-getWaterfallComparison(predictions_very_wrong$id[23]) #mo Ta etc
-\ggsave("img/waterfall_mo_Ta.png", width = 180, height = 80, units = "mm")
-getWaterfallComparison(predictions_very_wrong$id[21], c("rang gi pa.lags dang a.ma.lags", "lho.khar")) # your parents lhoka at; semantic association? but also really, activity type
-ggsave("img/waterfall_lhokha.png", width = 180, height = 80, units = "mm")
+getWaterfallComparison(predictions_very_wrong$id[2], currModel = model_genlasso_weighted) #1A36913FD6DF4
+getWaterfallComparison(predictions_very_wrong$id[2]) #'di ni nga tsho 1A36913FD6DF4
+getWaterfallComparison(predictions_very_wrong$id[4]) #kha shas shig nga ang 1E33C144CFADF
+ggsave(here("output", "03c_viz", "waterfall_deb_kha_shas.png"), width = 180, height = 80, units = "mm")
+getWaterfallComparison(predictions_very_wrong$id[5]) #kha shas shig nga ang 2618661069EEA
+ggsave(here("output", "03c_viz", "waterfall_deb_kha_shas.png"), width = 180, height = 80, units = "mm")
+getWaterfallComparison(predictions_very_wrong$id[25]) #maybe I should change anno policy for identifiability for this? idk  wUs8H0eXIV9
+getWaterfallComparison(predictions_very_wrong$id[23]) #mo Ta etc oV1gCmSmbza
+ggsave(here("output", "03c_viz", "waterfall_mo_Ta.png"), width = 180, height = 80, units = "mm")
+getWaterfallComparison(predictions_very_wrong$id[21], c("rang gi pa.lags dang a.ma.lags", "lho.khar")) # your parents lhoka at; semantic association? but also really, activity type mabIg3xYLRi
+ggsave(here("output", "03c_viz", "waterfall_lhokha.png"), width = 180, height = 80, units = "mm")
 
-getWaterfallComparison(predictions_very_wrong$id[19]) # foreign ones give to kids - I think this one is a planning thing?
-getWaterfallComparison(predictions_very_wrong$id[18]) # should be processing thing, demonstratives start things all the time
-getWaterfallComparison(predictions_very_wrong$id[17]) # not sure, worth looking into more context
-getWaterfallComparison(predictions_very_wrong$id[15]) # a more topicky one, odd though because it's for introducing a referent
-getWaterfallComparison(predictions_very_wrong$id[14]) # one of those where sap/animacy effect seems likely ...
-getWaterfallComparison(predictions_very_wrong$id[11]) # similar to mo Ta one, topicality thing
-getWaterfallComparison(predictions_very_wrong$id[10], title = c("nga'i deb gcig", "sbug tu")) # nga'i deb gcig one
-ggsave("img/waterfall_deb_sbug.png", width = 180, height = 80, units = "mm")
+getWaterfallComparison(predictions_very_wrong$id[19]) # foreign ones give to kids - I think this one is a planning thing? eVEutaJqdRY
+getWaterfallComparison(predictions_very_wrong$id[18]) # should be processing thing, demonstratives start things all the time artNSQxmEQs
+getWaterfallComparison(predictions_very_wrong$id[17]) # not sure, worth looking into more context Vj3TW8P0khm
+getWaterfallComparison(predictions_very_wrong$id[15]) # a more topicky one, odd though because it's for introducing a referent Mnx9d5co3cQ
+getWaterfallComparison(predictions_very_wrong$id[14]) # one of those where sap/animacy effect seems likely ... KwKHQ9r9Qkr
+getWaterfallComparison(predictions_very_wrong$id[11]) # similar to mo Ta one, topicality thing FK9Xe8RdDjm FK9Xe8RdDjm
+getWaterfallComparison(predictions_very_wrong$id[10], title = c("nga'i deb gcig", "sbug tu")) # nga'i deb gcig one 7CEDFB27DCA8
+ggsave(here("output", "03c_viz", "waterfall_deb_sbug.png"), width = 180, height = 80, units = "mm")
 
-getWaterfallComparison(predictions_very_wrong$id[9]) #dubious anno for noPrevMentions
-getWaterfallComparison(predictions_very_wrong$id[8]) #dubious anno for noPrevMentions
-getWaterfallComparison(predictions_very_wrong$id[6]) #concept activation / similar to kha shas
+getWaterfallComparison(predictions_very_wrong$id[9]) #dubious anno for noPrevMentions 2F0F05BC5CE1A
+getWaterfallComparison(predictions_very_wrong$id[8]) #dubious anno for noPrevMentions 2D2A00720DC77
+getWaterfallComparison(predictions_very_wrong$id[6]) #concept activation / similar to kha shas 26D84D16131D9
 ```
 
+Also kinda exploring the pretty wrong stuff.
 
 ```{r}
-getWaterfallComparison(predictions_pretty_wrong$id[14], currModel = model)
-getWaterfallComparison(predictions_pretty_wrong$id[14], currModel = model_genlasso_weighted)
+getWaterfallComparison(predictions_pretty_wrong$id[14], currModel = model) # A6EA23E7A213
 ```
 
 ## Animacy
+
+Getting cases that differ in animacy with the base inananimate:
+
 ```{r}
 firstbaseinanim_thenanim = filterClauseDiff(model$origData, model$origDataInfo, features = "animate") %>%
    filterClauseAny(model$origDataInfo, argTypeNew == "Base" & animate == 0)  %>% 
   filterClauseNone(model$origDataInfo,interrog == 1 | argTypeNew == "PRED" | argTypeNew == "EXIST") %>%
   pull(verbID) %>% unique
-getWaterfallComparison(firstbaseinanim_thenanim[1])
-
-firstbaseinanim_thenanim = filterClauseDiff(model$origData, model$origDataInfo, features = "animate") %>%
-   filterClauseAny(model$origDataInfo, argTypeNew == "Base" & animate == 0)  %>% 
-  filterClauseNone(model$origDataInfo,interrog == 1 | argTypeNew == "PRED" | argTypeNew == "EXIST") %>%
-  pull(verbID) %>% unique
-getWaterfallComparison(firstbaseinanim_thenanim[1])
+getWaterfallComparison(firstbaseinanim_thenanim[1]) #Wusv5bB74YJ
 ```
 
-## Okay predictions
+## Okay/right/awesome predictions
+
+To round it off, getting predictions that were done well or really well:
 
 ```{r}
 predictions_right = predictionsDF$by_clause %>% filter(correct)
@@ -485,31 +516,4 @@ predictions_okay = predictionsDF$by_clause %>% filter(correct,
     (n_arg == 2 & p_clause < 3/4) | (n_arg == 3 & p_clause <= 1/4))
 predictions_awesome = predictionsDF$by_clause %>% filter(correct,
     (n_arg == 2 & p_clause > 3/4) | (n_arg == 3 & p_clause > 1/4))
-```
-
-
-## Okay predictions
-
-```{r}
-predictions_right = predictionsDF$by_clause %>% filter(correct)
-predictions_okay = predictionsDF$by_clause %>% filter(correct,
-    (n_arg == 2 & p_clause < 3/4) | (n_arg == 3 & p_clause <= 1/4))
-predictions_awesome = predictionsDF$by_clause %>% filter(correct,
-    (n_arg == 2 & p_clause > 3/4) | (n_arg == 3 & p_clause > 1/4))
-```
-
-# Delete later
-
-```{r}
-model_new = model
-model_new$coef[6:length(model_new$coef)] = model$coef[6:length(model_new$coef)] * 1.35
-model_new$coef["animate"] = .65
-predictions_new = predict(model_new)
-(predictionsDF$by_clause$correct %>% mean) - (predictions_new$by_clause$correct %>% mean)
-wronged_predictions = predictionsDF$by_clause %>%
-  filter(!predictions_new$by_clause$correct & predictionsDF$by_clause$correct)
-righted_predictions = predictionsDF$by_clause %>%
-  filter(predictions_new$by_clause$correct & !predictionsDF$by_clause$correct)
-
-getWaterfallComparison(wronged_predictions$id[3]) 
 ```

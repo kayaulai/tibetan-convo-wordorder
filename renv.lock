@@ -536,6 +536,20 @@
       ],
       "Hash": "33698c4b3127fc9f506654607fb73676"
     },
+    "docthis": {
+      "Package": "docthis",
+      "Version": "0.1.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "docthis",
+      "RemoteUsername": "mdlincoln",
+      "RemoteSha": "0f2463491d9d79d724a3c87a464abd6586572ebe",
+      "Requirements": [
+        "rstudioapi"
+      ],
+      "Hash": "b6dfa1f525c1b3d79e1f34a1a288bcdf"
+    },
     "downlit": {
       "Package": "downlit",
       "Version": "0.4.4",
@@ -1974,18 +1988,6 @@
         "vctrs"
       ],
       "Hash": "960e2ae9e09656611e0b8214ad543207"
-    },
-    "svglite": {
-      "Package": "svglite",
-      "Version": "2.1.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "systemfonts"
-      ],
-      "Hash": "124a41fdfa23e8691cb744c762f10516"
     },
     "sys": {
       "Package": "sys",
