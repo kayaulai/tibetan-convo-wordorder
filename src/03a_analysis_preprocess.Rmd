@@ -1,4 +1,3 @@
-
 ---
 title: "R Notebook"
 output: html_notebook
@@ -6,48 +5,34 @@ editor_options:
   chunk_output_type: inline
 ---
 
-TODO:
-- Check issue with nga yang in lucky dream
+# Library and data import
 
-#Data import
+The first step is to import a bunch of necessary packages:
 
 ```{r message=FALSE}
 library(tidyverse)
 library(tidyr)
 library(rlang)
 library(rezonateR)
-library(purrr)
 library(here)
-
-setwd("~/GitHub/lhasa-reference-tracking/shanti/")
-discoNames = c("three-caught-8261", "three-parting-2569",
-               "three-friction-2883", "three-luckydreamalt-8296",
-               "three-scold-21496", "virginia-altar-2563",
-               "virginia-library-20766", "virginia-neighbour-2565",
-               "three-chupa-8346", "three-counsel-8176",
-               "lhasa-interview-2561",
-               "three-butter-8511", "three-dadronpudron-8256",
-               "three-vegetables-9201", "three-wrap-8561",
-               "three-dadronmum-2537", "lhasa-reminisce-11421",
-               "three-baby-8121", "island-rollerstaff-9331",
-               "three-upset-2535", "island-sangdadorje-8501",
-               "dramatroupe-script-8421", "virginia-america-2564"
-)
-
-df = lapply(discoNames, function(x) rez_load(paste0('wo1_3_rezrDF/', x, ".Rdata"))) %>% reduce(rez_bind_rows)
-saveRDS(df, "wo3/20241111_wodata.rds")
+library(stringr)
+library(glue)
+source(here("src", "utils", "files.R"))
 ```
 
-Quick check:
-```{r}
-clauses = df %>% group_by(verbID) %>% count
-nrow(clauses)
-clauses %>% filter(n == 1)
+Then we can import the data, which I save as a data file too:
+
+```{r warning=FALSE}
+discoNames = getCurrDocNames()
+df = discoNames %>%
+    map(function(x) suppressMessages(rez_load(here("data", "02_rezrDF", glue("{x}.Rdata"))))) %>%
+    reduce(rez_bind_rows)
+
 ```
-
-
 
 # Features
+
+Turning features into their final encodings for the model:
 
 ```{r}
 featsChosen = c("argTypeNew",
@@ -57,37 +42,62 @@ featsChosen = c("argTypeNew",
            "self", "addressee", "length", "pronom", "noPrevMentionsFar", "noNextMentionsFar")
 featsQuant = c("noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
                "justFirst", "justLast", "length", "noPrevMentionsFar", "noNextMentionsFar")
+featsQual = setdiff(featsChosen, featsQuant) %>% c("topic")
+featsBinary = setdiff(featsQual, "argTypeNew")
 
 log_p1 = function(x) log(x + 1)
-df = df %>% mutate(haveBridges = as.integer(haveBridges),
-                     justFirst = as.integer(justFirst),
-                     justLast = as.integer(justLast),
-                     local = as.integer(local),
-                     identifiable = as.integer(identifiable == "i"),
-                     topic = as.integer(topic),
-                     interrog = as.integer(interrog),
-                     animate = as.integer(animate),
-                     self = as.integer(self),
-                     addressee = as.integer(addressee),
-                     argType = as.factor(argType),
-                     pronom = as.integer(pronom)) %>%
-  mutate(argTypeNew = as.factor(case_when(argType == "T" ~ "P",
-                                       argType == "A" ~ "Base",
-                                       argType == "S" ~ "Base",
-                                       argType == "COPS" ~ "Base",
-                                       argType == "COPLOC" ~ "Base",
-                             T ~ argType))) %>%
-  mutate(across(all_of(featsQuant), log_p1)) 
+df = df %>% mutate(identifiable = factor(identifiable, levels = c("n", "i"))) %>%
+        mutate(across(all_of(featsBinary), as.integer)) %>%
+        mutate(argType = as.factor(argType)) %>%
+        mutate(argTypeNew = as.factor(case_when(argType == "T" ~ "P",
+                                                argType == "A" ~ "Base",
+                                                argType == "S" ~ "Base",
+                                                argType == "COPS" ~ "Base",
+                                                argType == "COPLOC" ~ "Base",
+                                     T ~ argType))) %>%
+        mutate(across(all_of(featsQuant), log_p1)) 
 ```
+
+# Quick checks
+
+Quick check to make sure everything is working as intended:
+
+```{r}
+clauses = df %>% group_by(verbID) %>% count
+message(glue("Number of clauses: {nrow(clauses)}"))
+
+```
+
+Singleton clauses:
+
+```{r}
+singletons = clauses %>% filter(n == 1)
+if(nrow(singletons) > 0){
+    View(singletons)
+    write_csv(singletons, here("output", "debug", "analysis", "singletons.csv"))
+    message(glue("You have some singleton clauses; please check the output at {here(\"output\", \"debug\", \"analysis\", \"singletons.csv\")}."))
+}
+
+```
+
+NAs inside columns:
 
 ```{r}
 cols_na_present = df %>% sapply(function(x) any(is.na(x)))
-intersect(featsChosen, names(cols_na_present)[which(cols_na_present)])
+na_cols = intersect(featsChosen, names(cols_na_present)[which(cols_na_present)])
+if(length(na_cols) > 0){
+    na_rows = df %>% filter(if_any(all_of(featsChosen), is.na))
+    write_csv(na_rows, here("output", "debug", "analysis", "na_rows.csv"))
+    message(glue("The following columns have NA values: {paste0(na_cols, collapse = ", ")}"))
+    message(glue("Please check the output at {here(\"output\", \"debug\", \"analysis\", \"na_rows\")}."))
+}
 ```
 
+# Saving
+
+Then we save the data in two formats - RDS and CSV:
+
 ```{r}
-library(FactoMineR)
-x_famd = df %>%
-    select(all_of(featsChosen)) %>%
-  FAMD(ncp = 14)
+saveRDS(df, here(glue("output", "analysis", "wodata.rds")))
+write_csv(df, here("output", "analysis_data", glue("all.csv")))
 ```

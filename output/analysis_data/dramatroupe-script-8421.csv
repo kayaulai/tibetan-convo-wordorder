@@ -138,7 +138,7 @@
 "uDLbKXIdVTe","rkun ma (nonreferential, from a cag lags)","ཨ་ནི་ ང འི་ ནང་ ལ་ རྐུན་མ་ ཤོར་ བཞག",384,"རྐུན་མ་",2,0,0,5,0,0,0,0,FALSE,"n",FALSE,FALSE,"EXIST",TRUE,FALSE,FALSE,2,FALSE
 "bVFn2p4DGXB","rkun ma (nonreferential, from a cag lags)","ཟེ་ ད་ག ར་ རྐུན་མ་ ཤོར་ བཞག་ ཞེས་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ ར་ རེད་ ཤག",385,"རྐུན་མ་ བརྐུ་ མཁན་",1,1,0,3,0,0,0,1,FALSE,"n",TRUE,FALSE,"COPS",TRUE,FALSE,FALSE,4,FALSE
 "IWnL69FByfI","pa sangs","ཟེ་ ད་ག ར་ རྐུན་མ་ ཤོར་ བཞག་ ཞེས་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ ར་ རེད་ ཤག",385,"ཁྱོད་ ར་",2,1,0,4,0,0,0,0,TRUE,"i",FALSE,FALSE,"PRED",TRUE,FALSE,TRUE,2,TRUE
-"945NBfw4yuc","rkun ma (nonreferential, from a cag lags)","ཨ་ནི་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ རང་ རེད་ ཤག",387,"རྐུན་མ་ བརྐུ་ མཁན་",1,4,0,1,0,0,1,1,FALSE,"d",TRUE,FALSE,"COPS",TRUE,FALSE,FALSE,4,FALSE
+"945NBfw4yuc","rkun ma (nonreferential, from a cag lags)","ཨ་ནི་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ རང་ རེད་ ཤག",387,"རྐུན་མ་ བརྐུ་ མཁན་",1,4,0,1,0,0,1,1,FALSE,"i",TRUE,FALSE,"COPS",TRUE,FALSE,FALSE,4,FALSE
 "eyf7YZqNXXi","pa sangs","ཨ་ནི་ རྐུན་མ་ བརྐུ་ མཁན་ ཁྱོད་ རང་ རེད་ ཤག",387,"ཁྱོད་ རང་",2,1,0,3,0,0,0,1,TRUE,"i",FALSE,FALSE,"PRED",TRUE,FALSE,TRUE,2,TRUE
 "dZ2hxcriLut","pa sangs","ཡང་ ཁོ ས་ ང་ རྐུན་མ་ མིན །",391,"ཁོ ས་",1,2,0,2,0,0,0,2,FALSE,"i",FALSE,FALSE,"A",TRUE,FALSE,FALSE,2,TRUE
 "pkHnupNHfHC","pa sangs","ཡང་ ཁོ ས་ ང་ རྐུན་མ་ མིན །",391,"ང་",1,2,0,2,0,0,0,2,TRUE,"i",TRUE,FALSE,"COPS",TRUE,TRUE,FALSE,1,TRUE

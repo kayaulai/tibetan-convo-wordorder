@@ -1,7 +1,9 @@
 [X] Write shell script to clear unnecessary files
 [X] Make renv snapshot
 [X] Rename files
-[ ] Reorganise R code + update filenames ([ ] part 1, [ ] part 2, [ ] part 3)
+[ ] Reorganise R code + update filenames ([X] part 1, [X] part 2, [ ] part 3)
 [ ] Write makefile to rerun code
 [ ] Need redoing:  "three-flirt-2501", "dramatroupe-interview-2719"
 [ ] Annos that need fixing: pfirst_right_ids[10]
+[ ] Check annos for: "three-cheese-8521"       "other-karmakunsang-2536" "three-marry-2275"        "young-fight1-11786"   
+[ ] Check issue with nga yang in lucky dream
