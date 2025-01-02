@@ -1,3 +1,6 @@
+#This 
+#
+
 library(tidyr)
 library(dplyr)
 library(here)
@@ -8,6 +11,12 @@ source(here("src", "utils", "botools.R"))
 
 discoName = "dramatroupe-script-8421"
 
+#' Update rezrDF according to manually corrected table in
+#' 01b_manual_tables.
+#'
+#' @param discoName The name of the file, with no file extension.
+#'
+#' @return A rezrDF with the updated values.
 updateDF = function(discoName){
   origDF = rez_load(here("data", "01c_rezrDF", glue("{discoName}.Rdata")))
 
@@ -24,6 +33,13 @@ updateDF = function(discoName){
   newDF
 }
 
+#' Save two copies of an updated DF: One in data/02_rezrDF as R data,
+#' one as a csv in output/02_rezrDF.
+#'
+#' @param discoName The name of the file, with no file extension.
+#' @param newDF The updated rezrDF.
+#'
+#' @return A rezrDF with the updated values.
 saveUpdatedDF = function(discoName, newDF){
   rez_save(newDF, here("data", "02_rezrDF", glue("{discoName}.Rdata")))
   rez_write_csv(newDF, here("output", "02_final_data", glue("{discoName}.csv")),
@@ -35,6 +51,13 @@ saveUpdatedDF = function(discoName, newDF){
                   "length","pronom"))
 }
 
+#' Check the corrected filed for singletons and NA lines.
+#'
+#' @param discoName The name of the file, with no file extension.
+#' @param newDF The updated rezrDF.
+#' @param debugging Whether we are in debugging mode.
+#'
+#' @return RETURN_DESCRIPTION
 checkOutput = function(discoName, newDF, debugging = TRUE){
   nas_present = newDF %>% filter(if_any(c("verbID", "argOrder",
                                     "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",

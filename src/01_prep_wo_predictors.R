@@ -1,4 +1,9 @@
-#This is for doing word order stuff assuming that the ref expression bit is done.
+# This script takes a rezrObj from the previous processing step]
+# (in a private repository) and then adds best guesses for predictors
+# related to word order.
+# The resulting tables are stored in 01a_r_tables
+# and they are to be corrected in 01b_manual_tables.
+
 library(tidyr)
 library(dplyr)
 library(rlang)
@@ -7,14 +12,25 @@ library(here)
 library(rezonateR)
 library(glue)
 library(beepr)
+library(cli)
 source(here("src", "utils", "files.R"))
 
 discoName = "three-flirt-2501"
 
+#' Get rezrObj from the data/00_rezrObj directory.
+#'
+#' @param discoName The name of the file, with no file extension.
+#'
+#' @return A rezrObj.
 getRezrObj = function(discoName){
-  obj = rez_load(here("data", "00_rezrObj", glue("{discoName}.Rdata")))
+  rez_load(here("data", "00_rezrObj", glue("{discoName}.Rdata")))
 }
 
+#' Grab the referential expressions DF a rezrObj.
+#'
+#' @param obj A rezrObj.
+#'
+#' @return A rezrDF of referential expressions.
 getRefexprDF = function(obj){
   obj = obj %>%
     addFieldForeign("track", "refexpr", "chunk", "verb",
@@ -24,6 +40,14 @@ getRefexprDF = function(obj){
   df
 }
 
+#' Get best guesses for word order-related predictors from existing annotations.
+#'
+#' @param currDF A rezrDF containing all referential expressions from a document.
+#' @param currObj The original rezrObj of the document.
+#' @param discoName The name of the document.
+#' @param debugging Whether we are in debugging mode.
+#'
+#' @return A rezrDF with guesses for the word order-related predictors.
 getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
   currDF = currDF %>%
     dplyr::arrange(docTokenSeqFirst) %>%
@@ -77,7 +101,7 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
   
   if(debugging){
     createDirIfNone(here("output", "debug", discoName))
-    message(glue("See the following path for debug output: {here('output', 'debug', discoName)}"))
+    cli_alert_info(glue("See the following path for debug output: {here('output', 'debug', discoName)}"))
     write_csv(currDF, here("output", "debug", discoName, "01a_removed_roles.csv"))
   }
   
@@ -158,7 +182,10 @@ getWOPredictorGuesses = function(currDF, currObj, discoName, debugging = FALSE){
   argDF
   }
 
-
+#' Save a rezrDF of arguments to data/01a_r_tables, and update the corresponding
+#' file in data/01b_manual_tables if necessary.
+#'
+#' @param argDF A rezrDF of arguments.
 saveArgDF = function(argDF){
   #Write the table
   rez_write_csv(argDF, here("data", "01a_r_tables", glue("{discoName}.csv")),
@@ -169,18 +196,12 @@ saveArgDF = function(argDF){
   #Save the argDF too
   rez_save(argDF, here("data", "01c_rezrDF", glue("{discoName}.Rdata")))
 
-  message("After this point you should:
-    -fix local variable
-    -fix topic variable
-    -do argtype P > T
-    -fix interrog if necessary
-  ")
 
   #If the manual table exists, its IDs need to be updated
   if(file.exists(here("data", "01b_manual_tables", glue("{discoName}.csv")))){
-    old_ref_table = read_csv(initPath %+% "wo1_2_manual_tables/" %+% discoName %+% ".csv")
+    old_ref_table = read_csv(here("data", "01b_manual_tables", glue("{discoName}.csv")))
     missing_in_new = setdiff(old_ref_table$id, argDF$id)
-    message("For the following, make sure to delete them from the old manual table if they're no longer needed,\n or check if the new file inadverdently deleted sth")
+    cli_alert_info("For the following, make sure to delete them from the old manual table if they're no longer needed,\n or check if the new file inadverdently deleted sth")
     for(missingID in missing_in_new){
       lastUnit = old_ref_table$unitSeqLast[old_ref_table$id == missingID]
       lastDTSF = old_ref_table$docTokenSeqFirst[old_ref_table$id == missingID]
@@ -194,24 +215,37 @@ saveArgDF = function(argDF){
         old_ref_table$id[old_ref_table$id == missingID] = newID
       } else {
         if(length(newID) > 1){
-          message(paste0("Missing from new table with multiple candidate correpondences in old table: ",missingID))
+          cli_alert_info(paste0("Missing from new table with multiple candidate correpondences in old table: ",missingID))
         } else {
-          message(paste0("Missing from new table: ", missingID))
+          cli_alert_info(paste0("Missing from new table: ", missingID))
         }
       }
     }
-    message("Make sure to add these IDs to the manual table:", paste0(setdiff(argDF$id, old_ref_table$id), collapse = ", "))
-    rez_write_csv(old_ref_table, initPath %+% "wo1_2_manual_tables/" %+% discoName %+% ".csv")
+    rez_write_csv(old_ref_table, here("data", "01b_manual_tables", glue("{discoName}.csv")))
+    cli_alert_success("Done!")
+    ids_to_add = setdiff(argDF$id, old_ref_table$id)
+    if(length(ids_to_add) > 0){
+      cli_alert_info("Make sure to add these IDs to the manual table:", paste0(, collapse = ", "))
+    }
+  } else {
+    rez_write_csv(argDF, here("data", "01b_manual_tables", glue("{discoName}.csv")))
+    cli_alert_success("Done!")
+    cli_alert_info("After this point you should:")
+    cli_ul(c("fix local variable",
+      "fix topic variable",
+      "do argtype P > T",
+      "fix interrog if necessary"))
   }
+  
 }
 
 main = function(discoName, debugging = TRUE, beepWhenDone = TRUE){
-  message("Extracting referential expression DF from rezrObj ...")
+  cli_alert_info("Extracting referential expression DF from rezrObj ...")
   currObj = getRezrObj(discoName)
   refexprDF = getRefexprDF(currObj)
-  message("Getting arguments DF ...")
+  cli_alert_info("Getting arguments DF ...")
   argDF = getWOPredictorGuesses(refexprDF, currObj, discoName, debugging)
-  message("Saving ...")
+  cli_alert_info("Saving ...")
   saveArgDF(argDF)
   if(beepWhenDone) beepr::beep()
 }
