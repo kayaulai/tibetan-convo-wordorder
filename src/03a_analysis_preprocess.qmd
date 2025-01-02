@@ -74,7 +74,7 @@ Singleton clauses:
 singletons = clauses %>% filter(n == 1)
 if(nrow(singletons) > 0){
     View(singletons)
-    write_csv(singletons, here("output", "debug", "analysis", "singletons.csv"))
+    write_csv(singletons, here("output", "debug", "03_analysis", "singletons.csv"))
     message(glue("You have some singleton clauses; please check the output at {here(\"output\", \"debug\", \"analysis\", \"singletons.csv\")}."))
 }
 
@@ -87,7 +87,7 @@ cols_na_present = df %>% sapply(function(x) any(is.na(x)))
 na_cols = intersect(featsChosen, names(cols_na_present)[which(cols_na_present)])
 if(length(na_cols) > 0){
     na_rows = df %>% filter(if_any(all_of(featsChosen), is.na))
-    write_csv(na_rows, here("output", "debug", "analysis", "na_rows.csv"))
+    write_csv(na_rows, here("output", "debug", "03_analysis", "na_rows.csv"))
     message(glue("The following columns have NA values: {paste0(na_cols, collapse = ", ")}"))
     message(glue("Please check the output at {here(\"output\", \"debug\", \"analysis\", \"na_rows\")}."))
 }
@@ -98,6 +98,6 @@ if(length(na_cols) > 0){
 Then we save the data in two formats - RDS and CSV:
 
 ```{r}
-saveRDS(df, here(glue("output", "analysis", "wodata.rds")))
-write_csv(df, here("output", "analysis_data", glue("all.csv")))
+saveRDS(df, here("output", "03_analysis", "wodata.rds"))
+write_csv(df, here("output", "03_analysis", "wodata.csv"))
 ```

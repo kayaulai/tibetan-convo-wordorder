@@ -26,7 +26,7 @@ updateDF = function(discoName){
 
 saveUpdatedDF = function(discoName, newDF){
   rez_save(newDF, here("data", "02_rezrDF", glue("{discoName}.Rdata")))
-  rez_write_csv(newDF, here("output", "analysis_data", glue("{discoName}.csv")),
+  rez_write_csv(newDF, here("output", "02_final_data", glue("{discoName}.csv")),
                 c("id", "name", "unitLastWord", "unitSeqLast", "word",
                   "argOrder", "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
                   "bridge", "justFirst", "justLast", "local", "identifiable", "topic",
