@@ -1,4 +1,3 @@
-#FINAL_DATA = data/02_rezrDF/three-caught-8261.Rdata data/02_rezrDF/young-fight1-11786.Rdata data/02_rezrDF/young-fight1-11786.Rdata data/02_rezrDF/three-cheese-8521.Rdata data/02_rezrDF/other-karmakunsang-2536.Rdata data/02_rezrDF/three-marry-2275.Rdata
 cat := $(if $(filter $(OS),Windows_NT),type,cat)
 FINAL_DATA = $(shell cat data/curr_final_anno_docs.txt)
 
