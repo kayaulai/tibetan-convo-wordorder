@@ -1,0 +1,27 @@
+﻿"id","name","unitLastWord","unitSeqLast","word","argOrder","noPrevMentions","noPrevZero","noNextMentions","noNextZero","bridge","justFirst","justLast","local","identifiable","topic","interrog","argType","animate","self","addressee","length","pronom"
+"0IVQAmFspqo","phur sgron","བྱས་ ཙང་ ང་ ཡང་ གནམ་ ལ་ བལྟས་ སྡོད་ ཡོད །",5,"ང་ ཡང་",1,1,0,1,0,0,0,0,TRUE,"i",FALSE,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE
+"lwcofUPHhtC","gnam","བྱས་ ཙང་ ང་ ཡང་ གནམ་ ལ་ བལྟས་ སྡོད་ ཡོད །",5,"གནམ་ ལ་",2,0,0,0,0,0,0,0,TRUE,"i",FALSE,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE
+"QQU8t5W5CO3","phur sgron","མདང་དགུང་ ང ར་ རྨི་ལམ་ ཆོབ་ ཚ་པོ་ ཞིག་ བཏང་ བྱུང་ །",12,"ང ར་",1,2,0,1,0,0,1,0,TRUE,"i",FALSE,FALSE,"A",TRUE,TRUE,FALSE,2,TRUE
+"r8jbH87lwlb","phur sgron gyi rmi lam","མདང་དགུང་ ང ར་ རྨི་ལམ་ ཆོབ་ ཚ་པོ་ ཞིག་ བཏང་ བྱུང་ །",12,"རྨི་ལམ་ ཆོབ་ ཚ་པོ་ ཞིག་",2,0,0,2,0,0,0,0,FALSE,"n",FALSE,FALSE,"P",FALSE,FALSE,FALSE,6,FALSE
+"VHUPF3W5HR1","nga gnyis gnyis","ང་ གཉིས་ གཉིས་ མདང་དགུང་ དགོང་དག་ ཏག་ བར་བསྐོར་ ནང་ ཁྲོམ་ ལ་ འགྲོ་ གི་ འདུག་ ག",16,"ང་ གཉིས་ གཉིས་",1,0,0,0,0,3,0,0,TRUE,"i",FALSE,FALSE,"S",TRUE,TRUE,FALSE,3,TRUE
+"JWpw7TFgQWY","bar bskor","ང་ གཉིས་ གཉིས་ མདང་དགུང་ དགོང་དག་ ཏག་ བར་བསྐོར་ ནང་ ཁྲོམ་ ལ་ འགྲོ་ གི་ འདུག་ ག",16,"བར་བསྐོར་ ནང་ ཁྲོམ་ ལ་",2,0,0,1,0,0,0,0,FALSE,"i",FALSE,FALSE,"E",FALSE,FALSE,FALSE,5,FALSE
+"chkv6n4dgQj","zla sgron","ཨ་ནི་ རང་ གིས་",22,"རང་ གིས་",1,0,0,0,0,2,0,0,TRUE,"i",FALSE,FALSE,"A",TRUE,FALSE,TRUE,2,TRUE
+"9jpaDpkWtO1","phur sgron","ཨ་ནི་ ང་ ལ་ ཡར་ ཅིག་ བྱེད་ ཀྱི་ མི་ འདུག་ ག",23,"ང་ ལ་",2,1,1,2,1,2,0,0,TRUE,"i",FALSE,FALSE,"P",TRUE,TRUE,FALSE,2,TRUE
+"lwAKUA5hucy","gsang spyod rnyed ya","<0> གསང་སྤྱོད་ ག་པ ར་ རྙེད་ ཡ་ ཡོད་ རེད །",27,"གསང་སྤྱོད་",1,1,0,1,0,0,0,0,FALSE,"n",TRUE,FALSE,"P",FALSE,FALSE,FALSE,2,FALSE
+"Mh9yOPGtzye","ga par","<0> གསང་སྤྱོད་ ག་པ ར་ རྙེད་ ཡ་ ཡོད་ རེད །",27,"ག་པ ར་",2,0,0,0,0,0,0,0,FALSE,"n",FALSE,TRUE,"E",FALSE,FALSE,FALSE,3,TRUE
+"WvrkcgS6aJT","phur sgron","ད་ ང་ ག ར་ སླེབས་པ་ <0> ཐིག་པ་ བྱོས་ དང་ །",37,"ང་",1,3,5,1,5,0,0,0,TRUE,"i",TRUE,FALSE,"S",TRUE,TRUE,FALSE,1,TRUE
+"xtDqzjZDZxQ","las khungs","ད་ ང་ ག ར་ སླེབས་པ་ <0> ཐིག་པ་ བྱོས་ དང་ །",37,"ག ར་",2,0,0,7,0,0,0,0,FALSE,"n",FALSE,TRUE,"E",FALSE,FALSE,FALSE,2,TRUE
+"nH7zLfPvRTZ","bar bskor","<0> ཁྲོམ་ ནས་ ལས་ཁུངས་ ས་ཆ འི་ ནང་ སླེབས་ ཡོད་ རེད །",41,"ཁྲོམ་ ནས་",1,0,0,0,0,0,0,0,FALSE,"i",FALSE,FALSE,"E",FALSE,FALSE,FALSE,2,FALSE
+"bnGBwHBu5gY","las khungs","<0> ཁྲོམ་ ནས་ ལས་ཁུངས་ ས་ཆ འི་ ནང་ སླེབས་ ཡོད་ རེད །",41,"ལས་ཁུངས་ ས་ཆ འི་ ནང་",2,4,0,2,0,0,0,1,FALSE,"n",FALSE,FALSE,"E",FALSE,FALSE,FALSE,6,FALSE
+"g8mcMqx6vpX","phur sgron","ང་ གསང་སྤྱོད་ ནང་ ལ་ གཟག་ བཞག",52,"ང་",1,1,4,0,4,0,0,0,TRUE,"i",TRUE,FALSE,"S",TRUE,TRUE,FALSE,1,TRUE
+"1SekdHNOvc4","las khungs nang gsang spyod","ང་ གསང་སྤྱོད་ ནང་ ལ་ གཟག་ བཞག",52,"གསང་སྤྱོད་ ནང་ ལ་",2,2,0,0,0,2,0,0,FALSE,"i",FALSE,FALSE,"E",FALSE,FALSE,FALSE,4,FALSE
+"JEdzN8NN15H","zla sgron","ང་ ལ འང་ གཉིད་ལམ་ འདི་ འདྲས་ བཏང་ མྱོང་ ཡོད །",53,"ང་ ལ འང་",1,2,0,2,0,0,0,0,TRUE,"i",TRUE,FALSE,"A",TRUE,TRUE,FALSE,3,TRUE
+"ivzK7MG84iQ","zla sgron gyi rmi lam","ང་ ལ འང་ གཉིད་ལམ་ འདི་ འདྲས་ བཏང་ མྱོང་ ཡོད །",53,"གཉིད་ལམ་ འདི་ འདྲས་",2,0,0,0,0,0,0,0,FALSE,"n",FALSE,FALSE,"P",FALSE,FALSE,FALSE,4,FALSE
+"0828XyDbX5E","zla sgron","ང་ ཡ་ བྲོ་ ཞིག་ དཱ་ མ་ བྱུང་ །",61,"ང་ ཡ་",1,2,0,0,0,0,1,0,TRUE,"i",TRUE,FALSE,"COPLOC",TRUE,TRUE,FALSE,2,TRUE
+"ayXyokMP8qT","bro (zla sgron)","ང་ ཡ་ བྲོ་ ཞིག་ དཱ་ མ་ བྱུང་ །",61,"བྲོ་ ཞིག་",2,0,0,0,0,0,0,0,FALSE,"n",FALSE,FALSE,"EXIST",FALSE,FALSE,FALSE,2,FALSE
+"mz4BTO9EMXx","phur sgron","རང་ ལ་ བྲོ་ ཆེན་པོ་ ཞིག་ ཡོད་ ཀྱི་ རེད་ ད །",64,"རང་ ལ་",1,0,0,3,0,0,0,0,TRUE,"i",TRUE,FALSE,"COPLOC",TRUE,FALSE,TRUE,2,TRUE
+"kuy7mTYUeHK","bro (phur sgron)","རང་ ལ་ བྲོ་ ཆེན་པོ་ ཞིག་ ཡོད་ ཀྱི་ རེད་ ད །",64,"བྲོ་ ཆེན་པོ་ ཞིག་",2,0,0,1,0,0,0,0,FALSE,"n",FALSE,FALSE,"EXIST",FALSE,FALSE,FALSE,4,FALSE
+"skYUUSN4XT7","phur sgron","ང ར་ བྲོ་ ཆེན་པོ་ ཞིག་ ཡོད་ ཀྱི་ རེད །",66,"ང ར་",1,1,1,2,1,0,1,0,TRUE,"i",TRUE,FALSE,"COPLOC",TRUE,TRUE,FALSE,2,TRUE
+"J9RTpUVJyU7","bro (phur sgron)","ང ར་ བྲོ་ ཆེན་པོ་ ཞིག་ ཡོད་ ཀྱི་ རེད །",66,"བྲོ་ ཆེན་པོ་ ཞིག་",2,1,1,0,1,0,0,1,FALSE,"n",FALSE,FALSE,"EXIST",FALSE,FALSE,FALSE,4,FALSE
+"UTVhy5sXcOH","phur sgron","རང་ དེང་སང་ ག་རེ་ ར་ ཅིག་ བྱེད་ ཀྱི་ ཡོད །",69,"རང་",1,3,1,0,1,0,2,0,TRUE,"i",TRUE,FALSE,"A",TRUE,FALSE,TRUE,1,TRUE
+"1Rg10rxheCl","phur sgron gyi byed sgo","རང་ དེང་སང་ ག་རེ་ ར་ ཅིག་ བྱེད་ ཀྱི་ ཡོད །",69,"ག་རེ་ ར་ ཅིག་",2,0,0,0,0,0,0,0,FALSE,"n",FALSE,TRUE,"P",FALSE,FALSE,FALSE,4,TRUE

@@ -65,4 +65,8 @@ Options:
                 Show this help message and exit
 ```
 
-###
+### Full preprocessing pipeline
+
+To update everything that needs to be updated at once up to the final data frame used for analysis (i.e. `output/03a_coded_data/wodata.rds`), run `make`. Note that all the texts that are to be used for final analysis should be listed in `curr_texts.txt` before running `make` or else new files will not be added.
+
+The analysis code (file starting with 03b in `src`) will not be run with `make`; run `make output/best_model.rds` in that case.

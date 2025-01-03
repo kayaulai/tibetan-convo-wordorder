@@ -69,7 +69,7 @@ checkOutput = function(discoName, newDF, debugging = TRUE){
   singletons = newDF %>% group_by(verbID) %>% count %>% filter(n == 1)
 
   if(debugging & (nrow(nas_present) > 0 | nrow(singletons) > 0)){
-    createDirIfNone(here("output", "debug", "01", discoName))
+    createDirIfNone(here("output", "debug", "02", discoName))
     cli_alert_warning(glue("See the following path for debug output: {here('output', 'debug', '01', discoName)}"))
     if(nrow(nas_present) > 0){
       write_csv(nas_present, here("output", "debug", "02", discoName, "02a_nas_present.csv"))

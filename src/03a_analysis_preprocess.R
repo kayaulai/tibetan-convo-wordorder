@@ -23,12 +23,7 @@ importAllDiscoData = function(){
 #' @param df An input data frame.
 #' 
 #' @return A data frame with features encoded for use in ROLLing.
-encodeFeatures = function(df){
-    featsChosen = c("argTypeNew",
-            "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
-            "haveBridges", "identifiable", "local", "justFirst", "justLast", 
-                "interrog", "animate",
-            "self", "addressee", "length", "pronom", "noPrevMentionsFar", "noNextMentionsFar")
+encodeFeatures = function(df, featsChosen){
     featsQuant = c("noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
                 "justFirst", "justLast", "length", "noPrevMentionsFar", "noNextMentionsFar")
     featsQual = setdiff(featsChosen, featsQuant) %>% c("topic")
@@ -53,7 +48,7 @@ encodeFeatures = function(df){
 #' be alerted and the faulty rows will be written in outputs/debug.
 #' 
 #' @param df The data frame to be checked.
-checkEncodedDF = function(df){
+checkEncodedDF = function(df, featsChosen){
     clauses = df %>% group_by(verbID) %>% count
     message(glue("Number of clauses: {nrow(clauses)}"))
 
@@ -84,9 +79,15 @@ saveEncodedDF = function(df){
 }
 
 main = function(){
+    featsChosen = c("argTypeNew",
+    "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
+    "haveBridges", "identifiable", "local", "justFirst", "justLast", 
+        "interrog", "animate",
+    "self", "addressee", "length", "pronom", "noPrevMentionsFar", "noNextMentionsFar")
+
     df = importAllDiscoData()
-    df = encodeFeatures(df)
-    checkEncodedDF(df)
+    df = encodeFeatures(df, featsChosen)
+    checkEncodedDF(df, featsChosen)
     saveEncodedDF(df)
 }
 
