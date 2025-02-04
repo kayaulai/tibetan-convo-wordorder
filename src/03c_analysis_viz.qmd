@@ -32,8 +32,22 @@ library(here)
 Import the best model:
 
 ```{r}
-model = readRDS(here("output", "03b_models", "best_model.rds"))
+model = readRDS(here("output", "03b_models", "20241111_bestmodel.rds"))
 df = model$origData
+
+#These are patches on ROLLing errors / annotation errors
+#Remove them after I've fixed the correpsonding stuff
+#model$origData = df
+#model$origData = model$origData %>% mutate(wordWylie = str_replace_all(wordWylie, "  ", " "))
+#model$origDataInfo = list(id = "verbID", order = "argOrder", formulaType = "reg", reg = "ridge")
+#model$origDataInfo[["featsChosen"]] = c("argTypeNew",
+#           "noPrevMentions", "noPrevZero", "noNextMentions", "noNextZero",
+#           "haveBridges", "identifiable", "local", "justFirst", "justLast", 
+#            "interrog", "animate",
+#          "self", "addressee", "length", "pronom", "noPrevMentionsFar", "noNextMentionsFar")
+#model$origData = model$origData %>% mutate(argTypeNew = case_when(verbID == "31D0DCEFA5BC2" ~ "R", T ~ argTypeNew))
+#saveRDS(model, "wo_analysis/20241111_bestmodel.rds")
+
 ```
 
 The following block is meant to patch ROLLing errors and annotation errors. In the end, this block will be disabled.
@@ -114,6 +128,28 @@ coefLollipops(model,
     ylab("Coefficient value") + theme(axis.title.x = element_blank()) +
     scale_color_okabeito()
 ggsave(here("output", "03c_viz", "coefLollipops.svg"), width = 180, height = 100, units = "mm")
+```
+
+```{r}
+featsRole = c("argTypeNewE", "argTypeNewEXIST", "argTypeNewP", "argTypeNewPRED", "argTypeNewR", "interrog")
+coefLollipops(model, featsChosen = featsRole) +
+    scale_x_discrete(labels = getDisplayVarname) +
+    ylab("Coefficient value") + theme(axis.title.x = element_blank()) +
+    scale_color_manual(values = c("#9F0162")) +
+  theme(plot.margin = margin(.2,.2,.2,1, "cm"))
+ggsave(here("output", "03c_viz", "coefLollipops_role.svg"), width = 80, height = 80, units = "mm")
+```
+
+
+```{r}
+featsDiscMain = c("noPrevMentions", "noNextMentions", "haveBridges", "identifiable", "justFirst")
+coefLollipops(model, featsChosen = featsDiscMain) +
+    scale_x_discrete(labels = getDisplayVarname) +
+    ylab("Coefficient value") + theme(axis.title.x = element_blank()) +
+    scale_color_manual(values = c("#9F0162"))
+ggsave(here("output", "03c_viz", "coefLollipops_discMain.svg"), width = 70, height = 80, units = "mm")
+
+
 ```
 
 # Performance
