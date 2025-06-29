@@ -299,7 +299,8 @@ combine_varImp_plots(list(plot_varImp(model_varimp_script_nopred),
   c(-.05, .26),
   text_varimp_nopred_titles
   )
-ggsave(here("output", "03c_viz", "varImp_nopred_script_thieves.svg"), width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_nopred_script_thieves.svg"), 
+width = 180, height = 100, units = "mm")
 ```
 
 Finally, let's do varImp plots only for cases where arguments differ in terms of the four main discourse factors.
@@ -315,7 +316,8 @@ data_discoursediff_nopred %>% pull(verbID) %>% unique %>% length
 featGroupNames = featsChosen_groupnames, K = 50)
 median(model_varimp_data_discoursediff_nopred[,1] / model_varimp_data_discoursediff_nopred[,2])
 plot_varImp(model_varimp_data_discoursediff_nopred)
-ggsave(here("output", "03c_viz", "varImp_discourse_diff.svg"), width = 180, height = 100, units = "mm")
+ggsave(here("output", "03c_viz", "varImp_discourse_diff.svg"),
+ width = 180, height = 100, units = "mm")
 ```
 
 # Analysis of individual examples
@@ -323,7 +325,8 @@ ggsave(here("output", "03c_viz", "varImp_discourse_diff.svg"), width = 180, heig
 Test that getWaterfall works:
 
 ```{r}
-getWaterfall(model, "30E122DAF5010", varnameMap = varnamesMap, formCol = "wordWylie", deletePolicy = "bothRoughlyZero")
+getWaterfall(model, "30E122DAF5010", varnameMap = varnamesMap,
+ formCol = "wordWylie", deletePolicy = "bothRoughlyZero")
 ```
 
 ## Good examples
@@ -331,10 +334,15 @@ getWaterfall(model, "30E122DAF5010", varnameMap = varnamesMap, formCol = "wordWy
 Note that I'm using png because svg has trouble with zero width rectangles.
 
 ```{r}
-varnameOrder = c("argTypeNewE", "argTypeNewEXIST", "argTypeNewP", "argTypeNewPRED", "argTypeNewR", "noPrevMentions", "justFirst", "justLast", "noPrevMentionsFar", "noPrevZero", "noNextMentions", "noNextMentionsFar", "noNextZero", "haveBridges", "identifiable", "local", "interrog", "animate", "self", "addressee", "pronom", "length")
+varnameOrder = c("argTypeNewE", "argTypeNewEXIST", "argTypeNewP", "argTypeNewPRED",
+ "argTypeNewR", "noPrevMentions", "justFirst", "justLast", "noPrevMentionsFar",
+  "noPrevZero", "noNextMentions", "noNextMentionsFar", "noNextZero", "haveBridges",
+   "identifiable", "local", "interrog", "animate", "self", "addressee", "pronom", "length")
 
 getWaterfallComparison = function(id, titles = NULL, currModel = model){
-  graphs = getWaterfall(currModel, id, varnameMap = varnamesMap, formCol = "wordWylie", deletePolicy = "bothRoughlyZero", titles = titles, varnameOrder = varnameOrder) %>%
+  graphs = getWaterfall(currModel, id, varnameMap = varnamesMap, 
+  formCol = "wordWylie", deletePolicy = "bothRoughlyZero",
+   titles = titles, varnameOrder = varnameOrder) %>%
     lapply(function(x) x + theme(axis.title.x = element_blank(),
                                  axis.title.y = element_blank()))
   graphs[[1]] = graphs[[1]] + ylab("log-contribution") +
@@ -370,9 +378,13 @@ ggsave(here("output", "03c_viz", "waterfall_sent_me_a_present.png"), width = 180
 Let's look at only the cases where the last element is A, saving an example.
 
 ```{r}
-pfirst_right_baselast_ids = filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
+pfirst_right_baselast_ids = 
+  filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>%
+   pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 print(glue("Number of base-last clauses that were right: {length(pfirst_right_baselast_ids)}"))
-pfirst_wrong_baselast_ids = filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
+pfirst_wrong_baselast_ids = 
+  filterClauseLast(model$origData, model$origDataInfo, argTypeNew == "Base") %>% 
+  pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
 print(glue("Number of base-last clauses that were wrong: {length(pfirst_wrong_baselast_ids)}"))
 getWaterfallComparison(pfirst_right_baselast_ids[1]) #18DA4F8B42597
 ggsave(here("output", "03c_viz", "waterfall_pta.svg"), width = 180, height = 100, units = "mm")
@@ -381,9 +393,13 @@ ggsave(here("output", "03c_viz", "waterfall_pta.svg"), width = 180, height = 100
 Now for no-base clauses:
 
 ```{r}
-pfirst_right_nobase_ids = filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
+pfirst_right_nobase_ids =
+  filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>%
+   pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
 print(glue("Number of no-base clauses that were right: {length(pfirst_right_nobase_ids)}"))
-pfirst_wrong_nobase_ids = filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>% pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
+pfirst_wrong_nobase_ids =
+  filterClauseNone(model$origData, model$origDataInfo, argTypeNew == "Base") %>%
+   pull(verbID) %>% unique %>% intersect(predictionsDF$by_clause %>% filter(!correct) %>% pull(id))
 print(glue("Number of no-base clauses that were wrong: {length(pfirst_wrong_nobase_ids)}"))
 getWaterfallComparison(pfirst_right_nobase_ids[1]) #fkNLa7WdwEG
 ggsave(here("output", "03c_viz", "waterfall_no_toilet.svg"), width = 180, height = 100, units = "mm")
@@ -416,7 +432,8 @@ print(glue("Number of base-last (no predicate) clauses that were wrong: {length(
 When the base coming first is barely mentioned before, but non-base coming last is mentioned more times before:
 
 ```{r}
-pfirst_right_lessmore_ids = filterClauseFirst(model$origData, model$origDataInfo, noPrevMentions == log(1) & argTypeNew == "Base") %>%
+pfirst_right_lessmore_ids =
+  filterClauseFirst(model$origData, model$origDataInfo, noPrevMentions == log(1) & argTypeNew == "Base") %>%
    filterClauseLast(model$origDataInfo, noPrevMentions > 1) %>% 
     pull(verbID) %>% unique %>% 
     intersect(predictionsDF$by_clause %>% filter(correct) %>% pull(id))
@@ -431,7 +448,8 @@ ggsave(here("output", "03c_viz", "waterfall_lock_buster.svg"), width = 180, heig
 Cases where a non-base argument is nontopical:
 
 ```{r}
-pfirst_first_nonbase_nontopic = filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>% 
+pfirst_first_nonbase_nontopic =
+  filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>% 
     pull(verbID) %>% unique
 
 getWaterfallComparison(pfirst_first_nonbase_nontopic[5]) #10DB1BDA353B4
@@ -441,7 +459,8 @@ ggsave(here("output", "03c_viz", "waterfall_nonexistent_kid.svg"), width = 180, 
 Like the above, but there needs to be a base:
 
 ```{r}
-pfirst_first_nonbase_nontopic_somebase = filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>%
+pfirst_first_nonbase_nontopic_somebase =
+  filterClauseFirst(model$origData, model$origDataInfo, !topic & argTypeNew != "Base") %>%
    filterClauseAny(model$origDataInfo, argTypeNew == "Base") %>%
     pull(verbID) %>% unique
 
@@ -537,7 +556,8 @@ getWaterfallComparison(predictions_pretty_wrong$id[14], currModel = model) # A6E
 Getting cases that differ in animacy with the base inananimate:
 
 ```{r}
-firstbaseinanim_thenanim = filterClauseDiff(model$origData, model$origDataInfo, features = "animate") %>%
+firstbaseinanim_thenanim =
+  filterClauseDiff(model$origData, model$origDataInfo, features = "animate") %>%
    filterClauseAny(model$origDataInfo, argTypeNew == "Base" & animate == 0)  %>% 
   filterClauseNone(model$origDataInfo,interrog == 1 | argTypeNew == "PRED" | argTypeNew == "EXIST") %>%
   pull(verbID) %>% unique
